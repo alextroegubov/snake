@@ -90,10 +90,10 @@ void Game::Move(){
 			}
 		}
 	}
-	if((std::rand() % 100) < static_cast<int>(Settings::RABBIT_CHANCE)){
+	if((std::rand() % 100) < static_cast<int>(this->Settings::RABBIT_CHANCE)){
 		FILE *file = fopen("log", "a");
 		fprintf(file, "add rabbit\n");
-		AddRabbit();
+		this->AddRabbit();
 	}
 }
 
@@ -129,7 +129,7 @@ void Game::RandomInit(const int n_snakes, const int n_rabbits){
 	std::uniform_int_distribution<> ygen(3, size.y - 2);
 
 	for(auto i = 0; i < n_snakes; i++){
-		AddSnake(Snake(Vecti(xgen(gen), ygen(gen)), Snake::Dir::UP));
+		AddSnake(Snake(RandPos(), Snake::Dir::UP));
 	}
 	
 	snakes.at(1).Grow();

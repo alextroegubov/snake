@@ -150,13 +150,13 @@ void TextUi::Run(Game& my_game){
 				}
 			}
 		}
-/*
+
 		if(has_event){
 			if(!GetEvent()){
 				std::cout << "Error with poll \n";
 			}
 		}
-	*/
+
 	}	
 }
 	
