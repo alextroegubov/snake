@@ -78,11 +78,11 @@ void Game::Move(){
 			}
 		
 			if(this->busy_cells.count(new_head) == 0){
-				busy_cells.erase(sk.segments.back());
+				this->busy_cells.erase(sk.segments.back());
 				sk.segments.pop_back();
 
 				sk.segments.push_front(new_head);
-				busy_cells.insert(new_head);
+				this->busy_cells.insert(new_head);
 			}
 			else{
 				sk.is_dead = true;

@@ -21,22 +21,22 @@ int main(){
 
 	my_game.RandomInit(4, 4);
 
-/* //works!
-	my_ui->Draw(my_game);
+ //works!
+/*	my_ui->Draw(my_game);
 	fflush(stdout);
 	std::this_thread::sleep_for(std::chrono::milliseconds(3000));	
 	dynamic_cast<TextUi*>(my_ui)->time_funcs[0]();
+
+	my_ui->Draw(my_game);
+	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+	my_game.AddRabbit();
+	my_game.AddRabbit();
+	my_game.AddRabbit();
+	my_ui->Draw(my_game);
+	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 */
-	my_ui->Draw(my_game);
-	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-
-	my_game.AddRabbit();
-	my_game.AddRabbit();
-	my_game.AddRabbit();
-	my_ui->Draw(my_game);
-	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-
-//	my_ui->Run(my_game);
+	my_ui->Run(my_game);
 	
 	return 0;
 }
