@@ -21,6 +21,8 @@ int main(){
 
 	my_game.RandomInit(4, 4);
 
+//	printf("rabbits = %d, snakes = %d, busy_cells = %d\n", my_game.GetNRabbits(), my_game.GetNSnakes(), my_game.busy_cells.size());
+
  //works!
 /*	my_ui->Draw(my_game);
 	fflush(stdout);
@@ -38,5 +40,6 @@ int main(){
 */
 	my_ui->Run(my_game);
 	
+//	delete(my_ui);
 	return 0;
 }

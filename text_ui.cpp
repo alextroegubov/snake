@@ -14,6 +14,7 @@
 #include <chrono>
 #include <thread>
 
+//ok
 TextUi::TextUi(){
 	ClearScreen();
 	DrawBoarder();
@@ -26,20 +27,27 @@ TextUi::~TextUi(){
 	;
 }
 
+//ok
 void TextUi::ClearScreen(){
     std::printf("\e[H\e[J");
 }
 
+//ok
 void TextUi::PutC(const Vecti& v, const char c){
 	assert(v.x > 0);
 	assert(v.y > 0);
+	assert(v.x <= win_sz.ws_row);
+	assert(v.y <= win_sz.ws_col);
 
 	std::printf("\e[%d;%dH%c", v.x, v.y, c);
 }
 
+//ok
 void TextUi::DrawVLine(const Vecti& v, const int len) const{
 	assert(v.x > 0);
 	assert(v.y > 0);
+	assert(v.x <= win_sz.ws_row);
+	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
 
 	std::printf("\e[%d;%dH", v.x, v.y);
@@ -52,9 +60,12 @@ void TextUi::DrawVLine(const Vecti& v, const int len) const{
 
 }
 
+//ok
 void TextUi::DrawHLine(const Vecti& v, const int len) const{
 	assert(v.x > 0);
 	assert(v.y > 0);
+	assert(v.x <= win_sz.ws_row);
+	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
 
 	std::printf("\e[%d;%dH", v.x, v.y);
@@ -64,6 +75,7 @@ void TextUi::DrawHLine(const Vecti& v, const int len) const{
 	}
 }
 
+//ok
 void TextUi::DrawBoarder(){
 	ioctl(0, TIOCGWINSZ, &win_sz);
 
@@ -80,7 +92,7 @@ void TextUi::DrawBoarder(){
 	DrawVLine({2, win_sz.ws_col}, win_sz.ws_row - 2);
 
 }
-
+/*
 int TextUi::ConvertToKey(char c){
 	switch(c){
 		case 'w':
@@ -93,7 +105,7 @@ int TextUi::ConvertToKey(char c){
 			return ui::Key::DOWN;
 	}
 }
-
+*/
 bool TextUi::GetEvent(){
 	char entered_symb = getchar();
 	ui::Key key;
@@ -121,11 +133,9 @@ bool TextUi::GetEvent(){
 }
 
 void TextUi::Run(Game& my_game){
-	FILE* file = fopen("log.txt", "w");
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 	while(!is_done){
 		Draw(my_game);
-		fprintf(file, "cycle!\n");
 
 		struct pollfd poll_struct[1];
 		poll_struct[1].fd = STDIN_FILENO; //std input
@@ -136,16 +146,15 @@ void TextUi::Run(Game& my_game){
 		clock_gettime(CLOCK_REALTIME, &t1);
 		int has_event = poll(poll_struct, 1, static_cast<int>(Game::Settings::TICK));
 		clock_gettime(CLOCK_REALTIME, &t2);
+		
 
 		//in ms
 		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
-		fprintf(file, "passed interval = %d", passed_interval);
+		printf("interal = %d\n", passed_interval);
 
 		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
 			if(time_funcs.size() != 0){
-				fprintf(file, "call1\n");
 				for(const auto& f: time_funcs){
-					printf("call\n");
 					f();
 				}
 			}
@@ -160,7 +169,7 @@ void TextUi::Run(Game& my_game){
 	}	
 }
 	
-
+//ok
 void TextUi::InitTextUi(){
 	struct termios sets;
 
@@ -172,9 +181,9 @@ void TextUi::InitTextUi(){
 
 	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
 	//TCSANOW - changes are applied immediately.
-
 }
 
+//ok
 void TextUi::Draw(const Game& my_game){
 	ClearScreen();
 	DrawBoarder();
@@ -191,6 +200,7 @@ void TextUi::Draw(const Game& my_game){
 	GoToxy({win_sz.ws_row + 1, 1});
 }
 
+//ok
 void TextUi::GoToxy(const Vecti& v){
 	assert(v.x > 0);
 	assert(v.y > 0);
@@ -198,36 +208,24 @@ void TextUi::GoToxy(const Vecti& v){
 	std::printf("\e[%d;%dH", v.x, v.y);
 }
 
+//ok
 void TextUi::Painter(const Snake& s){
-	//draw head:
-	char head = 'A';
-
-	switch(s.dir){
-		case Snake::UP:
-			break;
-		case Snake::DOWN:
-			head = 'v';
-			break;
-		case Snake::LEFT:
-			head = '<';
-			break;
-		case Snake::RIGHT:
-			head = '>';
-			break;
-	}
+	char head = "A>V<"[s.dir];
 
 	for(const auto& seg: s.segments){
-		if(s.segments.front() == seg) ///comparison???
+		if(s.segments.front() == seg)
 			PutC(seg, head);
 		else
 			PutC(seg, '#');
 	}
 }
 
+//ok
 void TextUi::Painter(const Rabbit& r){
 	PutC({r.cs.x, r.cs.y}, '@');
 }
 
+/*
 void TextUi::ClearObj(const Game& my_game){
 	for(const auto& item: my_game.GetSnakes()){
 		if(!item.is_dead){
@@ -236,12 +234,13 @@ void TextUi::ClearObj(const Game& my_game){
 		}
 	}
 }
-
+*/
+//ok
 void TextUi::OnTimer(int period, TimeFunc func){
 	time_funcs.push_back(func);
 	//std::sort(time_funcs.begin(), time_funcs.end());
 }
-
+//ok
 void TextUi::OnKey(EventFunc func){
 	event_funcs.push_back(func);
 }

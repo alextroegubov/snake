@@ -31,7 +31,7 @@ public:
 	//draws game
 	void Draw(const Game& my_game);
 
-	void ClearObj(const Game& my_game);
+//	void ClearObj(const Game& my_game);
 
 	//painters
 	void Painter(const Snake& s);

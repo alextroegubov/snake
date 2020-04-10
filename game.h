@@ -26,7 +26,7 @@ public:
 	friend void TestGame();
 	
 	enum Settings{
-		TICK = 500,
+		TICK = 1000,
 		MAX_N_RABBIT = 8,
 		RABBIT_CHANCE = 20//%
 	};
@@ -44,12 +44,13 @@ public:
 public:
 	void AddRabbit();
 	void AddSnake(const Snake& s);
+	void AddSnake();
 	void AddRabbit(const Rabbit& r);
 	void MoveSnake(Snake& sk);
 	Vecti RandPos();
 //	Vecti RandVecti(const int a, const int b);
 
-private:
+
 	Vecti size;
 	std::set<Vecti> busy_cells;
 	std::vector<Snake> snakes;

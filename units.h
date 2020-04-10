@@ -43,37 +43,6 @@ struct Vect{
 using Vecti = Vect<int>;
 using Vectf = Vect<float>;
 
-/*
-struct Coords{
-	explicit Coords(const int new_x = 0, const int new_y = 0):
-			x(new_x), y(new_y){
-	}
-	
-	explicit Coords(const Coords& c):
-			x(c.x), y(c.y){
-	}
-
-	~Coords() = default;
-
-	Coords& operator=(const Coords& c){
-		x = c.x;
-		y = c.y;
-		return *this;
-	}
-
-	//in cells(!)
-	int ComputeDistance(const Coords& cs) const{ 
-		return std::abs(x - cs.x) + std::abs(y - cs.y);
-	}
-
-	bool operator==(const Coords& c){
-		return (x == c.x && y == c.y); 
-	}
-
-	int x;
-	int y;
-};
-*/
 
 struct Rabbit{
 	explicit Rabbit(const Vecti& new_v):
@@ -93,11 +62,10 @@ struct Rabbit{
 
 struct Snake{
 	enum Dir{
-		UP,
+		UP = 0,
 		RIGHT,
 		DOWN,
 		LEFT,
-		NONE
 	};
 
 	explicit Snake(const Vecti& v, Dir d):
@@ -162,6 +130,7 @@ struct Snake{
 		int new_x = segments.back().x + dx;
 		int new_y = segments.back().y + dy;
 		segments.push_back(Vecti(new_x, new_y));
+		
 	}
 
 	bool is_dead;
