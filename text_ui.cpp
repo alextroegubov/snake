@@ -24,7 +24,17 @@ TextUi::TextUi(){
 }
 
 TextUi::~TextUi(){
-	;
+	ClearScreen();
+
+	struct termios sets;
+	tcgetattr(0, &sets);
+	
+	//ICANON, ECHO - flags
+	sets.c_lflag |= ICANON;
+	sets.c_lflag |= ECHO;
+
+	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
+	//TCSANOW - changes are applied immediately.
 }
 
 //ok
@@ -107,7 +117,7 @@ int TextUi::ConvertToKey(char c){
 }
 */
 bool TextUi::GetEvent(){
-	char entered_symb = getchar();
+/*	char entered_symb = getchar();
 	ui::Key key;
 
 	switch(entered_symb){
@@ -128,15 +138,15 @@ bool TextUi::GetEvent(){
 	for(const auto& f: event_funcs){
 		f(key);
 	}
-
+*/
 	return true;
 }
-
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 	int count = 0;
-	while(count++ < 15/*!is_done*/){
-//		Draw(my_game);
+	while(count++ < 50/*!is_done*/){
+		Draw(my_game);
+
 		fprintf(Game::file, "*****new iteration:\n");
 
 		fprintf(Game::file, "busy cells are: \n");
@@ -147,9 +157,9 @@ void TextUi::Run(Game& my_game){
 
 		fflush(Game::file);
 
-		struct pollfd poll_struct[1];
-		poll_struct[1].fd = STDIN_FILENO; //std input
-		poll_struct[1].events = POLLIN; //there is data to read;
+		struct pollfd poll_struct[1] = {};
+		poll_struct[0].fd = STDIN_FILENO; //std input
+		poll_struct[0].events = POLLIN; //there is data to read;
 
 		struct timespec t1, t2;
 
@@ -160,7 +170,7 @@ void TextUi::Run(Game& my_game){
 		//in ms
 		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
 		fprintf(Game::file, "interal = %d\n", passed_interval);
-/*
+
 		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
 			if(time_funcs.size() != 0){
 				for(const auto& f: time_funcs){
@@ -168,7 +178,7 @@ void TextUi::Run(Game& my_game){
 				}
 			}
 		}
-*/
+
 		if(has_event){
 			break;
 			fprintf(Game::file, "event !?\n");
@@ -209,7 +219,7 @@ void TextUi::Draw(const Game& my_game){
 	}
 
 	fflush(stdout);
-//	GoToxy({win_sz.ws_row + 1, 1});
+	GoToxy({win_sz.ws_row + 1, 1});
 }
 
 //ok

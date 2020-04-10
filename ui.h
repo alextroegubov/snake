@@ -15,8 +15,11 @@ public:
 	using EventFunc = std::function<void(Key)>;
 	using TimeFunc = std::function<void(void)>;
 
-	static ui *get(std::string type = "");
+	static ui* get(std::string type = "");
 	static ui* sample;
+	
+	ui() = default;
+	~ui(){sample = nullptr;}
 
 	virtual void Run(Game&) = 0;
 
@@ -35,14 +38,9 @@ public:
 
 	virtual void Painter(const Rabbit& r) = 0;
 	
-
-
 	//subscriber pattern
 	virtual void OnTimer(int period, TimeFunc func) = 0;
 
-	virtual void OnKey(EventFunc func) = 0;
-
-	~ui();
-	
+	virtual void OnKey(EventFunc func) = 0;	
 
 };

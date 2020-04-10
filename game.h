@@ -32,7 +32,7 @@ public:
 		RABBIT_CHANCE = 20//%
 	};
 
-	void RandomInit(const int n_snakes, const int n_rabbits = 3);
+	void RandomInit(const int n_snakes, const int n_rabbits );
 	void SetSize(const Vecti& v);
 	void Move();
 
@@ -50,12 +50,12 @@ public:
 	void MoveSnake(Snake& sk);
 	void GrowSnake(Snake& sk);
 	Vecti RandPos();
-//	Vecti RandVecti(const int a, const int b);
 
 
 	Vecti size;
 	std::set<Vecti> busy_cells;
 	std::vector<Snake> snakes;
 	std::vector<Rabbit> rabbits;
+	
 	static FILE *file;
 };

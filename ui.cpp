@@ -14,8 +14,3 @@ ui* ui::get(std::string type){
 	return sample;
 }
 
-ui::~ui(){
-	delete sample;
-
-	sample = nullptr;
-}

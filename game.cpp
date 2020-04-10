@@ -10,10 +10,12 @@
 #include <cstdio>
 
 FILE *Game::file = nullptr;
+
 //ok
 Game::Game(){
 	if(ui::get() != nullptr){
 		ui::get()->OnTimer(Settings::TICK, std::bind(&Game::Move, this));
+		SetSize({ui::get()->GetWinX(), ui::get()->GetWinY()});
 	}
 	else
 		printf("Can't subscribe OnTimer \n");
@@ -23,15 +25,12 @@ Game::Game(){
 }
 
 //ok
-Game::~Game(){
-	;
-}
-
+Game::~Game(){}
 //ok
 void Game::SetSize(const Vecti& v){
 	size.x = v.x;
 	size.y = v.y;
-}
+}                
 
 //ok
 void Game::AddSnake(){
@@ -60,11 +59,13 @@ void Game::MoveSnake(Snake& sk){
 	}
 	
 	fprintf(file, "snake[%p] is moving to (%2d, %2d), dead(%d)\n", &sk, new_head.x, new_head.y, sk.is_dead);
+
 	if(	busy_cells.count(new_head) == 0u && 
 		new_head.x != 1 && new_head.x != size.x && 
 		new_head.y != 1 && new_head.y != size.y){
 
 		fprintf(file, "snake[%p] moved to (%2d, %2d)\n", &sk, new_head.x, new_head.y);
+
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
 
@@ -81,12 +82,11 @@ void Game::MoveSnake(Snake& sk){
 		fprintf(file, "snake[%p] is dead\n", &sk);
 		sk.is_dead = true;
 	}
-
 }
 
 void Game::GrowSnake(Snake& sk){
 	
-	Vecti d;
+	Vecti d(0,0);
 	int size = sk.segments.size();
 
 	if(size == 1){ //only head
@@ -95,7 +95,7 @@ void Game::GrowSnake(Snake& sk){
 			case Snake::Dir::DOWN:  d.x = -1; break;
 			case Snake::Dir::LEFT:  d.y = +1; break;
 			case Snake::Dir::RIGHT: d.y = -1; break;
-			}
+		}
 	}
 	else{
 		//the last two segments
@@ -146,8 +146,6 @@ Vecti Game::RandPos(){
 	std::uniform_int_distribution<> ygen(3, size.y - 2);
 
 	do{
-//		pos.x = (std::rand() % (size.x - 2)) + 2;
-//		pos.y = (std::rand() % (size.y - 2)) + 2;
 		pos.x = xgen(gen);
 		pos.y = ygen(gen);
 	}
@@ -163,9 +161,7 @@ void Game::AddRabbit(){
 	if(rabbits.size() >= MAX_N_RABBIT)
 		return;
 
-	Vecti pos = RandPos();
-	rabbits.push_back(Rabbit(pos));
-//	busy_cells.insert(pos);
+	rabbits.push_back(Rabbit(RandPos()));
 }
 
 void Game::RandomInit(const int n_snakes, const int n_rabbits){
@@ -180,6 +176,7 @@ void Game::RandomInit(const int n_snakes, const int n_rabbits){
 		AddSnake();
 		GrowSnake(snakes.at(i));
 	}
+	
 	for(const auto& s: snakes){
 		fprintf(file, "snake[%p], dead?(%d)\n", &s, s.is_dead);
 	}

@@ -74,8 +74,7 @@ struct Snake{
 			is_dead(false){
 	}
 
-	~Snake(){
-	}
+	~Snake() = default;
 
 	explicit Snake(const Snake& s):
 			dir(s.dir),
@@ -86,53 +85,6 @@ struct Snake{
 
 	Snake& operator=(const Snake& ) = delete;
 
-/*	//connect with move
-	void Grow(){
-		int dx = 0;
-		int dy = 0;
-		int size = segments.size();
-		if(size == 1){
-
-			switch(dir){
-				case Dir::UP:
-					dx = +1;
-					break;
-				case Dir::DOWN:
-					dx = -1;
-					break;
-				case Dir::LEFT:
-					dy = +1;
-					break;
-				case Dir::RIGHT:
-					dy = -1;
-			}
-		}
-		else{
-			//the last two segments
-			Vecti end(segments.back());
-			segments.pop_back();
-			Vecti pre_end(segments.back());
-			segments.push_back(end);
-
-			int xt = end.x; //tail
-			int yt = end.y; //tail
-			int x = pre_end.x;
-			int y = pre_end.y;
-
-			if(yt == y){
-				dx = (xt > x)? +1 : -1;
-			}
-			else{
-				dy = (yt > y)? +1 : -1;
-			}
-		}
-		
-		int new_x = segments.back().x + dx;
-		int new_y = segments.back().y + dy;
-		segments.push_back(Vecti(new_x, new_y));
-		
-	}
-*/
 	bool is_dead = false;
 	Dir dir;
 	std::list<Vecti> segments;
