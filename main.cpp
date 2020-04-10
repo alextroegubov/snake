@@ -40,6 +40,5 @@ int main(){
 */
 	my_ui->Run(my_game);
 	
-//	delete(my_ui);
 	return 0;
 }

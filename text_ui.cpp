@@ -144,35 +144,35 @@ void TextUi::Run(Game& my_game){
 			fprintf(Game::file, "\t (%2d, %2d)\n", cell.x, cell.y);
 		}
 
+		fflush(Game::file);
+
 		struct pollfd poll_struct[1];
 		poll_struct[1].fd = STDIN_FILENO; //std input
 		poll_struct[1].events = POLLIN; //there is data to read;
 
-//		struct timespec t1, t2;
+		struct timespec t1, t2;
 
-//		clock_gettime(CLOCK_REALTIME, &t1);
+		clock_gettime(CLOCK_REALTIME, &t1);
 		int has_event = poll(poll_struct, 1, static_cast<int>(Game::Settings::TICK));
-//		clock_gettime(CLOCK_REALTIME, &t2);
-/*		
-		if(has_event){
-			if(!GetEvent()){
-				std::cout << "Error with poll \n";
-			}
-		}
-*/
-		//in ms
-//		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
-//		printf("interal = %d\n", passed_interval);
+		clock_gettime(CLOCK_REALTIME, &t2);
 
-//		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
+		//in ms
+		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
+		fprintf(Game::file, "interal = %d\n", passed_interval);
+
+		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
 			if(time_funcs.size() != 0){
 				for(const auto& f: time_funcs){
 					f();
 				}
 			}
-//		}
+		}
 
-
+		if(has_event){
+			if(!GetEvent()){
+				std::cout << "Error with poll \n";
+			}
+		}
 
 	}	
 }
@@ -201,11 +201,12 @@ void TextUi::Draw(const Game& my_game){
 	}
 
 	for(const auto& item: my_game.GetSnakes()){
+		fprintf(Game::file, "drawing [%p]\n", &item); 
 		Painter(item);
 	}
 
 	fflush(stdout);
-	GoToxy({win_sz.ws_row + 1, 1});
+//	GoToxy({win_sz.ws_row + 1, 1});
 }
 
 //ok
@@ -243,6 +244,7 @@ void TextUi::ClearObj(const Game& my_game){
 	}
 }
 */
+
 //ok
 void TextUi::OnTimer(int period, TimeFunc func){
 	time_funcs.push_back(func);

@@ -59,11 +59,12 @@ void Game::MoveSnake(Snake& sk){
 		case sk.LEFT: 	new_head.y -= 1; break;
 	}
 	
-	fprintf(file, "snake[%p] is moving to (%2d, %2d)\n", &sk, new_head.x, new_head.y);
-	if(	busy_cells.count(new_head) == 0 && 
+	fprintf(file, "snake[%p] is moving to (%2d, %2d), dead(%d)\n", &sk, new_head.x, new_head.y, sk.is_dead);
+	if(	busy_cells.count(new_head) == 0u && 
 		new_head.x != 1 && new_head.x != size.x && 
 		new_head.y != 1 && new_head.y != size.y){
 
+		fprintf(file, "snake[%p] moved to (%2d, %2d)\n", &sk, new_head.x, new_head.y);
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
 
@@ -71,6 +72,12 @@ void Game::MoveSnake(Snake& sk){
 		busy_cells.insert(new_head);
 	}
 	else{
+		fprintf(file, 	"busy_cells.count(new_head) = %lu\n"
+						"new_head.x = %d\n"
+						"new_head.y = %d\n"
+						"size = (%d, %d)\n",
+						busy_cells.count(new_head), new_head.x, new_head.y, size.x, size.y);
+						
 		fprintf(file, "snake[%p] is dead\n", &sk);
 		sk.is_dead = true;
 	}
@@ -123,19 +130,26 @@ void Game::Move(){
 	}
 
 	if((std::rand() % 100) < static_cast<int>(this->Settings::RABBIT_CHANCE)){
-	//	this->AddRabbit();
+		this->AddRabbit();
 	}
 }
 
-//returns random vector in x in [2, size.x - 1]
-//						   y in [2, size.y - 1]
+//returns random vector in x in [3, size.x - 2]
+//						   y in [3, size.y - 2]
+std::random_device rd;
+std::mt19937 gen(rd());
+
 //ok
 Vecti Game::RandPos(){
 	Vecti pos(0, 0);
+	std::uniform_int_distribution<> xgen(3, size.x - 2);
+	std::uniform_int_distribution<> ygen(3, size.y - 2);
 
 	do{
-		pos.x = (std::rand() % (size.x - 2)) + 2;
-		pos.y = (std::rand() % (size.y - 2)) + 2;
+//		pos.x = (std::rand() % (size.x - 2)) + 2;
+//		pos.y = (std::rand() % (size.y - 2)) + 2;
+		pos.x = xgen(gen);
+		pos.y = ygen(gen);
 	}
 	while(busy_cells.count(pos) == 1);
 	
@@ -153,7 +167,6 @@ void Game::AddRabbit(){
 	rabbits.push_back(Rabbit(pos));
 //	busy_cells.insert(pos);
 }
-
 
 void Game::RandomInit(const int n_snakes, const int n_rabbits){
 /*

@@ -86,7 +86,7 @@ struct Snake{
 
 	Snake& operator=(const Snake& ) = delete;
 
-	//connect with move
+/*	//connect with move
 	void Grow(){
 		int dx = 0;
 		int dy = 0;
@@ -132,8 +132,8 @@ struct Snake{
 		segments.push_back(Vecti(new_x, new_y));
 		
 	}
-
-	bool is_dead;
+*/
+	bool is_dead = false;
 	Dir dir;
 	std::list<Vecti> segments;
 };
