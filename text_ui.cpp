@@ -141,30 +141,31 @@ void TextUi::Run(Game& my_game){
 		poll_struct[1].fd = STDIN_FILENO; //std input
 		poll_struct[1].events = POLLIN; //there is data to read;
 
-		struct timespec t1, t2;
+//		struct timespec t1, t2;
 
-		clock_gettime(CLOCK_REALTIME, &t1);
+//		clock_gettime(CLOCK_REALTIME, &t1);
 		int has_event = poll(poll_struct, 1, static_cast<int>(Game::Settings::TICK));
-		clock_gettime(CLOCK_REALTIME, &t2);
+//		clock_gettime(CLOCK_REALTIME, &t2);
 		
-
-		//in ms
-		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
-		printf("interal = %d\n", passed_interval);
-
-		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
-			if(time_funcs.size() != 0){
-				for(const auto& f: time_funcs){
-					f();
-				}
-			}
-		}
-
 		if(has_event){
 			if(!GetEvent()){
 				std::cout << "Error with poll \n";
 			}
 		}
+
+		//in ms
+//		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
+//		printf("interal = %d\n", passed_interval);
+
+//		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
+			if(time_funcs.size() != 0){
+				for(const auto& f: time_funcs){
+					f();
+				}
+			}
+//		}
+
+
 
 	}	
 }

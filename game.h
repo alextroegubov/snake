@@ -47,6 +47,7 @@ public:
 	void AddSnake();
 	void AddRabbit(const Rabbit& r);
 	void MoveSnake(Snake& sk);
+	void GrowSnake(Snake& sk);
 	Vecti RandPos();
 //	Vecti RandVecti(const int a, const int b);
 

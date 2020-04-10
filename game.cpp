@@ -56,7 +56,9 @@ void Game::MoveSnake(Snake& sk){
 		case sk.LEFT: 	new_head.y -= 1; break;
 	}
 		
-	if(busy_cells.count(new_head) == 0){
+	if(	busy_cells.count(new_head) == 0 && 
+		new_head.x != 1 && new_head.x != size.x && 
+		new_head.y != 1 && new_head.y != size.y){
 
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
@@ -70,11 +72,45 @@ void Game::MoveSnake(Snake& sk){
 
 }
 
+void Game::GrowSnake(Snake& sk){
+	
+	Vecti d;
+	int size = sk.segments.size();
+
+	if(size == 1){ //only head
+		switch(sk.dir){
+			case Snake::Dir::UP: 	d.x = +1; break;
+			case Snake::Dir::DOWN:  d.x = -1; break;
+			case Snake::Dir::LEFT:  d.y = +1; break;
+			case Snake::Dir::RIGHT: d.y = -1; break;
+			}
+	}
+	else{
+		//the last two segments
+		Vecti end(sk.segments.back());
+		sk.segments.pop_back();
+
+		Vecti pre_end(sk.segments.back());
+		sk.segments.push_back(end);
+
+		if(end.y == pre_end.y){
+			d.x = (end.x > pre_end.x)? +1 : -1;
+		}
+		else{
+			d.y = (end.y > pre_end.y)? +1 : -1;
+		}
+	}
+		
+	Vecti new_seg(sk.segments.back().x + d.x, sk.segments.back().y + d.y);
+
+	sk.segments.push_back(Vecti(new_seg));
+	busy_cells.insert(new_seg);		
+}
+
 //ok
 void Game::Move(){
 
-	for(auto& sk: snakes){
-		assert(sk.is_dead == false);
+	for(auto& sk: this->snakes){
 
 		if(!sk.is_dead){
 			this->MoveSnake(sk);
@@ -123,13 +159,9 @@ void Game::RandomInit(const int n_snakes, const int n_rabbits){
 */
 	for(auto i = 0; i < n_snakes; i++){
 		AddSnake();
+		GrowSnake(snakes.at(i));
 	}
 	
-	snakes.at(1).Grow();
-	snakes.at(2).Grow();
-	snakes.at(0).Grow();
-	snakes.at(3).Grow();
-
 	for(auto i = 0; i < n_rabbits; i++){	
 		AddRabbit();
 	}
