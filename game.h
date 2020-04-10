@@ -18,6 +18,7 @@
 #include <vector>
 #include <set>
 #include "units.h"
+#include <cstdio>
 
 class Game{
 public:
@@ -56,4 +57,5 @@ public:
 	std::set<Vecti> busy_cells;
 	std::vector<Snake> snakes;
 	std::vector<Rabbit> rabbits;
+	static FILE *file;
 };

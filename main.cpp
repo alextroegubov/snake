@@ -19,7 +19,7 @@ int main(){
 	my_game.SetSize({my_ui->GetWinX(), my_ui->GetWinY()});
 
 
-	my_game.RandomInit(4, 4);
+	my_game.RandomInit(5, 0);
 
 //	printf("rabbits = %d, snakes = %d, busy_cells = %d\n", my_game.GetNRabbits(), my_game.GetNSnakes(), my_game.busy_cells.size());
 

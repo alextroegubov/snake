@@ -7,7 +7,9 @@
 #include <iostream>
 #include <cassert>
 #include <ctime>
+#include <cstdio>
 
+FILE *Game::file = nullptr;
 //ok
 Game::Game(){
 	if(ui::get() != nullptr){
@@ -17,6 +19,7 @@ Game::Game(){
 		printf("Can't subscribe OnTimer \n");
 	
 	srand(std::time(nullptr));
+	file = fopen("log.txt","w");
 }
 
 //ok
@@ -55,7 +58,8 @@ void Game::MoveSnake(Snake& sk){
 		case sk.DOWN: 	new_head.x += 1; break;	
 		case sk.LEFT: 	new_head.y -= 1; break;
 	}
-		
+	
+	fprintf(file, "snake[%p] is moving to (%2d, %2d)\n", &sk, new_head.x, new_head.y);
 	if(	busy_cells.count(new_head) == 0 && 
 		new_head.x != 1 && new_head.x != size.x && 
 		new_head.y != 1 && new_head.y != size.y){
@@ -67,6 +71,7 @@ void Game::MoveSnake(Snake& sk){
 		busy_cells.insert(new_head);
 	}
 	else{
+		fprintf(file, "snake[%p] is dead\n", &sk);
 		sk.is_dead = true;
 	}
 
@@ -118,7 +123,7 @@ void Game::Move(){
 	}
 
 	if((std::rand() % 100) < static_cast<int>(this->Settings::RABBIT_CHANCE)){
-		this->AddRabbit();
+	//	this->AddRabbit();
 	}
 }
 
@@ -157,11 +162,15 @@ void Game::RandomInit(const int n_snakes, const int n_rabbits){
 	std::uniform_int_distribution<> xgen(3, size.x - 2);
 	std::uniform_int_distribution<> ygen(3, size.y - 2);
 */
+	fprintf(file, "Created %d snakes:\n", n_snakes);
 	for(auto i = 0; i < n_snakes; i++){
 		AddSnake();
 		GrowSnake(snakes.at(i));
 	}
-	
+	for(const auto& s: snakes){
+		fprintf(file, "snake[%p], dead?(%d)\n", &s, s.is_dead);
+	}
+
 	for(auto i = 0; i < n_rabbits; i++){	
 		AddRabbit();
 	}
