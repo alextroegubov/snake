@@ -134,8 +134,9 @@ bool TextUi::GetEvent(){
 
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
-	while(!is_done){
-		Draw(my_game);
+	int count = 0;
+	while(count++ < 15/*!is_done*/){
+//		Draw(my_game);
 		fprintf(Game::file, "*****new iteration:\n");
 
 		fprintf(Game::file, "busy cells are: \n");
@@ -159,7 +160,7 @@ void TextUi::Run(Game& my_game){
 		//in ms
 		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
 		fprintf(Game::file, "interal = %d\n", passed_interval);
-
+/*
 		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
 			if(time_funcs.size() != 0){
 				for(const auto& f: time_funcs){
@@ -167,8 +168,10 @@ void TextUi::Run(Game& my_game){
 				}
 			}
 		}
-
+*/
 		if(has_event){
+			break;
+			fprintf(Game::file, "event !?\n");
 			if(!GetEvent()){
 				std::cout << "Error with poll \n";
 			}

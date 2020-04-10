@@ -7,13 +7,14 @@
 #include "game.h"
 
 int main(){
-
+/*
 //	TextUi my_ui;
 	ui* my_ui = ui::get("text_ui");
 	if(my_ui == nullptr){
 		std::cout << "Trouble!!!" << std::endl;
 	}
-
+*/
+	std::unique_ptr<ui> my_ui(ui::get("text_ui"));
 	Game my_game;
 
 	my_game.SetSize({my_ui->GetWinX(), my_ui->GetWinY()});

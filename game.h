@@ -27,7 +27,7 @@ public:
 	friend void TestGame();
 	
 	enum Settings{
-		TICK = 1000,
+		TICK = 500,
 		MAX_N_RABBIT = 8,
 		RABBIT_CHANCE = 20//%
 	};
