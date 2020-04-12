@@ -29,11 +29,11 @@ struct Vect{
 
 
 	bool operator<(const Vect<T>& v) const{
-		return (x + y < v.x + v.y); 
+		return ((x + 1024 * y) < (v.x + 1024 * v.y));//true;//((y < v.y) && (x < v.x)); 
 	}
 
 	bool operator==(const Vect<T>& v) const{
-		return (x == v.x && y == v.y); 
+		return ((x == v.x) && (y == v.y)); 
 	}
 
 	T x;
