@@ -1,11 +1,13 @@
 #include "control.h"
 #include "game.h"
+#include "text_ui.h"
 #include <utility>
 
 Player::Player(Game& game):
 	snake_(game.AddSnake()){
-
+	
 	ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
+	snake_->SetColor(TextUi::RED);
 }
 
 

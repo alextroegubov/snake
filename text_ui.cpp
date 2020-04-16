@@ -210,6 +210,8 @@ void TextUi::GoToxy(const Vecti& v){
 
 //ok
 void TextUi::Painter(const Snake& s){
+	printf("\e[1;%dm", s.color);
+
 	char head = "A>V<"[s.dir];
 
 	for(const auto& seg: s.segments){
@@ -218,12 +220,17 @@ void TextUi::Painter(const Snake& s){
 		else
 			PutC(seg, '#');
 	}
+	
+	printf("\e[1;%dm", WHITE);
 }
 
 //ok
 void TextUi::Painter(const Rabbit& r){
-	if(r.is_dead == false)
+	if(r.is_dead == false){
+		printf("\e[1;%dm", PURPLE);
 		PutC({r.cs.x, r.cs.y}, '@');
+		printf("\e[0;%dm", WHITE);
+	}
 }
 
 //ok

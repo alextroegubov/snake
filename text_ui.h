@@ -10,6 +10,16 @@
 
 class TextUi : public ui{
 public:
+
+	enum Color{
+		RED = 31,
+		GREEN = 32,
+		YELLOW = 33,
+		BLUE = 34,
+		PURPLE = 35,
+		WHITE = 37
+	};
+
 	TextUi();
 
 	~TextUi();
@@ -36,7 +46,6 @@ public:
 	//painters
 	void Painter(const Snake& s);
 	void Painter(const Rabbit& r);
-
 
 private:
 	void DrawVLine(const Vecti&, const int len) const;

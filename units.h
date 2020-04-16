@@ -83,10 +83,13 @@ struct Snake{
 			is_dead(s.is_dead){		
 	}
 
-	void SetDirection(Dir d){dir = d;}
+	void SetDirection(Dir d){ dir = d;}
+	
+	void SetColor(short int c){ color = c;}
 
 	Snake& operator=(const Snake& ) = delete;
 
+	short int color = 0;
 	bool is_dead = false;
 	Dir dir;
 	std::list<Vecti> segments;
