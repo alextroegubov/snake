@@ -102,49 +102,31 @@ void TextUi::DrawBoarder(){
 	DrawVLine({2, win_sz.ws_col}, win_sz.ws_row - 2);
 
 }
-/*
-int TextUi::ConvertToKey(char c){
-	switch(c){
-		case 'w':
-			return ui::Key::UP;
-		case 'd':
-			return ui::Key::RIGHT;
-		case 'a':
-			return ui::Key::LEFT;
-		case 's':
-			return ui::Key::DOWN;
-	}
-}
-*/
+
 bool TextUi::GetEvent(){
-/*	char entered_symb = getchar();
+	char entered_symb = getchar();
+	
 	ui::Key key;
 
 	switch(entered_symb){
-		case 'w':
-			key = ui::Key::UP;
-			break;
-		case 'd':
-			key = ui::Key::RIGHT;
-			break;
-		case 'a':
-			key = ui::Key::LEFT;
-			break;
-		case 's':
-			key = ui::Key::DOWN;
-			break;
+		case 'w': key = ui::Key::UP; 	break;
+		case 'd': key = ui::Key::RIGHT; break;
+		case 'a': key = ui::Key::LEFT;	break;
+		case 's': key = ui::Key::DOWN;	break;
+		default: return false;
 	}
 
 	for(const auto& f: event_funcs){
 		f(key);
 	}
-*/
+
 	return true;
 }
+
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
-	int count = 0;
-	while(count++ < 50/*!is_done*/){
+
+	while(!is_done){
 		Draw(my_game);
 
 		fprintf(Game::file, "*****new iteration:\n");
@@ -172,16 +154,12 @@ void TextUi::Run(Game& my_game){
 		fprintf(Game::file, "interal = %d\n", passed_interval);
 
 		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
-			if(time_funcs.size() != 0){
-				for(const auto& f: time_funcs){
-					f();
-				}
+			for(const auto& f: time_funcs){
+				f();
 			}
 		}
 
 		if(has_event){
-			break;
-			fprintf(Game::file, "event !?\n");
 			if(!GetEvent()){
 				std::cout << "Error with poll \n";
 			}

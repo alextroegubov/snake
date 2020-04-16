@@ -27,9 +27,9 @@ public:
 	friend void TestGame();
 	
 	enum Settings{
-		TICK = 500,
-		MAX_N_RABBIT = 80,
-		RABBIT_CHANCE = 100//%
+		TICK = 200,
+		MAX_N_RABBIT = 30,
+		RABBIT_CHANCE = 30//%
 	};
 
 	void RandomInit(const int n_snakes, const int n_rabbits );
@@ -45,7 +45,7 @@ public:
 public:
 	void AddRabbit();
 	void AddSnake(const Snake& s);
-	void AddSnake();
+	Snake* AddSnake();
 	void AddRabbit(const Rabbit& r);
 	void MoveSnake(Snake& sk);
 	void GrowSnake(Snake& sk);

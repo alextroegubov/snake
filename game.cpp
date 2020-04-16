@@ -33,11 +33,13 @@ void Game::SetSize(const Vecti& v){
 }                
 
 //ok
-void Game::AddSnake(){
+Snake* Game::AddSnake(){
 	Vecti pos = std::move(RandPos());
 	busy_cells.insert(pos);
 
 	snakes.push_back(Snake(std::move(pos), Snake::Dir::UP));
+	
+	return &(snakes[snakes.size()-1]);
 }
 
 /*
@@ -47,8 +49,8 @@ void Game::AddSnake(const Snake& s){
 		busy_cells.insert(item);
 	}
 }
-*/
 
+*/
 //ok
 void Game::MoveSnake(Snake& sk){
 

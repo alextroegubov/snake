@@ -83,6 +83,7 @@ struct Snake{
 			is_dead(s.is_dead){		
 	}
 
+	void SetDirection(Dir d){dir = d;}
 
 	Snake& operator=(const Snake& ) = delete;
 
