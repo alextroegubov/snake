@@ -29,7 +29,7 @@ struct Vect{
 
 
 	bool operator<(const Vect<T>& v) const{
-		return ((x + 1024 * y) < (v.x + 1024 * v.y));//true;//((y < v.y) && (x < v.x)); 
+		return ((x + 2048 * y) < (v.x + 2048 * v.y));//true;//((y < v.y) && (x < v.x)); 
 	}
 
 	bool operator==(const Vect<T>& v) const{
@@ -45,6 +45,10 @@ using Vectf = Vect<float>;
 
 
 struct Rabbit{
+	Rabbit(){
+		cs = {0, 0};
+		is_dead = true;
+	}
 	explicit Rabbit(const Vecti& new_v):
 			cs(new_v){
 	}
@@ -55,7 +59,10 @@ struct Rabbit{
 			cs(r.cs){
 	}
 
-	Rabbit& operator=(const Rabbit& r) = delete;
+	Rabbit& operator=(const Rabbit& r){
+		cs = r.cs;
+		is_dead = r.is_dead;
+	}
 
 	Vecti cs;
 	bool is_dead = false;

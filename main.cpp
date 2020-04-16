@@ -14,7 +14,7 @@ int main(){
 
 	Game my_game;
 
-	my_game.RandomInit(2, 50);
+	my_game.RandomInit(2, 10);
 
 	Player player1(my_game);
 	

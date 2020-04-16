@@ -12,7 +12,9 @@
 FILE *Game::file = nullptr;
 
 //ok
-Game::Game(){
+Game::Game():
+		n_rabbits(0),
+		rabbits({}){
 	if(ui::get() != nullptr){
 		ui::get()->OnTimer(Settings::TICK, std::bind(&Game::Move, this));
 		SetSize({ui::get()->GetWinX(), ui::get()->GetWinY()});
@@ -20,7 +22,7 @@ Game::Game(){
 	else
 		printf("Can't subscribe OnTimer \n");
 	
-	srand(std::time(nullptr));
+	srand(std::time(nullptr)); 
 	file = fopen("log.txt","w");
 }
 
@@ -173,12 +175,17 @@ Vecti Game::RandPos(){
 
 
 void Game::AddRabbit(){
-	if(rabbits.size() >= MAX_N_RABBIT)
+	if(n_rabbits >= MAX_N_RABBIT)
 		return;
 	
 	Vecti pos = std::move(RandPos());
 	busy_cells.insert(pos);
-	rabbits.push_back(Rabbit(pos));
+
+	rabbits[n_rabbits].is_dead = false;
+	rabbits[n_rabbits].cs = pos;
+	n_rabbits++;
+
+//	rabbits.push_back(Rabbit(pos));
 }
 
 //FIXME
@@ -186,11 +193,19 @@ void Game::RemoveRabbit(const Vecti& v){
 	for(auto& r: rabbits){
 		if(r.cs == v){
 			r.is_dead = true;
+
+			Rabbit tmp_rabbit(rabbits[n_rabbits - 1]);
+			rabbits[n_rabbits - 1] = r;
+			r = tmp_rabbit;
+			n_rabbits--;
+
+			return;
 		}
 	}
 }
 //FIXME
 bool Game::IsRabbit(const Vecti& v){
+	
 	for(auto& r: rabbits){
 		if(r.cs == v){
 			return true;

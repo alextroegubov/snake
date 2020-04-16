@@ -19,6 +19,7 @@
 #include <set>
 #include "units.h"
 #include <cstdio>
+#include <array>
 
 class Game{
 public:
@@ -29,26 +30,28 @@ public:
 	enum Settings{
 		TICK = 200,
 		MAX_N_RABBIT = 30,
-		RABBIT_CHANCE = 30//%
+		RABBIT_CHANCE = 50//%
 	};
 
 	void RandomInit(const int n_snakes, const int n_rabbits );
 	void SetSize(const Vecti& v);
 	void Move();
 
-	size_t GetNSnakes() const{return snakes.size();}
-	size_t GetNRabbits() const{return rabbits.size();}
+//	size_t GetNSnakes() const{return snakes.size();}
+//	size_t GetNRabbits() const{return rabbits.size();}
 
 	const std::vector<Snake>& GetSnakes() const{return snakes;}
-	const std::vector<Rabbit>& GetRabbit() const{return rabbits;}
+	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{return rabbits;}
 
 public:
 	void AddRabbit();
 	void AddSnake(const Snake& s);
 	Snake* AddSnake();
+
 	void AddRabbit(const Rabbit& r);
 	void MoveSnake(Snake& sk);
 	void GrowSnake(Snake& sk);
+
 	Vecti RandPos();
 	bool IsRabbit(const Vecti& cell);
 	void RemoveRabbit(const Vecti& cell);
@@ -56,7 +59,10 @@ public:
 	Vecti size;
 	std::set<Vecti> busy_cells;
 	std::vector<Snake> snakes;
-	std::vector<Rabbit> rabbits;
+
+	int n_rabbits;
+	std::array<Rabbit, MAX_N_RABBIT> rabbits;
+//	std::vector<Rabbit> rabbits;
 	
 	static FILE *file;
 };

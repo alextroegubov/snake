@@ -12,12 +12,24 @@ Player::Player(Game& game):
 
 
 void Player::KeyPressed(ui::Key key){
+
 	if(!snake_->is_dead){
+
+		Snake::Dir dir = snake_->dir;
+
 		switch(key){
-			case ui::UP: 	snake_->SetDirection(Snake::UP); 	break;
-			case ui::DOWN: 	snake_->SetDirection(Snake::DOWN); 	break;
-			case ui::LEFT: 	snake_->SetDirection(Snake::LEFT); 	break;
-			case ui::RIGHT: snake_->SetDirection(Snake::RIGHT); break;
+			case ui::UP:
+				snake_->SetDirection(dir == Snake::DOWN? dir : Snake::UP); 	
+				break;
+			case ui::DOWN: 	
+				snake_->SetDirection(dir == Snake::UP? dir : Snake::DOWN);
+				break;
+			case ui::LEFT: 	
+				snake_->SetDirection(dir == Snake::RIGHT? dir : Snake::LEFT); 	
+				break;
+			case ui::RIGHT: 
+				snake_->SetDirection(dir == Snake::LEFT? dir : Snake::RIGHT); 
+				break;
 		}
 	}
 }
