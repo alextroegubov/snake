@@ -13,7 +13,7 @@ int main(){
 
 	Game my_game;
 
-	my_game.RandomInit(5, 0);
+	my_game.RandomInit(5, 50);
 
 	my_ui->Run(my_game);
 	

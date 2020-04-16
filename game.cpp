@@ -34,7 +34,10 @@ void Game::SetSize(const Vecti& v){
 
 //ok
 void Game::AddSnake(){
-	snakes.push_back(Snake(RandPos(), Snake::Dir::UP));
+	Vecti pos = std::move(RandPos());
+	busy_cells.insert(pos);
+
+	snakes.push_back(Snake(std::move(pos), Snake::Dir::UP));
 }
 
 /*
@@ -60,7 +63,7 @@ void Game::MoveSnake(Snake& sk){
 	
 	fprintf(file, "snake[%p] is moving to (%2d, %2d), dead(%d)\n", &sk, new_head.x, new_head.y, sk.is_dead);
 
-	if(	busy_cells.count(new_head) == 0u && 
+	if(	busy_cells.count(new_head) == 0 && 
 		new_head.x != 1 && new_head.x != size.x && 
 		new_head.y != 1 && new_head.y != size.y){
 
@@ -71,6 +74,18 @@ void Game::MoveSnake(Snake& sk){
 
 		sk.segments.push_front(new_head);
 		busy_cells.insert(new_head);
+	}
+	else if(IsRabbit(new_head)){
+
+		RemoveRabbit(new_head);
+//FIXME copypaste
+		busy_cells.erase(sk.segments.back());
+		sk.segments.pop_back();
+
+		sk.segments.push_front(new_head);
+		busy_cells.insert(new_head);
+	
+		GrowSnake(sk);		
 	}
 	else{
 		fprintf(file, 	"busy_cells.count(new_head) = %lu\n"
@@ -151,8 +166,6 @@ Vecti Game::RandPos(){
 	}
 	while(busy_cells.count(pos) == 1);
 	
-	busy_cells.insert(pos);
-
 	return Vecti(pos);
 }
 
@@ -160,8 +173,28 @@ Vecti Game::RandPos(){
 void Game::AddRabbit(){
 	if(rabbits.size() >= MAX_N_RABBIT)
 		return;
+	
+	Vecti pos = std::move(RandPos());
+	busy_cells.insert(pos);
+	rabbits.push_back(Rabbit(pos));
+}
 
-	rabbits.push_back(Rabbit(RandPos()));
+//FIXME
+void Game::RemoveRabbit(const Vecti& v){
+	for(auto& r: rabbits){
+		if(r.cs == v){
+			r.is_dead = true;
+		}
+	}
+}
+//FIXME
+bool Game::IsRabbit(const Vecti& v){
+	for(auto& r: rabbits){
+		if(r.cs == v){
+			return true;
+		}
+	}
+	return false;
 }
 
 void Game::RandomInit(const int n_snakes, const int n_rabbits){

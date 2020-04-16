@@ -25,7 +25,7 @@ TextUi::TextUi(){
 
 TextUi::~TextUi(){
 	ClearScreen();
-
+	printf("Text_ui is destroyed\n");
 	struct termios sets;
 	tcgetattr(0, &sets);
 	
@@ -244,19 +244,9 @@ void TextUi::Painter(const Snake& s){
 
 //ok
 void TextUi::Painter(const Rabbit& r){
-	PutC({r.cs.x, r.cs.y}, '@');
+	if(r.is_dead == false)
+		PutC({r.cs.x, r.cs.y}, '@');
 }
-
-/*
-void TextUi::ClearObj(const Game& my_game){
-	for(const auto& item: my_game.GetSnakes()){
-		if(!item.is_dead){
-			PutC(item.segments.front(),' ');
-			PutC(item.segments.back(), ' ');
-		}
-	}
-}
-*/
 
 //ok
 void TextUi::OnTimer(int period, TimeFunc func){

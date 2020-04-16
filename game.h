@@ -28,8 +28,8 @@ public:
 	
 	enum Settings{
 		TICK = 500,
-		MAX_N_RABBIT = 8,
-		RABBIT_CHANCE = 20//%
+		MAX_N_RABBIT = 80,
+		RABBIT_CHANCE = 100//%
 	};
 
 	void RandomInit(const int n_snakes, const int n_rabbits );
@@ -50,7 +50,8 @@ public:
 	void MoveSnake(Snake& sk);
 	void GrowSnake(Snake& sk);
 	Vecti RandPos();
-
+	bool IsRabbit(const Vecti& cell);
+	void RemoveRabbit(const Vecti& cell);
 
 	Vecti size;
 	std::set<Vecti> busy_cells;

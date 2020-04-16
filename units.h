@@ -58,6 +58,7 @@ struct Rabbit{
 	Rabbit& operator=(const Rabbit& r) = delete;
 
 	Vecti cs;
+	bool is_dead = false;
 };
 
 struct Snake{

@@ -1,644 +1,317 @@
 Created 5 snakes:
-snake[0x55a7efe83930], dead?(0)
-snake[0x55a7efe83950], dead?(0)
-snake[0x55a7efe83970], dead?(0)
-snake[0x55a7efe83990], dead?(0)
-snake[0x55a7efe839b0], dead?(0)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
+snake[0x556d020fc930], dead?(0)
+snake[0x556d020fc950], dead?(0)
+snake[0x556d020fc970], dead?(0)
+snake[0x556d020fc990], dead?(0)
+snake[0x556d020fc9b0], dead?(0)
+drawing [0x556d020fc930]
+drawing [0x556d020fc950]
+drawing [0x556d020fc970]
+drawing [0x556d020fc990]
+drawing [0x556d020fc9b0]
 *****new iteration:
 busy cells are: 
-	 (22, 18)
-	 (23, 18)
-	 (19, 43)
-	 (20, 43)
-	 (13, 44)
-	 (14, 44)
-	 (22, 56)
-	 (23, 56)
-	 ( 4, 63)
-	 ( 5, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to (12, 44), dead(0)
-snake[0x55a7efe83930] moved to (12, 44)
-snake[0x55a7efe83950] is moving to (18, 43), dead(0)
-snake[0x55a7efe83950] moved to (18, 43)
-snake[0x55a7efe83970] is moving to (21, 18), dead(0)
-snake[0x55a7efe83970] moved to (21, 18)
-snake[0x55a7efe83990] is moving to ( 3, 63), dead(0)
-snake[0x55a7efe83990] moved to ( 3, 63)
-snake[0x55a7efe839b0] is moving to (21, 56), dead(0)
-snake[0x55a7efe839b0] moved to (21, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (21, 18)
-	 (22, 18)
-	 (18, 43)
-	 (19, 43)
-	 (12, 44)
-	 (13, 44)
-	 (21, 56)
-	 (22, 56)
-	 ( 3, 63)
-	 ( 4, 63)
-interal = 502
-snake[0x55a7efe83930] is moving to (11, 44), dead(0)
-snake[0x55a7efe83930] moved to (11, 44)
-snake[0x55a7efe83950] is moving to (17, 43), dead(0)
-snake[0x55a7efe83950] moved to (17, 43)
-snake[0x55a7efe83970] is moving to (20, 18), dead(0)
-snake[0x55a7efe83970] moved to (20, 18)
-snake[0x55a7efe83990] is moving to ( 2, 63), dead(0)
-snake[0x55a7efe83990] moved to ( 2, 63)
-snake[0x55a7efe839b0] is moving to (20, 56), dead(0)
-snake[0x55a7efe839b0] moved to (20, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (20, 18)
-	 (21, 18)
-	 (17, 43)
-	 (18, 43)
-	 (11, 44)
-	 (12, 44)
-	 (20, 56)
-	 (21, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to (10, 44), dead(0)
-snake[0x55a7efe83930] moved to (10, 44)
-snake[0x55a7efe83950] is moving to (16, 43), dead(0)
-snake[0x55a7efe83950] moved to (16, 43)
-snake[0x55a7efe83970] is moving to (19, 18), dead(0)
-snake[0x55a7efe83970] moved to (19, 18)
-snake[0x55a7efe83990] is moving to ( 1, 63), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 63
-size = (26, 128)
-snake[0x55a7efe83990] is dead
-snake[0x55a7efe839b0] is moving to (19, 56), dead(0)
-snake[0x55a7efe839b0] moved to (19, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (19, 18)
-	 (20, 18)
-	 (16, 43)
-	 (17, 43)
-	 (10, 44)
-	 (11, 44)
-	 (19, 56)
-	 (20, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83930] is moving to ( 9, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 9, 44)
-snake[0x55a7efe83950] is moving to (15, 43), dead(0)
-snake[0x55a7efe83950] moved to (15, 43)
-snake[0x55a7efe83970] is moving to (18, 18), dead(0)
-snake[0x55a7efe83970] moved to (18, 18)
-snake[0x55a7efe839b0] is moving to (18, 56), dead(0)
-snake[0x55a7efe839b0] moved to (18, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (18, 18)
-	 (19, 18)
-	 (15, 43)
-	 (16, 43)
-	 ( 9, 44)
-	 (10, 44)
-	 (18, 56)
-	 (19, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to ( 8, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 8, 44)
-snake[0x55a7efe83950] is moving to (14, 43), dead(0)
-snake[0x55a7efe83950] moved to (14, 43)
-snake[0x55a7efe83970] is moving to (17, 18), dead(0)
-snake[0x55a7efe83970] moved to (17, 18)
-snake[0x55a7efe839b0] is moving to (17, 56), dead(0)
-snake[0x55a7efe839b0] moved to (17, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (17, 18)
-	 (18, 18)
-	 (14, 43)
-	 (15, 43)
-	 ( 8, 44)
-	 ( 9, 44)
-	 (17, 56)
-	 (18, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83930] is moving to ( 7, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 7, 44)
-snake[0x55a7efe83950] is moving to (13, 43), dead(0)
-snake[0x55a7efe83950] moved to (13, 43)
-snake[0x55a7efe83970] is moving to (16, 18), dead(0)
-snake[0x55a7efe83970] moved to (16, 18)
-snake[0x55a7efe839b0] is moving to (16, 56), dead(0)
-snake[0x55a7efe839b0] moved to (16, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (16, 18)
-	 (17, 18)
-	 (13, 43)
-	 (14, 43)
-	 ( 7, 44)
-	 ( 8, 44)
-	 (16, 56)
-	 (17, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to ( 6, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 6, 44)
-snake[0x55a7efe83950] is moving to (12, 43), dead(0)
-snake[0x55a7efe83950] moved to (12, 43)
-snake[0x55a7efe83970] is moving to (15, 18), dead(0)
-snake[0x55a7efe83970] moved to (15, 18)
-snake[0x55a7efe839b0] is moving to (15, 56), dead(0)
-snake[0x55a7efe839b0] moved to (15, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 18)
-	 (16, 18)
-	 (12, 43)
-	 (13, 43)
-	 ( 6, 44)
-	 ( 7, 44)
-	 (15, 56)
-	 (16, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83930] is moving to ( 5, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 5, 44)
-snake[0x55a7efe83950] is moving to (11, 43), dead(0)
-snake[0x55a7efe83950] moved to (11, 43)
-snake[0x55a7efe83970] is moving to (14, 18), dead(0)
-snake[0x55a7efe83970] moved to (14, 18)
-snake[0x55a7efe839b0] is moving to (14, 56), dead(0)
-snake[0x55a7efe839b0] moved to (14, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (14, 18)
-	 (15, 18)
-	 (11, 43)
-	 (12, 43)
-	 ( 5, 44)
-	 ( 6, 44)
-	 (14, 56)
-	 (15, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to ( 4, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 4, 44)
-snake[0x55a7efe83950] is moving to (10, 43), dead(0)
-snake[0x55a7efe83950] moved to (10, 43)
-snake[0x55a7efe83970] is moving to (13, 18), dead(0)
-snake[0x55a7efe83970] moved to (13, 18)
-snake[0x55a7efe839b0] is moving to (13, 56), dead(0)
-snake[0x55a7efe839b0] moved to (13, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (13, 18)
-	 (14, 18)
-	 (10, 43)
-	 (11, 43)
-	 ( 4, 44)
-	 ( 5, 44)
-	 (13, 56)
-	 (14, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 503
-snake[0x55a7efe83930] is moving to ( 3, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 3, 44)
-snake[0x55a7efe83950] is moving to ( 9, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 9, 43)
-snake[0x55a7efe83970] is moving to (12, 18), dead(0)
-snake[0x55a7efe83970] moved to (12, 18)
-snake[0x55a7efe839b0] is moving to (12, 56), dead(0)
-snake[0x55a7efe839b0] moved to (12, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (12, 18)
-	 (13, 18)
-	 ( 9, 43)
-	 (10, 43)
-	 ( 3, 44)
-	 ( 4, 44)
-	 (12, 56)
-	 (13, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83930] is moving to ( 2, 44), dead(0)
-snake[0x55a7efe83930] moved to ( 2, 44)
-snake[0x55a7efe83950] is moving to ( 8, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 8, 43)
-snake[0x55a7efe83970] is moving to (11, 18), dead(0)
-snake[0x55a7efe83970] moved to (11, 18)
-snake[0x55a7efe839b0] is moving to (11, 56), dead(0)
-snake[0x55a7efe839b0] moved to (11, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (11, 18)
-	 (12, 18)
-	 ( 8, 43)
-	 ( 9, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 (11, 56)
-	 (12, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83930] is moving to ( 1, 44), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 44
-size = (26, 128)
-snake[0x55a7efe83930] is dead
-snake[0x55a7efe83950] is moving to ( 7, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 7, 43)
-snake[0x55a7efe83970] is moving to (10, 18), dead(0)
-snake[0x55a7efe83970] moved to (10, 18)
-snake[0x55a7efe839b0] is moving to (10, 56), dead(0)
-snake[0x55a7efe839b0] moved to (10, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (10, 18)
-	 (11, 18)
-	 ( 7, 43)
-	 ( 8, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 (10, 56)
-	 (11, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83950] is moving to ( 6, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 6, 43)
-snake[0x55a7efe83970] is moving to ( 9, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 9, 18)
-snake[0x55a7efe839b0] is moving to ( 9, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 9, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 ( 9, 18)
-	 (10, 18)
-	 ( 6, 43)
-	 ( 7, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 9, 56)
-	 (10, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83950] is moving to ( 5, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 5, 43)
-snake[0x55a7efe83970] is moving to ( 8, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 8, 18)
-snake[0x55a7efe839b0] is moving to ( 8, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 8, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 ( 8, 18)
-	 ( 9, 18)
+	 (13,  9)
+	 (20,  9)
+	 ( 4, 10)
+	 ( 4, 15)
+	 ( 3, 16)
+	 (24, 16)
+	 (23, 21)
+	 (19, 25)
+	 (20, 25)
+	 (23, 26)
+	 ( 8, 27)
+	 ( 9, 30)
+	 ( 6, 32)
+	 ( 7, 34)
+	 (12, 35)
+	 (15, 35)
+	 (14, 37)
+	 (20, 38)
+	 (10, 41)
+	 (15, 41)
+	 (24, 41)
 	 ( 5, 43)
-	 ( 6, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 8, 56)
-	 ( 9, 56)
-	 ( 2, 63)
-	 ( 3, 63)
+	 (10, 50)
+	 (23, 53)
+	 (12, 54)
+	 (13, 54)
+	 ( 6, 56)
+	 ( 3, 57)
+	 (10, 58)
+	 ( 4, 59)
+	 ( 5, 59)
+	 (21, 59)
+	 ( 7, 61)
+	 (13, 63)
+	 (23, 66)
+	 ( 6, 69)
+	 (17, 70)
+	 (18, 70)
+	 (22, 82)
+	 (10, 84)
+	 (16, 88)
+	 (15, 91)
+	 ( 3, 95)
+	 (10, 95)
+	 (16, 97)
+	 (22, 99)
+	 (12, 103)
+	 (22, 104)
+	 ( 3, 109)
+	 ( 8, 109)
+	 (13, 109)
+	 ( 3, 111)
+	 (21, 112)
+	 ( 3, 116)
+	 (19, 116)
+	 (21, 116)
+	 ( 6, 117)
+	 ( 7, 117)
+	 ( 5, 118)
+	 (14, 120)
 interal = 501
-snake[0x55a7efe83950] is moving to ( 4, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 4, 43)
-snake[0x55a7efe83970] is moving to ( 7, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 7, 18)
-snake[0x55a7efe839b0] is moving to ( 7, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 7, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
+snake[0x556d020fc930] is moving to (18, 25), dead(0)
+snake[0x556d020fc930] moved to (18, 25)
+snake[0x556d020fc950] is moving to ( 5, 117), dead(0)
+snake[0x556d020fc950] moved to ( 5, 117)
+snake[0x556d020fc970] is moving to (11, 54), dead(0)
+snake[0x556d020fc970] moved to (11, 54)
+snake[0x556d020fc990] is moving to ( 3, 59), dead(0)
+snake[0x556d020fc990] moved to ( 3, 59)
+snake[0x556d020fc9b0] is moving to (16, 70), dead(0)
+snake[0x556d020fc9b0] moved to (16, 70)
+drawing [0x556d020fc930]
+drawing [0x556d020fc950]
+drawing [0x556d020fc970]
+drawing [0x556d020fc990]
+drawing [0x556d020fc9b0]
 *****new iteration:
 busy cells are: 
-	 ( 7, 18)
-	 ( 8, 18)
-	 ( 4, 43)
+	 (13,  9)
+	 (20,  9)
+	 ( 4, 10)
+	 ( 4, 15)
+	 ( 3, 16)
+	 (24, 16)
+	 (23, 21)
+	 (18, 25)
+	 (19, 25)
+	 (23, 26)
+	 ( 8, 27)
+	 ( 9, 30)
+	 ( 6, 32)
+	 ( 7, 34)
+	 (12, 35)
+	 (15, 35)
+	 (14, 37)
+	 (20, 38)
+	 (10, 41)
+	 (15, 41)
+	 (24, 41)
 	 ( 5, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 7, 56)
-	 ( 8, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 502
-snake[0x55a7efe83950] is moving to ( 3, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 3, 43)
-snake[0x55a7efe83970] is moving to ( 6, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 6, 18)
-snake[0x55a7efe839b0] is moving to ( 6, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 6, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 ( 6, 18)
-	 ( 7, 18)
-	 ( 3, 43)
-	 ( 4, 43)
-	 ( 2, 44)
-	 ( 3, 44)
+	 (10, 50)
+	 (23, 53)
+	 (11, 54)
+	 (12, 54)
 	 ( 6, 56)
-	 ( 7, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-interal = 501
-snake[0x55a7efe83950] is moving to ( 2, 43), dead(0)
-snake[0x55a7efe83950] moved to ( 2, 43)
-snake[0x55a7efe83970] is moving to ( 5, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 5, 18)
-snake[0x55a7efe839b0] is moving to ( 5, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 5, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
+	 ( 3, 57)
+	 (10, 58)
+	 ( 3, 59)
+	 ( 4, 59)
+	 (13, 59)
+	 (21, 59)
+	 ( 7, 61)
+	 (13, 63)
+	 (23, 66)
+	 ( 6, 69)
+	 (16, 70)
+	 (17, 70)
+	 (22, 82)
+	 (10, 84)
+	 (16, 88)
+	 (15, 91)
+	 ( 3, 95)
+	 (10, 95)
+	 (16, 97)
+	 (22, 99)
+	 (12, 103)
+	 (22, 104)
+	 ( 3, 109)
+	 ( 8, 109)
+	 (13, 109)
+	 ( 3, 111)
+	 (21, 112)
+	 ( 3, 116)
+	 (19, 116)
+	 (21, 116)
+	 ( 5, 117)
+	 ( 6, 117)
+	 ( 5, 118)
+	 (14, 120)
+interal = 502
+snake[0x556d020fc930] is moving to (17, 25), dead(0)
+snake[0x556d020fc930] moved to (17, 25)
+snake[0x556d020fc950] is moving to ( 4, 117), dead(0)
+snake[0x556d020fc950] moved to ( 4, 117)
+snake[0x556d020fc970] is moving to (10, 54), dead(0)
+snake[0x556d020fc970] moved to (10, 54)
+snake[0x556d020fc990] is moving to ( 2, 59), dead(0)
+snake[0x556d020fc990] moved to ( 2, 59)
+snake[0x556d020fc9b0] is moving to (15, 70), dead(0)
+snake[0x556d020fc9b0] moved to (15, 70)
+drawing [0x556d020fc930]
+drawing [0x556d020fc950]
+drawing [0x556d020fc970]
+drawing [0x556d020fc990]
+drawing [0x556d020fc9b0]
 *****new iteration:
 busy cells are: 
-	 ( 5, 18)
-	 ( 6, 18)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 5, 56)
+	 (13,  9)
+	 (20,  9)
+	 ( 4, 10)
+	 ( 4, 15)
+	 ( 3, 16)
+	 (24, 16)
+	 (23, 21)
+	 (17, 25)
+	 (18, 25)
+	 (23, 26)
+	 ( 8, 27)
+	 ( 9, 30)
+	 ( 6, 32)
+	 ( 7, 34)
+	 (12, 35)
+	 (15, 35)
+	 (14, 37)
+	 (20, 38)
+	 (10, 41)
+	 (15, 41)
+	 (24, 41)
+	 ( 5, 43)
+	 (10, 50)
+	 (23, 53)
+	 (10, 54)
+	 (11, 54)
 	 ( 6, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 502
-snake[0x55a7efe83950] is moving to ( 1, 43), dead(0)
+	 ( 3, 57)
+	 (10, 58)
+	 ( 2, 59)
+	 ( 3, 59)
+	 (13, 59)
+	 (21, 59)
+	 ( 7, 61)
+	 ( 4, 62)
+	 (13, 63)
+	 (23, 66)
+	 ( 6, 69)
+	 (15, 70)
+	 (16, 70)
+	 (22, 82)
+	 (10, 84)
+	 (16, 88)
+	 (15, 91)
+	 ( 3, 95)
+	 (10, 95)
+	 (16, 97)
+	 (22, 99)
+	 (12, 103)
+	 (22, 104)
+	 ( 3, 109)
+	 ( 8, 109)
+	 (13, 109)
+	 ( 3, 111)
+	 (21, 112)
+	 ( 3, 116)
+	 (19, 116)
+	 (21, 116)
+	 ( 4, 117)
+	 ( 5, 117)
+	 ( 5, 118)
+	 (14, 120)
+interal = 501
+snake[0x556d020fc930] is moving to (16, 25), dead(0)
+snake[0x556d020fc930] moved to (16, 25)
+snake[0x556d020fc950] is moving to ( 3, 117), dead(0)
+snake[0x556d020fc950] moved to ( 3, 117)
+snake[0x556d020fc970] is moving to ( 9, 54), dead(0)
+snake[0x556d020fc970] moved to ( 9, 54)
+snake[0x556d020fc990] is moving to ( 1, 59), dead(0)
 busy_cells.count(new_head) = 0
 new_head.x = 1
-new_head.y = 43
+new_head.y = 59
 size = (26, 128)
-snake[0x55a7efe83950] is dead
-snake[0x55a7efe83970] is moving to ( 4, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 4, 18)
-snake[0x55a7efe839b0] is moving to ( 4, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 4, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
+snake[0x556d020fc990] is dead
+snake[0x556d020fc9b0] is moving to (14, 70), dead(0)
+snake[0x556d020fc9b0] moved to (14, 70)
+drawing [0x556d020fc930]
+drawing [0x556d020fc950]
+drawing [0x556d020fc970]
+drawing [0x556d020fc990]
+drawing [0x556d020fc9b0]
 *****new iteration:
 busy cells are: 
-	 (15, 11)
-	 ( 4, 18)
-	 ( 5, 18)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 4, 56)
-	 ( 5, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 501
-snake[0x55a7efe83970] is moving to ( 3, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 3, 18)
-snake[0x55a7efe839b0] is moving to ( 3, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 3, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 3, 18)
-	 ( 4, 18)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 3, 56)
-	 ( 4, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 502
-snake[0x55a7efe83970] is moving to ( 2, 18), dead(0)
-snake[0x55a7efe83970] moved to ( 2, 18)
-snake[0x55a7efe839b0] is moving to ( 2, 56), dead(0)
-snake[0x55a7efe839b0] moved to ( 2, 56)
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 2, 18)
-	 ( 3, 18)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 2, 56)
-	 ( 3, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 501
-snake[0x55a7efe83970] is moving to ( 1, 18), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 18
-size = (26, 128)
-snake[0x55a7efe83970] is dead
-snake[0x55a7efe839b0] is moving to ( 1, 56), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 56
-size = (26, 128)
-snake[0x55a7efe839b0] is dead
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 2, 18)
-	 ( 3, 18)
-	 ( 7, 42)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 2, 56)
-	 ( 3, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 502
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 2, 18)
-	 ( 3, 18)
-	 ( 7, 42)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 2, 56)
-	 ( 3, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 501
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 2, 18)
-	 ( 3, 18)
-	 ( 7, 42)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 2, 56)
-	 ( 3, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
-interal = 503
-drawing [0x55a7efe83930]
-drawing [0x55a7efe83950]
-drawing [0x55a7efe83970]
-drawing [0x55a7efe83990]
-drawing [0x55a7efe839b0]
-*****new iteration:
-busy cells are: 
-	 (15, 11)
-	 ( 2, 18)
-	 ( 3, 18)
-	 ( 7, 42)
-	 ( 2, 43)
-	 ( 3, 43)
-	 ( 2, 44)
-	 ( 3, 44)
-	 ( 2, 56)
-	 ( 3, 56)
-	 ( 2, 63)
-	 ( 3, 63)
-	 (10, 78)
+	 (13,  9)
+	 (20,  9)
+	 ( 4, 10)
+	 ( 4, 15)
+	 ( 3, 16)
+	 (24, 16)
+	 (23, 21)
+	 (16, 25)
+	 (17, 25)
+	 (23, 26)
+	 ( 8, 27)
+	 ( 9, 30)
+	 ( 6, 32)
+	 ( 7, 34)
+	 (12, 35)
+	 (15, 35)
+	 (14, 37)
+	 (20, 38)
+	 (10, 41)
+	 (15, 41)
+	 (24, 41)
+	 ( 5, 43)
+	 (17, 49)
+	 (10, 50)
+	 (23, 53)
+	 ( 9, 54)
+	 (10, 54)
+	 ( 6, 56)
+	 ( 3, 57)
+	 (10, 58)
+	 ( 2, 59)
+	 ( 3, 59)
+	 (13, 59)
+	 (21, 59)
+	 ( 7, 61)
+	 ( 4, 62)
+	 (13, 63)
+	 (23, 66)
+	 ( 6, 69)
+	 (14, 70)
+	 (15, 70)
+	 (22, 82)
+	 (10, 84)
+	 (16, 88)
+	 (15, 91)
+	 ( 3, 95)
+	 (10, 95)
+	 (16, 97)
+	 (22, 99)
+	 (12, 103)
+	 (22, 104)
+	 ( 3, 109)
+	 ( 8, 109)
+	 (13, 109)
+	 ( 3, 111)
+	 (21, 112)
+	 ( 3, 116)
+	 (19, 116)
+	 (21, 116)
+	 ( 3, 117)
+	 ( 4, 117)
+	 ( 5, 118)
+	 (14, 120)
