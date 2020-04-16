@@ -129,16 +129,6 @@ void TextUi::Run(Game& my_game){
 	while(!is_done){
 		Draw(my_game);
 
-		fprintf(Game::file, "*****new iteration:\n");
-
-		fprintf(Game::file, "busy cells are: \n");
-
-		for(const auto& cell: my_game.busy_cells){
-			fprintf(Game::file, "\t (%2d, %2d)\n", cell.x, cell.y);
-		}
-
-		fflush(Game::file);
-
 		struct pollfd poll_struct[1] = {};
 		poll_struct[0].fd = STDIN_FILENO; //std input
 		poll_struct[0].events = POLLIN; //there is data to read;
@@ -151,8 +141,7 @@ void TextUi::Run(Game& my_game){
 
 		//in ms
 		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
-		fprintf(Game::file, "interal = %d\n", passed_interval);
-
+		
 		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
 			for(const auto& f: time_funcs){
 				f();
@@ -192,7 +181,6 @@ void TextUi::Draw(const Game& my_game){
 	}
 
 	for(const auto& item: my_game.GetSnakes()){
-		fprintf(Game::file, "drawing [%p]\n", &item); 
 		Painter(item);
 	}
 

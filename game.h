@@ -1,68 +1,62 @@
-//list of rabbits or vector
-// pair<int, int>
-//random coord for rabbits
-//randxy return random pair in visivle part of screen
-//one can draw by view or by game
-//usually game calls view
-//game speed - game, frames per second - view
-//темп игры,  темп отображения
-//
-//snake - vector/list of segments, head <>^V, direction,
-//each segment - a class sush as rabbit
-//motion: head, segment, taily
-//con-r: several rabbits and snakes at random coords.
 #pragma once
 
 #include <utility>
 #include <algorithm>
 #include <vector>
 #include <set>
-#include "units.h"
 #include <cstdio>
 #include <array>
 
+#include "units.h"
+
 class Game{
-public:
-	Game();
-	~Game();
-	friend void TestGame();
-	
+public:	
 	enum Settings{
-		TICK = 200,
+		TICK = 200,//ms
 		MAX_N_RABBIT = 30,
 		RABBIT_CHANCE = 50//%
 	};
 
-	void RandomInit(const int n_snakes, const int n_rabbits );
+	Game();
+
+	~Game();
+
+	const std::vector<Snake>& GetSnakes() const{ return snakes;}
+
+	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{ return rabbits;}
+
+	void RandomInit(const int n_snakes, const int n_rabbits);
+
 	void SetSize(const Vecti& v);
+
 	void Move();
 
-//	size_t GetNSnakes() const{return snakes.size();}
-//	size_t GetNRabbits() const{return rabbits.size();}
-
-	const std::vector<Snake>& GetSnakes() const{return snakes;}
-	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{return rabbits;}
-
-public:
 	void AddRabbit();
-	void AddSnake(const Snake& s);
+
 	Snake* AddSnake();
 
-	void AddRabbit(const Rabbit& r);
+	bool IsRabbit(const Vecti& cell) const;
+
+	void RemoveRabbit(const Vecti& cell);
+
+private:
 	void MoveSnake(Snake& sk);
+
 	void GrowSnake(Snake& sk);
 
 	Vecti RandPos();
-	bool IsRabbit(const Vecti& cell);
-	void RemoveRabbit(const Vecti& cell);
 
+private:
+	//size of window
 	Vecti size;
+	//set of busy cells: snakes segments, rabbits
 	std::set<Vecti> busy_cells;
+	//vector of snakes
 	std::vector<Snake> snakes;
-
+	//current number of rabbits on the field
 	int n_rabbits;
+	//array of rabbits, consits of both dead and alive rabbits
 	std::array<Rabbit, MAX_N_RABBIT> rabbits;
-//	std::vector<Rabbit> rabbits;
 	
-	static FILE *file;
+//	static FILE *file;
 };
