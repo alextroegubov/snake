@@ -25,9 +25,9 @@ public:
 	~TextUi();
 	
 	void InitTextUi();
-	//returns x size of the window
-    int GetWinY() const{ return win_sz.ws_col; }
 	//returns y size of the window
+    int GetWinY() const{ return win_sz.ws_col; }
+	//returns x size of the window
     int GetWinX() const{ return win_sz.ws_row; }
 	//draws boarder according to the window size
 	void DrawBoarder();
@@ -39,13 +39,13 @@ public:
 	void OnKey(EventFunc func);
 
 	//draws game
-	void Draw(const Game& my_game);
-
-//	void ClearObj(const Game& my_game);
+	void Draw(Game& my_game);
 
 	//painters
 	void Painter(const Snake& s);
 	void Painter(const Rabbit& r);
+
+	void Finish();
 
 private:
 	void DrawVLine(const Vecti&, const int len) const;
@@ -56,11 +56,12 @@ private:
 	void PutC(const Vecti&, const char c);
 	void GoToxy(const Vecti&);
 	bool GetEvent();
-	int ConvertToKey(char c);
+
+	static void WinchHandler(int sign);
+	static void TermHandler(int sign);
 
 
 private:
-public:
 	struct winsize win_sz;
 	std::vector<EventFunc> event_funcs;
 	std::vector<TimeFunc> time_funcs;

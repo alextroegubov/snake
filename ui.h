@@ -23,7 +23,7 @@ public:
 
 	virtual void Run(Game&) = 0;
 
-	virtual void Draw(const Game&) = 0;
+	virtual void Draw(Game&) = 0;
 
     virtual void ClearScreen() = 0;
 
@@ -42,5 +42,9 @@ public:
 	virtual void OnTimer(int period, TimeFunc func) = 0;
 
 	virtual void OnKey(EventFunc func) = 0;	
+
+	virtual void DrawBoarder() = 0;
+
+	virtual void Finish() = 0;
 
 };

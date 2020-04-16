@@ -1,6 +1,4 @@
 #include "text_ui.h"
-#include "game.h"
-#include "units.h"
 
 #include <cassert>
 #include <string>
@@ -23,6 +21,54 @@ TextUi::TextUi(){
 	InitTextUi();
 }
 
+//ok
+void TextUi::InitTextUi(){
+	struct termios sets;
+
+	tcgetattr(0, &sets);
+	
+	//ICANON, ECHO - flags
+	sets.c_lflag &= ~ICANON;
+	sets.c_lflag &= ~ECHO;
+
+	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
+	//TCSANOW - changes are applied immediately.
+
+	//signals:
+	signal(SIGWINCH, WinchHandler);
+	signal(SIGTERM, TermHandler);
+	signal(SIGINT, TermHandler);
+}
+
+void TextUi::WinchHandler(int sign){
+	ui::get()->DrawBoarder();
+}
+
+void TextUi::TermHandler(int sign){
+	ui::get()->Finish();
+}
+
+void TextUi::Finish(){
+
+	struct termios sets;
+	tcgetattr(0, &sets);
+	
+	//ICANON, ECHO - flags
+	sets.c_lflag |= ICANON;
+	sets.c_lflag |= ECHO;
+
+	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
+
+	ClearScreen();
+	printf("See you!\n");
+
+	signal(SIGWINCH, SIG_DFL);
+	signal(SIGTERM, SIG_DFL);
+	signal(SIGINT, SIG_DFL);
+	//TCSANOW - changes are applied immediately
+}
+
+
 TextUi::~TextUi(){
 	ClearScreen();
 	printf("Text_ui is destroyed\n");
@@ -44,22 +90,22 @@ void TextUi::ClearScreen(){
 
 //ok
 void TextUi::PutC(const Vecti& v, const char c){
-	assert(v.x > 0);
+/*	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
-
+*/
 	std::printf("\e[%d;%dH%c", v.x, v.y, c);
 }
 
 //ok
 void TextUi::DrawVLine(const Vecti& v, const int len) const{
-	assert(v.x > 0);
+/*	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
-
+*/
 	std::printf("\e[%d;%dH", v.x, v.y);
 
 	std::string str = (v.y == win_sz.ws_col)? "" : "\e[1D";
@@ -72,12 +118,12 @@ void TextUi::DrawVLine(const Vecti& v, const int len) const{
 
 //ok
 void TextUi::DrawHLine(const Vecti& v, const int len) const{
-	assert(v.x > 0);
+/*	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
-
+*/
 	std::printf("\e[%d;%dH", v.x, v.y);
 
 	for(auto i = v.x; i < v.x + len; i++){
@@ -127,6 +173,7 @@ void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 
 	while(!is_done){
+		
 		Draw(my_game);
 
 		struct pollfd poll_struct[1] = {};
@@ -150,31 +197,21 @@ void TextUi::Run(Game& my_game){
 
 		if(has_event){
 			if(!GetEvent()){
-				std::cout << "Error with poll \n";
+				is_done = true;
 			}
 		}
 
-	}	
+	}
+
+	Finish();
 }
 	
-//ok
-void TextUi::InitTextUi(){
-	struct termios sets;
-
-	tcgetattr(0, &sets);
-	
-	//ICANON, ECHO - flags
-	sets.c_lflag &= ~ICANON;
-	sets.c_lflag &= ~ECHO;
-
-	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
-	//TCSANOW - changes are applied immediately.
-}
 
 //ok
-void TextUi::Draw(const Game& my_game){
+void TextUi::Draw(Game& my_game){
 	ClearScreen();
 	DrawBoarder();
+	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
 
 	for(const auto& item: my_game.GetRabbit()){
 		Painter(item);
