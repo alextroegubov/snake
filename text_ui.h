@@ -6,11 +6,19 @@
 #include <cstdio>
 #include <sys/ioctl.h>
 #include <signal.h>
-
+/*
+		+---------------->y
+		|
+		|
+		|
+		|
+		|
+	   xV
+*/
 
 class TextUi : public ui{
 public:
-
+	//colors
 	enum Color{
 		RED = 31,
 		GREEN = 32,
@@ -20,11 +28,11 @@ public:
 		WHITE = 37
 	};
 
+	//constructor
 	TextUi();
-
+	//destructor
 	~TextUi();
 	
-	void InitTextUi();
 	//returns y size of the window
     int GetWinY() const{ return win_sz.ws_col; }
 	//returns x size of the window
@@ -56,6 +64,7 @@ private:
 	void PutC(const Vecti&, const char c);
 	void GoToxy(const Vecti&);
 	bool GetEvent();
+	void InitTextUi();
 
 	static void WinchHandler(int sign);
 	static void TermHandler(int sign);

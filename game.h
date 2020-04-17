@@ -34,8 +34,11 @@ public:
 	void AddRabbit();
 
 	Snake* AddSnake();
+//	Snake& AddSnake();
 
 	bool IsRabbit(const Vecti& cell) const;
+
+	bool IsBusy(const Vecti& v) const;
 
 	void RemoveRabbit(const Vecti& cell);
 
@@ -46,7 +49,7 @@ private:
 
 	Vecti RandPos();
 
-private:
+public: //private:
 	//size of window
 	Vecti size;
 	//set of busy cells: snakes segments, rabbits
@@ -57,6 +60,6 @@ private:
 	int n_rabbits;
 	//array of rabbits, consits of both dead and alive rabbits
 	std::array<Rabbit, MAX_N_RABBIT> rabbits;
-	
-//	static FILE *file;
+public:	
+	static FILE *file;
 };

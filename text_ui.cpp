@@ -2,7 +2,7 @@
 
 #include <cassert>
 #include <string>
-#include <signal.h>
+#include <csignal>
 #include <poll.h>
 #include <unistd.h>
 #include <iostream>
@@ -23,8 +23,8 @@ TextUi::TextUi(){
 
 //ok
 void TextUi::InitTextUi(){
+	
 	struct termios sets;
-
 	tcgetattr(0, &sets);
 	
 	//ICANON, ECHO - flags
@@ -38,17 +38,23 @@ void TextUi::InitTextUi(){
 	signal(SIGWINCH, WinchHandler);
 	signal(SIGTERM, TermHandler);
 	signal(SIGINT, TermHandler);
+	signal(SIGSTOP, TermHandler);
 }
+
 
 void TextUi::WinchHandler(int sign){
 	ui::get()->DrawBoarder();
 }
 
+
 void TextUi::TermHandler(int sign){
 	ui::get()->Finish();
 }
 
+
 void TextUi::Finish(){
+
+	is_done = false;
 
 	struct termios sets;
 	tcgetattr(0, &sets);
@@ -65,22 +71,13 @@ void TextUi::Finish(){
 	signal(SIGWINCH, SIG_DFL);
 	signal(SIGTERM, SIG_DFL);
 	signal(SIGINT, SIG_DFL);
+	signal(SIGSTOP, SIG_DFL);
 	//TCSANOW - changes are applied immediately
 }
 
 
 TextUi::~TextUi(){
-	ClearScreen();
-	printf("Text_ui is destroyed\n");
-	struct termios sets;
-	tcgetattr(0, &sets);
-	
-	//ICANON, ECHO - flags
-	sets.c_lflag |= ICANON;
-	sets.c_lflag |= ECHO;
-
-	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
-	//TCSANOW - changes are applied immediately.
+	Finish();
 }
 
 //ok
@@ -159,7 +156,9 @@ bool TextUi::GetEvent(){
 		case 'd': key = ui::Key::RIGHT; break;
 		case 'a': key = ui::Key::LEFT;	break;
 		case 's': key = ui::Key::DOWN;	break;
-		default: return false;
+		case 27 : is_done = true; return true;
+
+		default: return true;
 	}
 
 	for(const auto& f: event_funcs){
@@ -171,9 +170,14 @@ bool TextUi::GetEvent(){
 
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
-
 	while(!is_done){
 		
+		fprintf(Game::file, "%d snakes, they are \n", my_game.snakes.size());
+		for(auto& i : my_game.snakes){
+			fprintf(Game::file, "\t snake[%p]\n", &i);
+		}
+		fflush(Game::file);
+
 		Draw(my_game);
 
 		struct pollfd poll_struct[1] = {};
@@ -218,6 +222,8 @@ void TextUi::Draw(Game& my_game){
 	}
 
 	for(const auto& item: my_game.GetSnakes()){
+		fprintf(Game::file, "drawing snake[%p]\n", &item);
+		fflush(Game::file);
 		Painter(item);
 	}
 

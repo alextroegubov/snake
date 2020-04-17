@@ -1,904 +1,479 @@
-Created 2 snakes:
-snake[0x55f3b2b3e680], dead?(0)
-snake[0x55f3b2b3e6a0], dead?(0)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 ( 7, 40)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (14, 60)
-	 (15, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 (11, 72)
-	 (12, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to (10, 72), dead(0)
-snake[0x55f3b2b3e940] moved to (10, 72)
-snake[0x55f3b2b3e960] is moving to (13, 60), dead(0)
-snake[0x55f3b2b3e960] moved to (13, 60)
-snake[0x55f3b2b3e980] is moving to ( 6, 40), dead(0)
-snake[0x55f3b2b3e980] moved to ( 6, 40)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 ( 6, 40)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (13, 60)
-	 (14, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 (10, 72)
-	 (11, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 9, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 9, 72)
-snake[0x55f3b2b3e960] is moving to (12, 60), dead(0)
-snake[0x55f3b2b3e960] moved to (12, 60)
-snake[0x55f3b2b3e980] is moving to ( 5, 40), dead(0)
-snake[0x55f3b2b3e980] moved to ( 5, 40)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 5, 40)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (12, 60)
-	 (13, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 9, 72)
-	 (10, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 8, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 8, 72)
-snake[0x55f3b2b3e960] is moving to (11, 60), dead(0)
-snake[0x55f3b2b3e960] moved to (11, 60)
-snake[0x55f3b2b3e980] is moving to ( 4, 40), dead(0)
-snake[0x55f3b2b3e980] moved to ( 4, 40)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 4, 40)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (11, 60)
-	 (12, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 8, 72)
-	 ( 9, 72)
-	 (22, 75)
-interal = 136
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 4, 40)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (11, 60)
-	 (12, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 8, 72)
-	 ( 9, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 7, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 7, 72)
-snake[0x55f3b2b3e960] is moving to (10, 60), dead(0)
-snake[0x55f3b2b3e960] moved to (10, 60)
-snake[0x55f3b2b3e980] is moving to ( 3, 40), dead(0)
-snake[0x55f3b2b3e980] moved to ( 3, 40)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 3, 40)
-	 (17, 45)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 (10, 60)
-	 (11, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 7, 72)
-	 ( 8, 72)
-	 (22, 75)
-interal = 202
-snake[0x55f3b2b3e940] is moving to ( 6, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 6, 72)
-snake[0x55f3b2b3e960] is moving to ( 9, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 9, 60)
-snake[0x55f3b2b3e980] is moving to ( 2, 40), dead(0)
-snake[0x55f3b2b3e980] moved to ( 2, 40)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 9, 60)
-	 (10, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 6, 72)
-	 ( 7, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 5, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 5, 72)
-snake[0x55f3b2b3e960] is moving to ( 8, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 8, 60)
-snake[0x55f3b2b3e980] is moving to ( 1, 40), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 40
-size = (24, 80)
-snake[0x55f3b2b3e980] is dead
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 8, 60)
-	 ( 9, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 5, 72)
-	 ( 6, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 4, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 4, 72)
-snake[0x55f3b2b3e960] is moving to ( 7, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 7, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 7, 60)
-	 ( 8, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 4, 72)
-	 ( 5, 72)
-	 (22, 75)
-interal = 171
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 7, 60)
-	 ( 8, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 4, 72)
-	 ( 5, 72)
-	 (22, 75)
-interal = 1
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 7, 60)
-	 ( 8, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 4, 72)
-	 ( 5, 72)
-	 (22, 75)
-interal = 1
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 7, 60)
-	 ( 8, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 4, 72)
-	 ( 5, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 3, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 3, 72)
-snake[0x55f3b2b3e960] is moving to ( 6, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 6, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 6, 60)
-	 ( 7, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 3, 72)
-	 ( 4, 72)
-	 (22, 75)
-interal = 202
-snake[0x55f3b2b3e940] is moving to ( 2, 72), dead(0)
-snake[0x55f3b2b3e940] moved to ( 2, 72)
-snake[0x55f3b2b3e960] is moving to ( 5, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 5, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 5, 60)
-	 ( 6, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e940] is moving to ( 1, 72), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 72
-size = (24, 80)
-snake[0x55f3b2b3e940] is dead
-snake[0x55f3b2b3e960] is moving to ( 4, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 4, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 4, 60)
-	 ( 5, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e960] is moving to ( 3, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 3, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 3, 60)
-	 ( 4, 60)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e960] is moving to ( 2, 60), dead(0)
-snake[0x55f3b2b3e960] moved to ( 2, 60)
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-interal = 201
-snake[0x55f3b2b3e960] is moving to ( 1, 60), dead(0)
-busy_cells.count(new_head) = 0
-new_head.x = 1
-new_head.y = 60
-size = (24, 80)
-snake[0x55f3b2b3e960] is dead
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 (20, 78)
-interal = 202
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 (18, 10)
-	 (16, 15)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 202
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (14, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (14, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (14, 39)
-	 ( 2, 40)
-	 (14, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 202
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (19, 38)
-	 (14, 39)
-	 ( 2, 40)
-	 (14, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
-interal = 201
-drawing [0x55f3b2b3e940]
-drawing [0x55f3b2b3e960]
-drawing [0x55f3b2b3e980]
-*****new iteration:
-busy cells are: 
-	 (11,  6)
-	 (11,  7)
-	 ( 4, 10)
-	 (18, 10)
-	 (16, 15)
-	 ( 9, 17)
-	 (21, 26)
-	 ( 3, 28)
-	 (19, 38)
-	 (14, 39)
-	 ( 2, 40)
-	 (14, 40)
-	 (17, 45)
-	 (16, 48)
-	 (14, 51)
-	 (17, 54)
-	 (13, 59)
-	 (17, 59)
-	 ( 2, 60)
-	 ( 3, 60)
-	 (12, 63)
-	 (13, 63)
-	 (16, 65)
-	 (15, 71)
-	 ( 2, 72)
-	 ( 3, 72)
-	 (18, 74)
-	 (22, 75)
-	 ( 4, 77)
-	 (20, 78)
+added snake[0x55a9b173b5a0], size = 32
+Created Player, connected with snake[0x55a9b173b5a0]
+added snake[0x55a9b173c6a0], size = 32
+Created Player, connected with snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]
+snake[0x55a9b173b5a0], key pressed
+snake[0x55a9b173c6a0], key pressed
+2 snakes, they are 
+	 snake[0x55a9b173c680]
+	 snake[0x55a9b173c6a0]
+drawing snake[0x55a9b173c680]
+drawing snake[0x55a9b173c6a0]

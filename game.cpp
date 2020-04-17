@@ -9,7 +9,7 @@
 #include <ctime>
 #include <cstdio>
 
-//FILE *Game::file = nullptr;
+FILE *Game::file = nullptr;
 
 //ok
 Game::Game():
@@ -17,7 +17,7 @@ Game::Game():
 		rabbits({}){
 
 	if(ui::get() != nullptr){
-		ui::get()->OnTimer(Settings::TICK, std::bind(&Game::Move, this));
+		ui::get()->OnTimer(TICK, std::bind(&Game::Move, this));
 		SetSize({ui::get()->GetWinX(), ui::get()->GetWinY()});
 	}
 	else{
@@ -25,7 +25,7 @@ Game::Game():
 	}
 
 	srand(std::time(nullptr)); 
-//	file = fopen("log.txt","w");
+	file = fopen("log.txt","w");
 }
 
 
@@ -43,10 +43,25 @@ Snake* Game::AddSnake(){
 
 	Vecti pos = std::move(RandPos());
 	busy_cells.insert(pos);
-	snakes.push_back(Snake(std::move(pos), Snake::Dir::UP));
+	snakes.push_back(Snake(pos, Snake::Dir::UP));
 	
+	fprintf(file, "added snake[%p], size = %d\n", &(snakes[snakes.size()-1]), sizeof(Snake));
+	
+	fflush(Game::file);
+
 	return &(snakes[snakes.size()-1]);
 }
+
+/*
+Snake& Game::AddSnake(){
+
+	Vecti pos = std::move(RandPos());
+	busy_cells.insert(pos);
+	snakes.push_back(Snake(pos, Snake::Dir::UP));
+	
+	return snakes[snakes.size()-1];
+}
+*/
 
 //FIXME
 void Game::MoveSnake(Snake& sk){
@@ -60,9 +75,7 @@ void Game::MoveSnake(Snake& sk){
 		case sk.LEFT: 	new_head.y -= 1; break;
 	}
 
-	if(	busy_cells.count(new_head) == 0 && 
-		new_head.x != 1 && new_head.x != size.x && 
-		new_head.y != 1 && new_head.y != size.y){
+	if(!IsBusy(new_head)){
 
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
@@ -73,7 +86,7 @@ void Game::MoveSnake(Snake& sk){
 	else if(IsRabbit(new_head)){
 
 		RemoveRabbit(new_head);
-//FIXME copypaste
+		//FIXME copypaste
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
 
@@ -116,7 +129,7 @@ void Game::GrowSnake(Snake& sk){
 		else
 			d.y = (end.y > pre_end.y)? +1 : -1;
 	}
-	//sdfasdfasdfasdfa
+
 	Vecti new_seg(end.x + d.x, end.y + d.y);
 	sk.segments.push_back(new_seg);
 	busy_cells.insert(new_seg);		
@@ -135,6 +148,7 @@ void Game::Move(){
 		this->AddRabbit();
 	}
 }
+
 
 //returns random vector in x in [3, size.x - 2]
 //						   y in [3, size.y - 2]
@@ -195,6 +209,17 @@ bool Game::IsRabbit(const Vecti& v) const{
 			return true;
 	}
 	return false;
+}
+
+
+bool Game::IsBusy(const Vecti& v) const{
+
+	if (busy_cells.count(v) == 0  && v.x != 1 && v.x != size.x && 
+		v.y != 1 && v.y != size.y)
+		
+		return false;
+	
+	return true;
 }
 
 

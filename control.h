@@ -12,13 +12,13 @@ private:
 	Snake* snake_;
 };
 
-/*
+
 class Computer{
 public:
 	Computer(Game& game);
 	void Move();
 
 protected:
+	Snake* snake_;
 	Game& game_;
-}
-*/
+};

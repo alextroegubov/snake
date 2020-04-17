@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <vector>
 #include <list>
+#include "game.h"
 
 template<typename T>
 struct Vect{
@@ -62,6 +63,8 @@ struct Rabbit{
 	Rabbit& operator=(const Rabbit& r){
 		cs = r.cs;
 		is_dead = r.is_dead;
+
+		return *this;
 	}
 
 	Vecti cs;
@@ -71,22 +74,25 @@ struct Rabbit{
 struct Snake{
 	enum Dir{
 		UP = 0,
-		RIGHT,
-		DOWN,
-		LEFT,
+		RIGHT = 1,
+		DOWN = 2,
+		LEFT = 3,
 	};
 
-	explicit Snake(const Vecti& v, Dir d):
+	explicit Snake(const Vecti& v, Dir d, short int c = 0):
 			segments(std::list<Vecti>(1, v)), 
 			dir(d),
 			is_dead(false){
 	}
 
-	~Snake() = default;
+	~Snake(){
+		fprintf(Game::file, "snake[%p] is destroyed\n", this);
+		fflush(Game::file);
+	}
 
 	explicit Snake(const Snake& s):
-			dir(s.dir),
 			segments(s.segments),
+			dir(s.dir),
 			is_dead(s.is_dead){		
 	}
 
@@ -96,8 +102,9 @@ struct Snake{
 
 	Snake& operator=(const Snake& ) = delete;
 
-	short int color = 0;
-	bool is_dead = false;
-	Dir dir;
 	std::list<Vecti> segments;
+	Dir dir;
+	bool is_dead = false;
+	short int color;
+;
 };
