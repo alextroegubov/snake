@@ -171,12 +171,6 @@ bool TextUi::GetEvent(){
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 	while(!is_done){
-		
-		fprintf(Game::file, "%d snakes, they are \n", my_game.snakes.size());
-		for(auto& i : my_game.snakes){
-			fprintf(Game::file, "\t snake[%p]\n", i);
-		}
-		fflush(Game::file);
 
 		Draw(my_game);
 
@@ -215,9 +209,13 @@ void TextUi::Run(Game& my_game){
 void TextUi::Draw(Game& my_game){
 	ClearScreen();
 	DrawBoarder();
-	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
+	my_game.SetSize({win_sz.ws_row, win_sz.ws_col}); //FIXME
 
 	for(const auto& item: my_game.GetRabbit()){
+		//all active rabbits are in the beginning of the array
+		if(item.is_dead == true)
+			break;
+
 		Painter(item);
 	}
 
@@ -257,11 +255,9 @@ void TextUi::Painter(const Snake& s){
 
 //ok
 void TextUi::Painter(const Rabbit& r){
-	if(r.is_dead == false){
-		printf("\e[1;%dm", PURPLE);
-		PutC({r.cs.x, r.cs.y}, '@');
-		printf("\e[0;%dm", WHITE);
-	}
+	printf("\e[1;%dm", PURPLE);
+	PutC({r.cs.x, r.cs.y}, '@');
+	printf("\e[0;%dm", WHITE);
 }
 
 //ok

@@ -13,13 +13,17 @@ class Game{
 public:	
 	enum Settings{
 		TICK = 200,//ms
-		MAX_N_RABBIT = 30,
-		RABBIT_CHANCE = 50//%
+		MAX_N_RABBIT = 10,
+		RABBIT_CHANCE = 20//%
 	};
 
 	Game();
 
 	~Game();
+
+	Game(const Game&) = delete;
+	
+	Game& operator=(const Game&) = delete;
 
 	const std::vector<Snake*>& GetSnakes() const{ return snakes;}
 
@@ -34,7 +38,6 @@ public:
 	void AddRabbit();
 
 	void AddSnake(Snake*);
-//	Snake& AddSnake();
 
 	bool IsRabbit(const Vecti& cell) const;
 
@@ -42,14 +45,14 @@ public:
 
 	void RemoveRabbit(const Vecti& cell);
 
-public://private:
+	Vecti RandPos();
+
+private:
 	void MoveSnake(Snake& sk);
 
 	void GrowSnake(Snake& sk);
 
-	Vecti RandPos();
-
-public: //private:
+private:
 	//size of window
 	Vecti size;
 	//set of busy cells: snakes segments, rabbits

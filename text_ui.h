@@ -14,6 +14,11 @@
 		|
 		|
 	   xV
+				A UP
+				|
+		 LEFT<--|-->RIGHT
+				|
+				V DOWN
 */
 
 class TextUi : public ui{
@@ -33,6 +38,10 @@ public:
 	//destructor
 	~TextUi();
 	
+	TextUi(const TextUi&) = delete;
+
+	TextUi& operator=(const TextUi&) = delete;
+
 	//returns y size of the window
     int GetWinY() const{ return win_sz.ws_col; }
 	//returns x size of the window

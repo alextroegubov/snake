@@ -5,20 +5,14 @@
 #include <utility>
 
 Player::Player(Game& game):
-		snake_(){
+		snake_(Snake(game.RandPos(), Snake::UP)){
 
 	ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
 	
-	Vecti pos = game.RandPos();
-
-	game.busy_cells.insert(pos);
-
-	snake_.segments.push_front(pos);
-
 	snake_.SetColor(TextUi::RED);
 
 	game.AddSnake(&snake_);
-	
+
 	fprintf(Game::file, "Created Player, connected with snake[%p]\n", &snake_);
 	fflush(Game::file);
 }
@@ -47,24 +41,27 @@ void Player::KeyPressed(ui::Key key){
 		}
 	}
 }
-/*
+
 Computer::Computer(Game& game):
-		game_(game),
-		snake_(game.AddSnake()){
+		snake_(Snake(game.RandPos(), Snake::UP)),
+		game_(game){
 	
 	ui::get()->OnTimer(Game::TICK, std::bind(&Computer::Move, this));
-	snake_->SetColor(TextUi::GREEN);
+	game.AddSnake(&snake_);
+	snake_.SetColor(TextUi::BLUE);
+	snake_.is_dead = false;
 }
 
-void Computer::Move(void){
+void Computer::Move(){
 
-	if(!snake_->is_dead){
+	if(snake_.is_dead){
 		return;
 	}
+
 	//find the nearest rabbit
 	Vecti nr(1000,1000);
 
-	Vecti head(snake_->segments.front());
+	Vecti head(snake_.segments.front());
 
 	for(const auto& r: game_.GetRabbit()){
 		if(r.is_dead == true)
@@ -75,22 +72,40 @@ void Computer::Move(void){
 		}	
 	}
 	//0:UP, 1: RIGHT, 2:DOWN, 3:LEFT
-	bool can_move[4] = { !game_.IsBusy({head.x - 1, head.y}) || game_.IsRabbit({head.x - 1, head.y}),
-						 !game_.IsBusy({head.x, head.y + 1}) || game_.IsRabbit({head.x, head.y + 1}),
-						 !game_.IsBusy({head.x + 1, head.y}) || game_.IsRabbit({head.x + 1, head.y}),
-						 !game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1}),
+	bool can_move[4] = { (!game_.IsBusy({head.x - 1, head.y}) || game_.IsRabbit({head.x - 1, head.y})) &&
+						 (!game_.IsBusy({head.x - 2, head.y}) || game_.IsRabbit({head.x - 2, head.y})),
+						 																				
+						 (!game_.IsBusy({head.x, head.y + 1}) || game_.IsRabbit({head.x, head.y + 1})) &&
+						 (!game_.IsBusy({head.x, head.y + 2}) || game_.IsRabbit({head.x, head.y + 2})),
+
+						 (!game_.IsBusy({head.x + 1, head.y}) || game_.IsRabbit({head.x + 1, head.y})) &&
+						 (!game_.IsBusy({head.x + 2, head.y}) || game_.IsRabbit({head.x + 2, head.y})),
+
+						 (!game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1})) &&
+						 (!game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1}))
 					   };
 
-	short int good_dir1 = (nr.x <= head.x)? Snake::UP   : Snake::DOWN;
-	short int good_dir2 = (nr.y <= head.y)? Snake::LEFT : Snake::RIGHT;
-m
+	Snake::Dir good_dir1 = (nr.x <= head.x)? Snake::UP   : Snake::DOWN;
+	Snake::Dir good_dir2 = (nr.y <= head.y)? Snake::LEFT : Snake::RIGHT;
+
 	if(can_move[good_dir1])
-		snake_->SetDirection(static_cast<Snake::Dir>(good_dir1));
+		snake_.SetDirection(good_dir1);
 
 	else if(can_move[good_dir2])
-		snake_->SetDirection(static_cast<Snake::Dir>(good_dir2));
+		snake_.SetDirection(good_dir2);
 
-	else{
+	else if(can_move[0])
+		snake_.SetDirection(Snake::UP);
+
+	else if(can_move[1])
+		snake_.SetDirection(Snake::RIGHT);
+
+	else if(can_move[2])
+		snake_.SetDirection(Snake::DOWN);
+	
+	else if(can_move[3])
+		snake_.SetDirection(Snake::LEFT);
+		//stay in previous direction
 		;//add avoiding collisions
-	}
-}*/
+	
+}
