@@ -42,7 +42,7 @@ public:
 
 	void RemoveRabbit(const Vecti& cell);
 
-private:
+public://private:
 	void MoveSnake(Snake& sk);
 
 	void GrowSnake(Snake& sk);

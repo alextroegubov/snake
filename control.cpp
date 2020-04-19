@@ -5,34 +5,43 @@
 #include <utility>
 
 Player::Player(Game& game):
-		snake_(game.AddSnake()){
-	
-	fprintf(Game::file, "Created Player, connected with snake[%p]\n", snake_);
-	fflush(Game::file);
+		snake_(){
+
 	ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
-	snake_->SetColor(TextUi::RED);
+	
+	Vecti pos = game.RandPos();
+
+	game.busy_cells.insert(pos);
+
+	snake_.segments.push_front(pos);
+
+	snake_.SetColor(TextUi::RED);
+
+		
+	fprintf(Game::file, "Created Player, connected with snake[%p]\n", &snake_);
+	fflush(Game::file);
 }
 
 void Player::KeyPressed(ui::Key key){
-	fprintf(Game::file, "snake[%p], key pressed\n", this->snake_);
+	fprintf(Game::file, "snake[%p], key pressed\n", &(this->snake_));
 	fflush(Game::file);
 
-	if(!this->snake_->is_dead){
+	if(!this->snake_.is_dead){
 
-		Snake::Dir dir = this->snake_->dir;
+		Snake::Dir dir = this->snake_.dir;
 
 		switch(key){
 			case ui::UP:
-				this->snake_->SetDirection(dir == Snake::DOWN? dir : Snake::UP); 	
+				this->snake_.SetDirection(dir == Snake::DOWN? dir : Snake::UP); 	
 				break;
 			case ui::DOWN: 	
-				this->snake_->SetDirection(dir == Snake::UP? dir : Snake::DOWN);
+				this->snake_.SetDirection(dir == Snake::UP? dir : Snake::DOWN);
 				break;
 			case ui::LEFT: 	
-				this->snake_->SetDirection(dir == Snake::RIGHT? dir : Snake::LEFT); 	
+				this->snake_.SetDirection(dir == Snake::RIGHT? dir : Snake::LEFT); 	
 				break;
 			case ui::RIGHT: 
-				this->snake_->SetDirection(dir == Snake::LEFT? dir : Snake::RIGHT); 
+				this->snake_.SetDirection(dir == Snake::LEFT? dir : Snake::RIGHT); 
 				break;
 		}
 	}

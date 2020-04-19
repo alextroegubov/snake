@@ -79,16 +79,21 @@ struct Snake{
 		LEFT = 3,
 	};
 
+	explicit Snake():
+			segments(std::list<Vecti>()),
+			dir(UP),
+			is_dead(false),
+			color(0){
+	}
+
+
 	explicit Snake(const Vecti& v, Dir d, short int c = 0):
 			segments(std::list<Vecti>(1, v)), 
 			dir(d),
 			is_dead(false){
 	}
 
-	~Snake(){
-		fprintf(Game::file, "snake[%p] is destroyed\n", this);
-		fflush(Game::file);
-	}
+	~Snake() = default;
 
 	explicit Snake(const Snake& s):
 			segments(s.segments),

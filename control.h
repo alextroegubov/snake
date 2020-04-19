@@ -9,7 +9,7 @@ public:
 	void KeyPressed(ui::Key key);
 
 private:
-	Snake* snake_;
+	Snake snake_;
 };
 
 
