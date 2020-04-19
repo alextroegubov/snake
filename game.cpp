@@ -170,7 +170,7 @@ Vecti Game::RandPos(){
 
 void Game::AddRabbit(){
 
-	if(n_rabbits >= MAX_N_RABBIT)
+	if(n_rabbits > MAX_N_RABBIT)
 		return;
 	
 	rabbits[n_rabbits].is_dead = false;
@@ -200,6 +200,9 @@ void Game::RemoveRabbit(const Vecti& v){
 bool Game::IsRabbit(const Vecti& v) const{
 	
 	for(auto& r: rabbits){
+		if(r.is_dead == true)
+			break;
+
 		if(r.cs == v)
 			return true;
 	}

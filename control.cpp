@@ -72,16 +72,12 @@ void Computer::Move(){
 		}	
 	}
 	//0:UP, 1: RIGHT, 2:DOWN, 3:LEFT
-	bool can_move[4] = { (!game_.IsBusy({head.x - 1, head.y}) || game_.IsRabbit({head.x - 1, head.y})) &&
-						 (!game_.IsBusy({head.x - 2, head.y}) || game_.IsRabbit({head.x - 2, head.y})),
+	bool can_move[4] = { (!game_.IsBusy({head.x - 1, head.y}) || game_.IsRabbit({head.x - 1, head.y})),
 						 																				
-						 (!game_.IsBusy({head.x, head.y + 1}) || game_.IsRabbit({head.x, head.y + 1})) &&
-						 (!game_.IsBusy({head.x, head.y + 2}) || game_.IsRabbit({head.x, head.y + 2})),
+						 (!game_.IsBusy({head.x, head.y + 1}) || game_.IsRabbit({head.x, head.y + 1})),
 
-						 (!game_.IsBusy({head.x + 1, head.y}) || game_.IsRabbit({head.x + 1, head.y})) &&
-						 (!game_.IsBusy({head.x + 2, head.y}) || game_.IsRabbit({head.x + 2, head.y})),
+						 (!game_.IsBusy({head.x + 1, head.y}) || game_.IsRabbit({head.x + 1, head.y})),
 
-						 (!game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1})) &&
 						 (!game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1}))
 					   };
 
@@ -103,7 +99,7 @@ void Computer::Move(){
 	else if(can_move[2])
 		snake_.SetDirection(Snake::DOWN);
 	
-	else if(can_move[3])
+	else
 		snake_.SetDirection(Snake::LEFT);
 		//stay in previous direction
 		;//add avoiding collisions
