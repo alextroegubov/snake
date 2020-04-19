@@ -18,6 +18,7 @@ int main(){
 
 	Player player1(my_game);
 	Player player2(my_game);
+	Player player3(my_game);
 //	Computer comp1(my_game);
 //	Computer comp2(my_game);
 	

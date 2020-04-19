@@ -17,7 +17,8 @@ Player::Player(Game& game):
 
 	snake_.SetColor(TextUi::RED);
 
-		
+	game.AddSnake(&snake_);
+	
 	fprintf(Game::file, "Created Player, connected with snake[%p]\n", &snake_);
 	fflush(Game::file);
 }

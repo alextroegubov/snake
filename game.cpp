@@ -39,17 +39,22 @@ void Game::SetSize(const Vecti& v){
 }                
 
 
-Snake* Game::AddSnake(){
+void Game::AddSnake(Snake* sk){
 
+	snakes.push_back(sk);
+	
+	fprintf(file, "added snake[%p]\n", sk);
+	fflush(Game::file);
+
+/*
 	Vecti pos = std::move(RandPos());
 	busy_cells.insert(pos);
 	snakes.push_back(Snake(pos, Snake::Dir::UP));
-	
-	fprintf(file, "added snake[%p], size = %d\n", &(snakes[snakes.size()-1]), sizeof(Snake));
-	
-	fflush(Game::file);
 
-	return &(snakes[snakes.size()-1]);
+	
+
+
+	return &(snakes[snakes.size()-1]);*/
 }
 
 /*
@@ -138,9 +143,9 @@ void Game::GrowSnake(Snake& sk){
 //ok
 void Game::Move(){
 
-	for(auto& sk: this->snakes){
-		if(!sk.is_dead){
-			this->MoveSnake(sk);
+	for(auto& sk_p: this->snakes){
+		if(!sk_p->is_dead){
+			this->MoveSnake(*sk_p);
 		}
 	}
 
@@ -222,7 +227,7 @@ bool Game::IsBusy(const Vecti& v) const{
 	return true;
 }
 
-
+/*
 void Game::RandomInit(const int n_snakes, const int n_rabbits){
 
 	for(auto i = 0; i < n_snakes; i++){
@@ -233,3 +238,4 @@ void Game::RandomInit(const int n_snakes, const int n_rabbits){
 		AddRabbit();
 	}
 }
+*/

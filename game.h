@@ -21,7 +21,7 @@ public:
 
 	~Game();
 
-	const std::vector<Snake>& GetSnakes() const{ return snakes;}
+	const std::vector<Snake*>& GetSnakes() const{ return snakes;}
 
 	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{ return rabbits;}
 
@@ -33,7 +33,7 @@ public:
 
 	void AddRabbit();
 
-	Snake* AddSnake();
+	void AddSnake(Snake*);
 //	Snake& AddSnake();
 
 	bool IsRabbit(const Vecti& cell) const;
@@ -55,7 +55,7 @@ public: //private:
 	//set of busy cells: snakes segments, rabbits
 	std::set<Vecti> busy_cells;
 	//vector of snakes
-	std::vector<Snake> snakes;
+	std::vector<Snake*> snakes;
 	//current number of rabbits on the field
 	int n_rabbits;
 	//array of rabbits, consits of both dead and alive rabbits

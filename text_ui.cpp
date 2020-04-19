@@ -174,7 +174,7 @@ void TextUi::Run(Game& my_game){
 		
 		fprintf(Game::file, "%d snakes, they are \n", my_game.snakes.size());
 		for(auto& i : my_game.snakes){
-			fprintf(Game::file, "\t snake[%p]\n", &i);
+			fprintf(Game::file, "\t snake[%p]\n", i);
 		}
 		fflush(Game::file);
 
@@ -221,10 +221,10 @@ void TextUi::Draw(Game& my_game){
 		Painter(item);
 	}
 
-	for(const auto& item: my_game.GetSnakes()){
-		fprintf(Game::file, "drawing snake[%p]\n", &item);
+	for(auto& item: my_game.GetSnakes()){
+		fprintf(Game::file, "drawing snake[%p]\n", item);
 		fflush(Game::file);
-		Painter(item);
+		Painter(*item);
 	}
 
 	fflush(stdout);
