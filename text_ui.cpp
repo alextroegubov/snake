@@ -18,6 +18,7 @@ TextUi::TextUi(){
 	DrawBoarder();
 	fflush(stdout);
 	is_done = false;
+	is_paused = false;
 	InitTextUi();
 }
 
@@ -38,22 +39,25 @@ void TextUi::InitTextUi(){
 	signal(SIGWINCH, WinchHandler);
 	signal(SIGTERM, TermHandler);
 	signal(SIGINT, TermHandler);
-	signal(SIGSTOP, TermHandler);
+	signal(SIGTSTP, TermHandler);
 }
 
 
 void TextUi::WinchHandler(int sign){
+	ui::get()->Pause();
 	ui::get()->DrawBoarder();
 }
 
 
 void TextUi::TermHandler(int sign){
-	ui::get()->Finish();
+	if(sign == SIGTSTP)
+		ui::get()->Pause();
+	else
+		ui::get()->Finish();
 }
 
 
 void TextUi::Finish(){
-
 	is_done = false;
 
 	struct termios sets;
@@ -71,7 +75,7 @@ void TextUi::Finish(){
 	signal(SIGWINCH, SIG_DFL);
 	signal(SIGTERM, SIG_DFL);
 	signal(SIGINT, SIG_DFL);
-	signal(SIGSTOP, SIG_DFL);
+	signal(SIGTSTP, SIG_DFL);
 	//TCSANOW - changes are applied immediately
 }
 
@@ -156,13 +160,17 @@ bool TextUi::GetEvent(){
 		case 'd': key = ui::Key::RIGHT; break;
 		case 'a': key = ui::Key::LEFT;	break;
 		case 's': key = ui::Key::DOWN;	break;
-		case 27 : is_done = true; return true;
+
+		case 'p': is_paused = !is_paused; 	return true;
+		case 27 : is_done = true; 			return true;
 
 		default: return true;
 	}
 
-	for(const auto& f: event_funcs){
-		f(key);
+	if(!is_paused){
+		for(const auto& f: event_funcs){
+			f(key);
+		}
 	}
 
 	return true;
@@ -171,6 +179,9 @@ bool TextUi::GetEvent(){
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 	while(!is_done){
+
+		while(is_paused)
+			GetEvent();
 
 		Draw(my_game);
 
@@ -198,7 +209,6 @@ void TextUi::Run(Game& my_game){
 				is_done = true;
 			}
 		}
-
 	}
 
 	Finish();
@@ -209,7 +219,8 @@ void TextUi::Run(Game& my_game){
 void TextUi::Draw(Game& my_game){
 	ClearScreen();
 	DrawBoarder();
-	my_game.SetSize({win_sz.ws_row, win_sz.ws_col}); //FIXME
+
+	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
 
 	for(const auto& item: my_game.GetRabbit()){
 		//all active rabbits are in the beginning of the array

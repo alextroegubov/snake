@@ -27,10 +27,9 @@ struct Vect{
 	int ComputeDistance(const Vect<T>& v) const{ 
 		return std::abs(x - v.x) + std::abs(y - v.y);
 	}
-
-
+	//to have an opportunity to store vect in maps and sets
 	bool operator<(const Vect<T>& v) const{
-		return ((x + 2048 * y) < (v.x + 2048 * v.y));//true;//((y < v.y) && (x < v.x)); 
+		return ((x + 2048 * y) < (v.x + 2048 * v.y));
 	}
 
 	bool operator==(const Vect<T>& v) const{
@@ -44,22 +43,24 @@ struct Vect{
 using Vecti = Vect<int>;
 using Vectf = Vect<float>;
 
-
 struct Rabbit{
+
+	//default constructor
 	Rabbit(){
 		cs = {0, 0};
 		is_dead = true;
 	}
+	//consturctor from vector
 	explicit Rabbit(const Vecti& new_v):
-			cs(new_v){
+			cs(new_v), is_dead(false){
 	}
-	
-	~Rabbit(){}
-
+	//destructor
+	~Rabbit() = default;
+	//copy constructor
 	explicit Rabbit(const Rabbit& r):
-			cs(r.cs){
+			cs(r.cs), is_dead(r.is_dead){
 	}
-
+	//copy operator
 	Rabbit& operator=(const Rabbit& r){
 		cs = r.cs;
 		is_dead = r.is_dead;
@@ -68,10 +69,11 @@ struct Rabbit{
 	}
 
 	Vecti cs;
-	bool is_dead = false;
+	bool is_dead;
 };
 
 struct Snake{
+
 	enum Dir{
 		UP = 0,
 		RIGHT = 1,
@@ -79,6 +81,7 @@ struct Snake{
 		LEFT = 3,
 	};
 
+	//default constructor
 	explicit Snake():
 			segments(std::list<Vecti>()),
 			dir(UP),
@@ -86,16 +89,17 @@ struct Snake{
 			color(0),
 			score(0){
 	}
-
+	//constructor by vector
 	explicit Snake(const Vecti& v, Dir d, short int c = 0):
 			segments(std::list<Vecti>(1, v)), 
 			dir(d),
 			is_dead(false),
+			color(c),
 			score(0){
 	}
 
 	~Snake() = default;
-
+	//copy constructor
 	explicit Snake(const Snake& s):
 			segments(s.segments),
 			dir(s.dir),
@@ -103,15 +107,17 @@ struct Snake{
 			score(s.score){		
 	}
 
-	void SetDirection(Dir d){ dir = d;}
-	
-	void SetColor(short int c){ color = c;}
-
+	//copy operator
 	Snake& operator=(const Snake& ) = delete;
 
+	//all parts of snake
 	std::list<Vecti> segments;
+	//direction
 	Dir dir;
+	//
 	bool is_dead = false;
+	//
 	short int color;
+	//eaten rabbits
 	int score;
 };

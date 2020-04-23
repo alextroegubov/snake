@@ -29,9 +29,6 @@ Game::Game():
 }
 
 
-Game::~Game(){}
-
-
 void Game::SetSize(const Vecti& v){
 
 	size.x = v.x;
@@ -47,18 +44,7 @@ void Game::AddSnake(Snake* sk){
 	fflush(Game::file);
 }
 
-/*
-Snake& Game::AddSnake(){
 
-	Vecti pos = std::move(RandPos());
-	busy_cells.insert(pos);
-	snakes.push_back(Snake(pos, Snake::Dir::UP));
-	
-	return snakes[snakes.size()-1];
-}
-*/
-
-//FIXME
 void Game::MoveSnake(Snake& sk){
 
 	Vecti new_head(sk.segments.front());
@@ -71,14 +57,10 @@ void Game::MoveSnake(Snake& sk){
 	}
 
 	fprintf(file, "snake[%p] is moving to (x,y) = (%d, %d) ", &sk, new_head.x, new_head.y);
+
+	bool moved = true;
+
 	if(!IsBusy(new_head)){
-
-		busy_cells.erase(sk.segments.back());
-		sk.segments.pop_back();
-
-		sk.segments.push_front(new_head);
-		busy_cells.insert(new_head);
-
 		fprintf(file, "- empty\n");
 	}
 	else if(IsRabbit(new_head)){
@@ -86,20 +68,22 @@ void Game::MoveSnake(Snake& sk){
 
 		RemoveRabbit(new_head);
 		sk.score++;
-		fprintf(file, "snake[%p] +1 point, total = %d!\n", &sk, sk.score);
+		GrowSnake(sk);
+		fprintf(file, "snake[%p] +1 point, total = %d!\n", &sk, sk.score);		
+	}
+	else{	
+		sk.is_dead = true;
+		moved = false;
 
-		//FIXME copypaste
+		fprintf(file, "- busy, snake is dead\n");
+	}
+
+	if(moved){
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
 
 		sk.segments.push_front(new_head);
 		busy_cells.insert(new_head);
-	
-		GrowSnake(sk);		
-	}
-	else{	
-		sk.is_dead = true;
-		fprintf(file, "- busy, snake is dead\n");
 	}
 
 	fflush(file);
@@ -171,8 +155,7 @@ Vecti Game::RandPos(){
 	std::uniform_int_distribution<> ygen(3, size.y - 2);
 
 	do{
-		pos.x = xgen(gen);
-		pos.y = ygen(gen);
+		pos = {xgen(gen), ygen(gen)};
 	}
 	while(busy_cells.count(pos) == 1);
 
@@ -191,7 +174,7 @@ void Game::AddRabbit(){
 	n_rabbits++;
 }
 
-//FIXME
+
 void Game::RemoveRabbit(const Vecti& v){
 	for(auto& r: rabbits){
 		if(r.is_dead)
@@ -202,18 +185,9 @@ void Game::RemoveRabbit(const Vecti& v){
 			r = rabbits[n_rabbits - 1];
 			rabbits[n_rabbits - 1].is_dead = true;
 
-			/*
-			r.is_dead = true;
-
-			//exchange rabbits
-			Rabbit tmp_rabbit(rabbits[n_rabbits - 1]);
-			rabbits[n_rabbits - 1] = r;
-			r = tmp_rabbit;
-			*/
-
-			busy_cells.erase(v); //?!
-
+			busy_cells.erase(v);
 			n_rabbits--;
+
 			return;
 		}
 	}
@@ -242,16 +216,3 @@ bool Game::IsBusy(const Vecti& v) const{
 	
 	return true;
 }
-
-/*
-void Game::RandomInit(const int n_snakes, const int n_rabbits){
-
-	for(auto i = 0; i < n_snakes; i++){
-		AddSnake();
-	}
-	
-	for(auto i = 0; i < n_rabbits; i++){	
-		AddRabbit();
-	}
-}
-*/

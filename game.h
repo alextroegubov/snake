@@ -16,45 +16,44 @@ public:
 		MAX_N_RABBIT = 10,
 		RABBIT_CHANCE = 20//%
 	};
-
+	//constructor
 	Game();
-
-	~Game();
+	//destructor
+	~Game() = default;
 
 	Game(const Game&) = delete;
-	
 	Game& operator=(const Game&) = delete;
 
+	//get vector of snakes
 	const std::vector<Snake*>& GetSnakes() const{ return snakes;}
-
+	//get number of snakes
 	int GetNSnakes() const{ return snakes.size();}
-
+	//get array of rabbits
 	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{ return rabbits;}
-
-	void RandomInit(const int n_snakes, const int n_rabbits);
-
+	//set size of the game field
 	void SetSize(const Vecti& v);
-
+	//move everything
 	void Move();
-
+	//add rabbit at random position
 	void AddRabbit();
-
+	//add existing snake in vector
 	void AddSnake(Snake*);
-
+	//checks if there is a rabbit on the cell
 	bool IsRabbit(const Vecti& cell) const;
-
+	//check if the cell is busy by any object
 	bool IsBusy(const Vecti& v) const;
-
+	//removes rabbit from cell
 	void RemoveRabbit(const Vecti& cell);
-
+	//return random position to put smth
 	Vecti RandPos();
-
-	void MoveSnake(Snake& sk);
-
+	//adds a segment to snake
 	void GrowSnake(Snake& sk);
 
 private:
-	//size of window
+	//moves snake
+	void MoveSnake(Snake& sk);
+private:
+	//size of game field
 	Vecti size;
 	//set of busy cells: snakes segments, rabbits
 	std::set<Vecti> busy_cells;
@@ -64,6 +63,7 @@ private:
 	int n_rabbits;
 	//array of rabbits, consits of both dead and alive rabbits
 	std::array<Rabbit, MAX_N_RABBIT> rabbits;
+
 public:	
 	static FILE *file;
 };

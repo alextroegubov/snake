@@ -47,4 +47,6 @@ public:
 
 	virtual void Finish() = 0;
 
+	virtual void Pause() = 0;
+
 };
