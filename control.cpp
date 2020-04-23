@@ -4,23 +4,22 @@
 
 #include <utility>
 
-Player::Player(Game& game):
+Player::Player(Game& game, TextUi::Color color = TextUi::RED):
 		snake_(Snake(game.RandPos(), Snake::UP)){
 
 	ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
 	
-	snake_.SetColor(TextUi::RED);
+	snake_.SetColor(color);
 
 	game.AddSnake(&snake_);
+	game.GrowSnake(snake_);
 
 	fprintf(Game::file, "Created Player, connected with snake[%p]\n", &snake_);
 	fflush(Game::file);
 }
 
 void Player::KeyPressed(ui::Key key){
-	fprintf(Game::file, "snake[%p], key pressed\n", &(this->snake_));
-	fflush(Game::file);
-
+	
 	if(!this->snake_.is_dead){
 
 		Snake::Dir dir = this->snake_.dir;
@@ -39,17 +38,25 @@ void Player::KeyPressed(ui::Key key){
 				this->snake_.SetDirection(dir == Snake::LEFT? dir : Snake::RIGHT); 
 				break;
 		}
+		fprintf(Game::file, "snake[%p], key pressed, changed dir to %d\n", &(this->snake_), this->snake_.dir);
 	}
+
+	fflush(Game::file);
 }
 
-Computer::Computer(Game& game):
+Computer::Computer(Game& game, TextUi::Color color /*= TextUi::BLUE*/):
 		snake_(Snake(game.RandPos(), Snake::UP)),
 		game_(game){
 	
 	ui::get()->OnTimer(Game::TICK, std::bind(&Computer::Move, this));
 	game.AddSnake(&snake_);
-	snake_.SetColor(TextUi::BLUE);
+	game.GrowSnake(snake_);
+
+	snake_.SetColor(color);
 	snake_.is_dead = false;
+
+	fprintf(Game::file, "Created Computer, connected with snake[%p]\n", &snake_);
+	fflush(Game::file);
 }
 
 void Computer::Move(){

@@ -70,6 +70,7 @@ void Game::MoveSnake(Snake& sk){
 		case sk.LEFT: 	new_head.y -= 1; break;
 	}
 
+	fprintf(file, "snake[%p] is moving to (x,y) = (%d, %d) ", &sk, new_head.x, new_head.y);
 	if(!IsBusy(new_head)){
 
 		busy_cells.erase(sk.segments.back());
@@ -77,10 +78,16 @@ void Game::MoveSnake(Snake& sk){
 
 		sk.segments.push_front(new_head);
 		busy_cells.insert(new_head);
+
+		fprintf(file, "- empty\n");
 	}
 	else if(IsRabbit(new_head)){
+		fprintf(file, "- has rabbit\n");
 
 		RemoveRabbit(new_head);
+		sk.score++;
+		fprintf(file, "snake[%p] +1 point, total = %d!\n", &sk, sk.score);
+
 		//FIXME copypaste
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
@@ -92,7 +99,10 @@ void Game::MoveSnake(Snake& sk){
 	}
 	else{	
 		sk.is_dead = true;
+		fprintf(file, "- busy, snake is dead\n");
 	}
+
+	fflush(file);
 }
 
 
@@ -127,7 +137,10 @@ void Game::GrowSnake(Snake& sk){
 
 	Vecti new_seg(end.x + d.x, end.y + d.y);
 	sk.segments.push_back(new_seg);
-	busy_cells.insert(new_seg);		
+	busy_cells.insert(new_seg);	
+
+	fprintf(file, "snake[%p] has grown up\n", &sk);
+	fflush(file);	
 }
 
 //ok
@@ -181,12 +194,22 @@ void Game::AddRabbit(){
 //FIXME
 void Game::RemoveRabbit(const Vecti& v){
 	for(auto& r: rabbits){
+		if(r.is_dead)
+			return;
+		
 		if(r.cs == v){
+
+			r = rabbits[n_rabbits - 1];
+			rabbits[n_rabbits - 1].is_dead = true;
+
+			/*
 			r.is_dead = true;
 
+			//exchange rabbits
 			Rabbit tmp_rabbit(rabbits[n_rabbits - 1]);
 			rabbits[n_rabbits - 1] = r;
 			r = tmp_rabbit;
+			*/
 
 			busy_cells.erase(v); //?!
 

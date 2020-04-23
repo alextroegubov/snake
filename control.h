@@ -2,10 +2,11 @@
 
 #include "game.h"
 #include "ui.h"
+#include "text_ui.h"
 
 class Player{
 public:
-	Player(Game& game);
+	Player(Game& game, TextUi::Color color/*= TextUi::RED*/);
 	~Player() = default;
 
 	Player(const Player&) = delete;
@@ -20,7 +21,7 @@ private:
 
 class Computer{
 public:
-	Computer(Game& game);
+	Computer(Game& game, TextUi::Color color = TextUi::BLUE);
 	~Computer() = default;
 
 	Computer(const Computer&) = delete;

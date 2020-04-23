@@ -12,7 +12,7 @@
 class Game{
 public:	
 	enum Settings{
-		TICK = 200,//ms
+		TICK = 100,//ms
 		MAX_N_RABBIT = 10,
 		RABBIT_CHANCE = 20//%
 	};
@@ -26,6 +26,8 @@ public:
 	Game& operator=(const Game&) = delete;
 
 	const std::vector<Snake*>& GetSnakes() const{ return snakes;}
+
+	int GetNSnakes() const{ return snakes.size();}
 
 	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{ return rabbits;}
 
@@ -47,7 +49,6 @@ public:
 
 	Vecti RandPos();
 
-private:
 	void MoveSnake(Snake& sk);
 
 	void GrowSnake(Snake& sk);

@@ -14,11 +14,9 @@ int main(){
 
 	Game my_game;
 
-//	my_game.RandomInit(2, 10);
+	Player player1(my_game, TextUi::RED);
 
-	Player player1(my_game);
-
-	Computer comp1(my_game);
+	Computer comp1(my_game, TextUi::YELLOW);
 	Computer comp2(my_game);
 	
 	my_ui->Run(my_game);

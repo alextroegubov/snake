@@ -32,7 +32,7 @@ public:
 		PURPLE = 35,
 		WHITE = 37
 	};
-
+	
 	//constructor
 	TextUi();
 	//destructor
@@ -74,6 +74,7 @@ private:
 	void GoToxy(const Vecti&);
 	bool GetEvent();
 	void InitTextUi();
+	void PrintScore(uint16_t score, uint8_t n);
 
 	static void WinchHandler(int sign);
 	static void TermHandler(int sign);

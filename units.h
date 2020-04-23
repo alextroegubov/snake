@@ -83,14 +83,15 @@ struct Snake{
 			segments(std::list<Vecti>()),
 			dir(UP),
 			is_dead(false),
-			color(0){
+			color(0),
+			score(0){
 	}
-
 
 	explicit Snake(const Vecti& v, Dir d, short int c = 0):
 			segments(std::list<Vecti>(1, v)), 
 			dir(d),
-			is_dead(false){
+			is_dead(false),
+			score(0){
 	}
 
 	~Snake() = default;
@@ -98,7 +99,8 @@ struct Snake{
 	explicit Snake(const Snake& s):
 			segments(s.segments),
 			dir(s.dir),
-			is_dead(s.is_dead){		
+			is_dead(s.is_dead),
+			score(s.score){		
 	}
 
 	void SetDirection(Dir d){ dir = d;}
@@ -111,5 +113,5 @@ struct Snake{
 	Dir dir;
 	bool is_dead = false;
 	short int color;
-;
+	int score;
 };

@@ -219,10 +219,15 @@ void TextUi::Draw(Game& my_game){
 		Painter(item);
 	}
 
+	int snake_n = 0;
+
 	for(auto& item: my_game.GetSnakes()){
 		fprintf(Game::file, "drawing snake[%p]\n", item);
 		fflush(Game::file);
+
+		GoToxy({win_sz.ws_row, 4 + 4 * snake_n});
 		Painter(*item);
+		snake_n++;
 	}
 
 	fflush(stdout);
@@ -239,7 +244,10 @@ void TextUi::GoToxy(const Vecti& v){
 
 //ok
 void TextUi::Painter(const Snake& s){
+
 	printf("\e[1;%dm", s.color);
+
+	printf("%3u", s.score);
 
 	char head = "A>V<"[s.dir];
 
@@ -250,6 +258,7 @@ void TextUi::Painter(const Snake& s){
 			PutC(seg, '#');
 	}
 	
+
 	printf("\e[1;%dm", WHITE);
 }
 
