@@ -1,5 +1,6 @@
 #pragma once
 #include <functional>
+#include <sys/ioctl.h>
 #include "game.h"
 
 class ui{
@@ -47,6 +48,20 @@ public:
 
 	virtual void Finish() = 0;
 
+	virtual void Exit() = 0;
+
 	virtual void Pause() = 0;
+
+protected:
+	//current terminal size
+	struct winsize win_sz;
+	//Event subscribers
+	std::vector<EventFunc> event_funcs;
+	//timer subscribers
+	std::vector<TimeFunc> time_funcs;
+	//== true - game has been finished
+	bool is_done;
+	//== true - game has been paused
+	bool is_paused;
 
 };

@@ -13,8 +13,8 @@ class Game{
 public:	
 	enum Settings{
 		TICK = 100,//ms
-		MAX_N_RABBIT = 10,
-		RABBIT_CHANCE = 20//%
+		MAX_N_RABBIT = 20,
+		RABBIT_CHANCE = 15//%
 	};
 	//constructor
 	Game();
@@ -28,6 +28,8 @@ public:
 	const std::vector<Snake*>& GetSnakes() const{ return snakes;}
 	//get number of snakes
 	int GetNSnakes() const{ return snakes.size();}
+
+	int GetNRabbits() const{ return n_rabbits;}
 	//get array of rabbits
 	const std::array<Rabbit, MAX_N_RABBIT>& GetRabbit() const{ return rabbits;}
 	//set size of the game field

@@ -35,7 +35,7 @@ public:
 	//constructor
 	TextUi();
 	//destructor
-	~TextUi();
+	~TextUi() = default;
 
 	TextUi(const TextUi&) = delete;
 	TextUi& operator=(const TextUi&) = delete;
@@ -56,11 +56,14 @@ public:
 	//painters
 	void Painter(const Snake& s);
 	void Painter(const Rabbit& r);
-	//finishes the game
+	//resets made settings
 	void Finish();
+	//finishes game
+	void Exit(){ is_done = true;}
 	//pauses the game
 	void Pause(){ is_paused = !is_paused;}
-
+	//prints results on screen
+	void ShowResults(const Game&);
 private:
 	//draw vertical line
 	void DrawVLine(const Vecti&, const int len) const;
@@ -81,7 +84,7 @@ private:
 	//some signal handlers
 	static void WinchHandler(int sign);
 	static void TermHandler(int sign);
-
+/*
 private:
 	//current terminal size
 	struct winsize win_sz;
@@ -93,6 +96,7 @@ private:
 	bool is_done;
 	//== true - game has been paused
 	bool is_paused;
+*/
 };
 
 

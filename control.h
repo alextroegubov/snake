@@ -21,13 +21,17 @@ private:
 
 class Computer{
 public:
-	Computer(Game& game, TextUi::Color color = TextUi::BLUE);
+	Computer(Game& game, int alg, TextUi::Color color = TextUi::BLUE);
 	~Computer() = default;
 
 	Computer(const Computer&) = delete;
 	Computer& operator=(const Computer&) = delete;
 	
 	void Move();
+	void Move2();
+	void Move3();
+	void Move4();
+//	void Move5();
 
 protected:
 	Snake snake_;

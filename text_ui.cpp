@@ -53,12 +53,12 @@ void TextUi::TermHandler(int sign){
 	if(sign == SIGTSTP)
 		ui::get()->Pause();
 	else
-		ui::get()->Finish();
+		ui::get()->Exit();
 }
 
 
 void TextUi::Finish(){
-	is_done = false;
+	is_done = true;
 
 	struct termios sets;
 	tcgetattr(0, &sets);
@@ -69,9 +69,6 @@ void TextUi::Finish(){
 
 	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
 
-	ClearScreen();
-	printf("See you!\n");
-
 	signal(SIGWINCH, SIG_DFL);
 	signal(SIGTERM, SIG_DFL);
 	signal(SIGINT, SIG_DFL);
@@ -79,10 +76,6 @@ void TextUi::Finish(){
 	//TCSANOW - changes are applied immediately
 }
 
-
-TextUi::~TextUi(){
-	Finish();
-}
 
 //ok
 void TextUi::ClearScreen(){
@@ -212,8 +205,26 @@ void TextUi::Run(Game& my_game){
 	}
 
 	Finish();
+	fclose(Game::file);
+	ShowResults(my_game);
 }
 	
+
+void TextUi::ShowResults(const Game& game){
+	
+	ClearScreen();
+	printf("Well done!\n\n");
+	printf("Results:\n");
+
+	int player_n = 1; 
+
+	for(const auto& s: game.GetSnakes()){
+		printf("\e[1;%dm", s->color);
+		printf("\tPlayer %d: %3d points\n", player_n++, s->score);	
+	}
+
+	printf("\e[1;%dm", WHITE);
+}
 
 //ok
 void TextUi::Draw(Game& my_game){
@@ -269,7 +280,6 @@ void TextUi::Painter(const Snake& s){
 			PutC(seg, '#');
 	}
 	
-
 	printf("\e[1;%dm", WHITE);
 }
 
