@@ -171,6 +171,9 @@ bool TextUi::GetEvent(){
 
 void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
+
+	int time_keeper = 0;
+
 	while(!is_done){
 
 		while(is_paused)
@@ -190,10 +193,18 @@ void TextUi::Run(Game& my_game){
 
 		//in ms
 		int passed_interval  = (t2.tv_sec - t1.tv_sec) * 1000 + (t2.tv_nsec - t1.tv_nsec) / 1000000 + 1;
-		
-		if(passed_interval >= static_cast<int>(Game::Settings::TICK)){
-			for(const auto& f: time_funcs){
-				f();
+		time_keeper += passed_interval;
+
+		if(time_keeper >= static_cast<int>(Game::Settings::TICK)){
+
+			time_keeper -= static_cast<int>(Game::Settings::TICK);
+
+			for(auto& f: time_funcs){
+
+				if(--f.n_tick_left == 0){
+					f.func();
+					f.n_tick_left = f.n_tick;
+				}
 			}
 		}
 
@@ -291,9 +302,13 @@ void TextUi::Painter(const Rabbit& r){
 }
 
 //ok
-void TextUi::OnTimer(int period, TimeFunc func){
-	time_funcs.push_back(func);
-	//std::sort(time_funcs.begin(), time_funcs.end());
+void TextUi::OnTimer(std::function<void(void)> func, int n_tick){
+	assert(n_tick > 0);
+	
+	TimeFunc time_func(func, n_tick, n_tick);
+	time_funcs.push_back(std::move(time_func));
+
+//	std::sort(time_funcs.begin(), time_funcs.end(), [](TimeFunc tf1, TimeFunc tf2) ->bool{return tf1.n_tick < tf2.n_tick});
 }
 //ok
 void TextUi::OnKey(EventFunc func){

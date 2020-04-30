@@ -14,1414 +14,668 @@ drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (31, 50) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 28) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (24, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (10, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (16, 50) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (17, 15) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (29, 10) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (30, 50) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 29) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 33) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (9, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (15, 50) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (16, 15) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (29, 9) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (29, 50) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 30) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 34) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (8, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (14, 50) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 15) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (29, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 50) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (7, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (13, 50) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 16) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
+snake[0x1ffefffad0] is moving to (x,y) = (6, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 50) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 17) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (31, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 49) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (18, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (20, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (5, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 49) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (32, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (17, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (19, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (4, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 48) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 19) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (33, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 47) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (16, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (18, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (3, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 47) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 20) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (34, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 46) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (15, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (17, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (2, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 46) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 8) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 45) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (16, 12) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 30) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (15, 12) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 0
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (27, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 29) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (14, 12) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (26, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 28) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 34) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (14, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (25, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 27) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (14, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (24, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (15, 14) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (2, 21) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 45) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (16, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 9) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 1!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (23, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 25) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (16, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (2, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 44) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (17, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 10) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 24) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (17, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (2, 23) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 43) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (18, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 11) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 29) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (18, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (2, 24) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 42) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (19, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 12) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 43) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 28) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (19, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 42) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 27) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (20, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 41) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 20) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 26) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 40) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 19) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 39) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 18) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 38) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (24, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 37) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (25, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (15, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (26, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 35) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (16, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 20) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (17, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 19) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 0
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (20, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (18, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 18) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (19, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (18, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (31, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (21, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 33) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (22, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 17) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (2, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 41) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (20, 21) - has rabbit
 snake[0x1ffefffb30] has grown up
 snake[0x1ffefffb30] +1 point, total = 1!
-snake[0x1ffefffb60] is moving to (x,y) = (33, 14) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 13) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 32) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (23, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (34, 14) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 2
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (24, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 17) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (3, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 40) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (21, 21) - empty
 snake[0x1ffefffb60] is moving to (x,y) = (35, 14) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 2
+snake[0x1ffefffad0] is moving to (x,y) = (4, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 39) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (21, 20) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 15) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (18, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (25, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (5, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 38) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (21, 19) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 16) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (19, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (6, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 37) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (21, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 17) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (20, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (7, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 36) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (20, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 18) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 15) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (8, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 35) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (19, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 19) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 13) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 15) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (9, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 34) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (18, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 20) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 1
+snake[0x1ffefffad0] is moving to (x,y) = (10, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 33) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (17, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 21) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 32) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 15) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (11, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 32) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (16, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 33) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 16) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (12, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 31) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 23) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 17) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (13, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 30) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (14, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 24) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 2
+snake[0x1ffefffad0] is moving to (x,y) = (14, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 29) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (13, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 25) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (23, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 9) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 13) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 18) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (15, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 28) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (12, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 26) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (24, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 19) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (16, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 27) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (11, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 27) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (25, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 7) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 11) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 20) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (17, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 26) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (10, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 28) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (26, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 6) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 10) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 21) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (18, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 29) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (27, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 5) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 1!
-snake[0x1ffefffb30] is moving to (x,y) = (39, 9) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 2!
-snake[0x1ffefffb60] is moving to (x,y) = (36, 22) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (27, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 23) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (29, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (28, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 24) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (30, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (29, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 25) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (31, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (30, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 26) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (31, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 27) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 1
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 35) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (32, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 28) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 5) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 37) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 6) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 10) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 38) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 7) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 11) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 39) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 40) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 9) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 12) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 3!
-snake[0x1ffefffb60] is moving to (x,y) = (36, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 41) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 42) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (33, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 35) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 43) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (34, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 13) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 36) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (35, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 37) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 45) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 38) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 46) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 16) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 4!
-snake[0x1ffefffb60] is moving to (x,y) = (36, 39) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 47) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 13) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 40) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 41) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 2
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (33, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 42) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (34, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (35, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (36, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 44) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (36, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (35, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 45) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (37, 48) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (34, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (28, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 46) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 48) - has rabbit
-snake[0x1ffefffad0] has grown up
-snake[0x1ffefffad0] +1 point, total = 1!
-snake[0x1ffefffb00] is moving to (x,y) = (33, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 46) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 47) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (32, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 45) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 46) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (31, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 44) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 45) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (30, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 44) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (29, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 42) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 43) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (28, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 41) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 42) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (27, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 40) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 41) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (26, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 39) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 40) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (25, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 13) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 38) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 39) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (24, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 37) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 38) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (23, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 36) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 2
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 38) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (22, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 13) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 5!
-snake[0x1ffefffb60] is moving to (x,y) = (37, 35) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 37) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (21, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 35) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (18, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 2
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (40, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (17, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 18) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (16, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 19) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 33) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (15, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (19, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (8, 18) - empty
 snake[0x1ffefffb60] is moving to (x,y) = (35, 30) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 32) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (34, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (20, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (7, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 31) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (13, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (21, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 18) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 32) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 0
+snake[0x1ffefffad0] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 19) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (35, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (40, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (12, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 20) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (34, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (11, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (31, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (11, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (33, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (10, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (10, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (7, 21) - has rabbit
+snake[0x1ffefffb30] has grown up
+snake[0x1ffefffb30] +1 point, total = 2!
+snake[0x1ffefffb60] is moving to (x,y) = (32, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 1
+snake[0x1ffefffad0] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (9, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (8, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (31, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 32) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (9, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 33) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (28, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 35) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 18) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 31) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (8, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 21) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 33) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 2!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 19) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 0
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (37, 36) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (28, 25) - empty
 snake[0x1ffefffb00] is moving to (x,y) = (7, 20) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 22) - empty
 snake[0x1ffefffb60] is moving to (x,y) = (29, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (36, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 22) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 6!
-snake[0x1ffefffb60] is moving to (x,y) = (29, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (6, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 23) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (28, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (35, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 21) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (30, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (5, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 24) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (27, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (31, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (4, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 25) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (26, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (32, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (3, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 26) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (24, 33) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 26) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (8, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (23, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 27) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (7, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (22, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 28) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (21, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 29) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (5, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (20, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 30) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (2, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (4, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (19, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 31) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (3, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 27) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 32) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (4, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 28) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (5, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 29) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (16, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (6, 25) - has rabbit
 snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 2!
-snake[0x1ffefffb30] is moving to (x,y) = (33, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 35) - empty
+snake[0x1ffefffb00] +1 point, total = 1!
+snake[0x1ffefffb30] is moving to (x,y) = (3, 30) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (15, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (34, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 35) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (7, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 31) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (14, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
 snake[0x1ffefffad0] is moving to (x,y) = (33, 36) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 35) - has rabbit
+snake[0x1ffefffb00] is moving to (x,y) = (8, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 32) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 37) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (9, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (12, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 38) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (10, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (11, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 39) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (11, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (10, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 40) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (12, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (9, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 41) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (13, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 37) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 33) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 42) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (14, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 38) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 34) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 43) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (15, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (3, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 35) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (16, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (4, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 36) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 45) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (17, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (5, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 37) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 46) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (18, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (6, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (8, 38) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 47) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (19, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (7, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (9, 38) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 3!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
+snake[0x1ffefffad0] is moving to (x,y) = (33, 48) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (20, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (8, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (10, 38) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (33, 35) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 24) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 26) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 49) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (21, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (9, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (11, 38) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (33, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 25) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 27) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 7!
-snake[0x1ffefffb60] is moving to (x,y) = (27, 33) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 50) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (10, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (12, 38) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 51) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (11, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 38) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 52) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (12, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 37) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 53) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (13, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 36) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (14, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 35) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 55) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 39) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 34) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 38) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 33) - empty
 snake[0x1ffefffad0], key pressed, changed dir to 2
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (34, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 28) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (35, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 29) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (36, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (6, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (37, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (5, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 26) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 3!
-snake[0x1ffefffb30] is moving to (x,y) = (33, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 28) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 25) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 27) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (40, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 24) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 26) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 34) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 25) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 3
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 33) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 24) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 32) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 23) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 31) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 20) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 22) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 30) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 19) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 21) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 29) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 18) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 20) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 28) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 19) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 27) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 18) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 26) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 17) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 25) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 16) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 24) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 13) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 15) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 23) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 22) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 21) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 20) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 9) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 19) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (4, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 18) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (5, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (31, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 17) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (6, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 16) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (7, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 15) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (8, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 14) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (34, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 37) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 32) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 4!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 14) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (9, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 15) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (15, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 31) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 13) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (10, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 16) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (16, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 30) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 12) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (11, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (28, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 17) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (41, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (11, 9) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 4!
-snake[0x1ffefffb30] is moving to (x,y) = (28, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 18) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0], key pressed, changed dir to 0
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (40, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (11, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 19) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (39, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (12, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 20) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (38, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (13, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 21) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (37, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (14, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 22) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (36, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (15, 10) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 5!
-snake[0x1ffefffb30] is moving to (x,y) = (25, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 23) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (35, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (16, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 24) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (34, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (17, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 25) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (33, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (18, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 26) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (32, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 27) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (31, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 28) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (30, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (29, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (28, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 13) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (21, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 31) - has rabbit
-snake[0x1ffefffb60] has grown up
-snake[0x1ffefffb60] +1 point, total = 5!
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (27, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (20, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (26, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (19, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (25, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (24, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 17) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 6!
-snake[0x1ffefffb30] is moving to (x,y) = (17, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 35) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (23, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (16, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 36) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (22, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 37) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 11) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (14, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (37, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (17, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 29) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
@@ -1431,18 +685,26 @@ drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 10) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (13, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (37, 55) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (18, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 28) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (21, 9) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 13) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (12, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (31, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (37, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (19, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 27) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (37, 53) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (20, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 26) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
@@ -1452,34 +714,72 @@ drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (20, 9) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 53) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (21, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 25) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (19, 9) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 53) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (22, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 24) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (18, 9) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (19, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 33) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 38) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 9) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 34) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (23, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 23) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (35, 55) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (24, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 22) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (35, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (25, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (14, 22) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (35, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (26, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (15, 22) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 0
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (34, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (27, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (16, 22) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (28, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
@@ -1489,18 +789,26 @@ drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 8) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 9) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (26, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (29, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (17, 7) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 36) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (25, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 55) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (19, 22) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (20, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
@@ -1510,1171 +818,1015 @@ drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (18, 7) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 7) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (11, 37) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (24, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (21, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (19, 7) - empty
-snake[0x1ffefffb00] is moving to (x,y) = (20, 6) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 7!
-snake[0x1ffefffb30] is moving to (x,y) = (11, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (22, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffad0] is moving to (x,y) = (20, 7) - busy, snake is dead
-snake[0x1ffefffb00] is moving to (x,y) = (21, 6) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (12, 38) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 8!
-snake[0x1ffefffb60] is moving to (x,y) = (22, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (23, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (22, 6) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (13, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 37) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 6) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (14, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 36) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 55) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (24, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 7) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 35) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 22) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 8) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (16, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 23) - has rabbit
+snake[0x1ffefffb60] has grown up
+snake[0x1ffefffb60] +1 point, total = 5!
+snake[0x1ffefffad0], key pressed, changed dir to 0
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 9) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (17, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 33) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 24) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 10) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 32) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 57) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 25) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 11) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (19, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 31) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 3
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 12) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (20, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 30) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 56) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 26) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 13) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 8!
-snake[0x1ffefffb30] is moving to (x,y) = (21, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 55) - has rabbit
+snake[0x1ffefffad0] has grown up
+snake[0x1ffefffad0] +1 point, total = 1!
+snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 27) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 14) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 54) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 28) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 15) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (24, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 16) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 53) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
 snake[0x1ffefffb60] is moving to (x,y) = (25, 29) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 17) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (26, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 52) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 30) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 18) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 51) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 31) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 19) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 39) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 50) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 32) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 40) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 49) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 33) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 41) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 29) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 48) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 34) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 42) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 30) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (34, 47) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 35) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (34, 46) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 36) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (34, 45) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 37) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (34, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 38) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 0
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 39) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (32, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 40) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (31, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (30, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 42) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 6!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 43) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 31) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (24, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 24) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 44) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 32) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (28, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (23, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 45) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 44) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (22, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 46) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 3
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 27) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 47) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 43) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (21, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 28) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 48) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 42) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (20, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 29) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 49) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 9!
-snake[0x1ffefffb60] is moving to (x,y) = (30, 37) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 41) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (19, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 30) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 40) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (28, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 39) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (23, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 40) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (24, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 41) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (25, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 42) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (26, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (27, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (31, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (28, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (29, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (30, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (34, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (31, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (35, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (32, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (33, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (34, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 48) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 43) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (35, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 47) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 43) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (27, 39) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 42) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 7!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 46) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 43) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 38) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 43) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (37, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 45) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 42) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 37) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 44) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (38, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 45) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 41) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 36) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 45) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (39, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 46) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 40) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 35) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 46) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (40, 32) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 9!
-snake[0x1ffefffb30] is moving to (x,y) = (40, 47) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 39) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 34) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 47) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 48) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 38) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 33) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 48) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 33) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 37) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 32) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 49) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 34) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 50) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 36) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 31) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 35) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (40, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 35) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 30) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 36) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (39, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 29) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (19, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 37) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (38, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 28) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (20, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 38) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (37, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 27) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (21, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 39) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (36, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 34) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 26) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (22, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 40) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (35, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 33) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (28, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (23, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 41) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (34, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 32) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 24) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (29, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (24, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 42) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (33, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 31) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 23) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 43) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (32, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 31) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (31, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (26, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 44) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (31, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 31) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 2
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 45) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (30, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 31) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (28, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (27, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 46) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (29, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 32) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (28, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (30, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (29, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 47) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (28, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 48) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (27, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 49) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (26, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (41, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 51) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (40, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (40, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 50) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (39, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (39, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 49) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (38, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 48) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (37, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 47) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 50) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 46) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 49) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 45) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 48) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 44) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 47) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 43) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 46) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 42) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 45) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 41) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 28) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 44) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 40) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 27) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 43) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 39) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 26) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 42) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 38) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 25) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 41) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 37) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 10!
-snake[0x1ffefffb60] is moving to (x,y) = (36, 24) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 40) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 36) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 23) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 39) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 22) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 38) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 34) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 21) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 37) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 33) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 20) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 36) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 19) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 35) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 18) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 34) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 17) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 33) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 29) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 17) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 32) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 28) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (37, 18) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (31, 22) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 50) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 8!
+snake[0x1ffefffad0], key pressed, changed dir to 3
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 31) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 27) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 18) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 21) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 49) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 30) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 26) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 17) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 20) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 48) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 29) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 16) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 19) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (31, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 47) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 28) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 15) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 18) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 46) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 27) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 14) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 17) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (29, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 45) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 26) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 13) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 16) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (28, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 44) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 25) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (25, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 12) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 15) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 43) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 24) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (24, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 11) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (23, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 10) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (30, 41) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (22, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 9) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 0
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (36, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (21, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 8) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (30, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (29, 41) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (35, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (20, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 7) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 13) - has rabbit
+snake[0x1ffefffad0] has grown up
+snake[0x1ffefffad0] +1 point, total = 2!
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (28, 41) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (34, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (19, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 6) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (28, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (27, 41) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (33, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 5) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (27, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (26, 41) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 3
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (27, 12) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (25, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (27, 11) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (24, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (27, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (23, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0], key pressed, changed dir to 2
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (28, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (22, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (29, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (21, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (30, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (20, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (31, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (19, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (32, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (33, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (34, 10) - has rabbit
+snake[0x1ffefffad0] has grown up
+snake[0x1ffefffad0] +1 point, total = 3!
+snake[0x1ffefffb00] is moving to (x,y) = (28, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (16, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (35, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (29, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (15, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (36, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (14, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (37, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (31, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (38, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (12, 41) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (38, 11) - empty
 snake[0x1ffefffb00] is moving to (x,y) = (32, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (17, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 4) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (11, 41) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (31, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (17, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (38, 3) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (38, 12) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (10, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (38, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (9, 41) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (38, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (9, 42) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0], key pressed, changed dir to 0
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (37, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (10, 42) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 9!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (30, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 22) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 11!
-snake[0x1ffefffb60] is moving to (x,y) = (37, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (36, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (31, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (11, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (29, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (36, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (35, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (12, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (28, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (35, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (34, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (29, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (27, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (18, 25) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 12!
-snake[0x1ffefffb60] is moving to (x,y) = (34, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (28, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (14, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (26, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (17, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (33, 3) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 3
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (25, 21) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (16, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (32, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (15, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (25, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 25) - has rabbit
-snake[0x1ffefffb30] has grown up
-snake[0x1ffefffb30] +1 point, total = 13!
-snake[0x1ffefffb60] is moving to (x,y) = (31, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 12) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (16, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (25, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (30, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 11) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (26, 23) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (29, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 42) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (27, 23) - has rabbit
-snake[0x1ffefffb00] has grown up
-snake[0x1ffefffb00] +1 point, total = 10!
-snake[0x1ffefffb30] is moving to (x,y) = (15, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (28, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (33, 9) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 43) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 0
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (27, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (27, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (32, 9) - has rabbit
+snake[0x1ffefffad0] has grown up
+snake[0x1ffefffad0] +1 point, total = 4!
+snake[0x1ffefffb00] is moving to (x,y) = (22, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 44) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (26, 22) - empty
-snake[0x1ffefffb30] is moving to (x,y) = (15, 20) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (26, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (31, 9) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 45) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb00] is moving to (x,y) = (26, 21) - busy, snake is dead
-snake[0x1ffefffb30] is moving to (x,y) = (15, 19) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (25, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (30, 9) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 46) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 18) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (24, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 9) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 47) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 3) - empty
+snake[0x1ffefffad0], key pressed, changed dir to 1
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 10) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (22, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 48) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 11) - has rabbit
+snake[0x1ffefffad0] has grown up
+snake[0x1ffefffad0] +1 point, total = 5!
+snake[0x1ffefffb00] is moving to (x,y) = (22, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 49) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (20, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 12) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (23, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 50) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 13) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (19, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 13) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (24, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 51) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (18, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 14) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (25, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 52) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 11) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (17, 3) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 15) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (26, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 53) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 10) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (17, 4) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 16) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (27, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 54) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (17, 5) - empty
+snake[0x1ffefffad0] is moving to (x,y) = (29, 17) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (28, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 55) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 8) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (18, 5) - has rabbit
+snake[0x1ffefffad0] is moving to (x,y) = (29, 18) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (29, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 56) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (29, 19) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 57) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffad0] is moving to (x,y) = (29, 20) - busy, snake is dead
+snake[0x1ffefffb00] is moving to (x,y) = (31, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 58) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffb00] is moving to (x,y) = (32, 20) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 59) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffb00] is moving to (x,y) = (32, 21) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 60) - empty
+drawing snake[0x1ffefffad0]
+drawing snake[0x1ffefffb00]
+drawing snake[0x1ffefffb30]
+drawing snake[0x1ffefffb60]
+snake[0x1ffefffb00] is moving to (x,y) = (32, 22) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (33, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 61) - has rabbit
 snake[0x1ffefffb60] has grown up
 snake[0x1ffefffb60] +1 point, total = 10!
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 7) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (19, 5) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 23) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (32, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (18, 62) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (15, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (20, 5) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 24) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (31, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (17, 62) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (16, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 5) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (32, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 33) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (16, 62) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (17, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 5) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (31, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 34) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (15, 62) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (18, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 6) - empty
+snake[0x1ffefffb00] is moving to (x,y) = (30, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 35) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (14, 62) - empty
 drawing snake[0x1ffefffad0]
 drawing snake[0x1ffefffb00]
 drawing snake[0x1ffefffb30]
 drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (19, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 7) - has rabbit
-snake[0x1ffefffb60] has grown up
-snake[0x1ffefffb60] +1 point, total = 11!
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 6) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 7) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 7) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (21, 8) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 8) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 8) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 9) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 9) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 10) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 10) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 11) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 11) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 12) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 12) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 13) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 13) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 14) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 14) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 15) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 15) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 16) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 16) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 17) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 17) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 18) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 18) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 19) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 19) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 20) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 20) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 21) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 21) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 22) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 22) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 23) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 23) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 24) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 24) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 25) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 25) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 26) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 26) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 27) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 27) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 28) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 28) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 29) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 29) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 30) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 30) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 31) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 31) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 32) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 32) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 33) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 33) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 34) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 34) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (20, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (22, 35) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
-snake[0x1ffefffb30] is moving to (x,y) = (19, 35) - empty
-snake[0x1ffefffb60] is moving to (x,y) = (23, 35) - empty
-drawing snake[0x1ffefffad0]
-drawing snake[0x1ffefffb00]
-drawing snake[0x1ffefffb30]
-drawing snake[0x1ffefffb60]
+snake[0x1ffefffb00] is moving to (x,y) = (29, 25) - empty
+snake[0x1ffefffb30] is moving to (x,y) = (30, 36) - empty
+snake[0x1ffefffb60] is moving to (x,y) = (13, 62) - empty

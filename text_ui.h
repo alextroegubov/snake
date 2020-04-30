@@ -49,7 +49,7 @@ public:
 	//run game
 	void Run(Game& my_game);
 	//subscriber pattern
-	void OnTimer(int period, TimeFunc func);
+	void OnTimer(std::function<void(void)> func, int n_tick);
 	void OnKey(EventFunc func);
 	//draws game
 	void Draw(Game& my_game);

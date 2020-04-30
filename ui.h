@@ -13,8 +13,27 @@ public:
 		RIGHT		
 	};
 
+	struct TimeFunc{
+
+		explicit TimeFunc(std::function<void(void)> f, int nt, int ntl):
+				func(f),
+				n_tick(nt),
+				n_tick_left(ntl){
+		}
+
+		TimeFunc(TimeFunc&& tf):
+				func(tf.func),
+				n_tick(tf.n_tick),
+				n_tick_left(tf.n_tick_left){
+		}
+		
+		const std::function<void(void)> func;
+		int n_tick;
+		int n_tick_left;
+	};
+
 	using EventFunc = std::function<void(Key)>;
-	using TimeFunc = std::function<void(void)>;
+	//using TimeFunc = std::function<void(void)>;
 
 	static ui* get(std::string type = "");
 	static ui* sample;
@@ -40,7 +59,7 @@ public:
 	virtual void Painter(const Rabbit& r) = 0;
 	
 	//subscriber pattern
-	virtual void OnTimer(int period, TimeFunc func) = 0;
+	virtual void OnTimer(std::function<void(void)> func, int n_tick) = 0;
 
 	virtual void OnKey(EventFunc func) = 0;	
 

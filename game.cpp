@@ -11,13 +11,13 @@
 
 FILE *Game::file = nullptr;
 
-//ok
+
 Game::Game():
 		n_rabbits(0),
 		rabbits({}){
 
 	if(ui::get() != nullptr){
-		ui::get()->OnTimer(TICK, std::bind(&Game::Move, this));
+		ui::get()->OnTimer(std::bind(&Game::Move, this), 1);
 		SetSize({ui::get()->GetWinX(), ui::get()->GetWinY()});
 	}
 	else{
@@ -127,7 +127,7 @@ void Game::GrowSnake(Snake& sk){
 	fflush(file);	
 }
 
-//ok
+
 void Game::Move(){
 
 	for(auto& sk_p: this->snakes){
@@ -147,7 +147,7 @@ void Game::Move(){
 std::random_device rd;
 std::mt19937 gen(rd());
 
-//ok
+
 Vecti Game::RandPos(){
 
 	Vecti pos(0, 0);
@@ -164,6 +164,7 @@ Vecti Game::RandPos(){
 	return Vecti(pos);
 }
 
+
 void Game::AddRabbit(){
 
 	if(n_rabbits > MAX_N_RABBIT)
@@ -176,10 +177,9 @@ void Game::AddRabbit(){
 
 
 void Game::RemoveRabbit(const Vecti& v){
+
 	for(auto& r: rabbits){
-		if(r.is_dead)
-			return;
-		
+
 		if(r.cs == v){
 
 			r = rabbits[n_rabbits - 1];
@@ -191,6 +191,8 @@ void Game::RemoveRabbit(const Vecti& v){
 			return;
 		}
 	}
+
+	assert(!"Rabbit not found");
 }
 
 
@@ -206,7 +208,7 @@ bool Game::IsRabbit(const Vecti& v) const{
 	return false;
 }
 
-
+//returns true if <v> is a part of snake, a rabbit or a boarder
 bool Game::IsBusy(const Vecti& v) const{
 
 	if (busy_cells.count(v) == 0  && v.x != 1 && v.x != size.x && 

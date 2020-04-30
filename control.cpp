@@ -46,13 +46,13 @@ Computer::Computer(Game& game,  int alg, TextUi::Color color /*= TextUi::BLUE*/)
 	
 	switch(alg){
 		case 1:
-			ui::get()->OnTimer(Game::TICK, std::bind(&Computer::Move, this));
+			ui::get()->OnTimer(std::bind(&Computer::Move, this), 1);
 			break;
 		case 2:
-			ui::get()->OnTimer(Game::TICK, std::bind(&Computer::Move2, this));
+			ui::get()->OnTimer(std::bind(&Computer::Move2, this), 1);
 			break;
 		case 3:
-			ui::get()->OnTimer(Game::TICK, std::bind(&Computer::Move3, this));
+			ui::get()->OnTimer(std::bind(&Computer::Move3, this), 1);
 			break;			
 	}
 	
@@ -117,9 +117,7 @@ void Computer::Move(){
 		snake_.dir = Snake::DOWN;
 	
 	else
-		snake_.dir = Snake::LEFT
-		//stay in previous direction
-		;//add avoiding collisions	
+		snake_.dir = Snake::LEFT;
 }
 
 void Computer::Move2(){
