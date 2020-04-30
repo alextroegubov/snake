@@ -31,7 +31,6 @@ public:
 	void Move2();
 	void Move3();
 	void Move4();
-//	void Move5();
 
 protected:
 	Snake snake_;
