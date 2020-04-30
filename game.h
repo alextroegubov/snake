@@ -13,7 +13,7 @@ class Game{
 public:	
 	enum Settings{
 		TICK = 100,//ms
-		MAX_N_RABBIT = 20,
+		MAX_N_RABBIT = 10,
 		RABBIT_CHANCE = 15//%
 	};
 	//constructor

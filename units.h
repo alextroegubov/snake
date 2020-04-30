@@ -41,7 +41,6 @@ struct Vect{
 };
 
 using Vecti = Vect<int>;
-using Vectf = Vect<float>;
 
 struct Rabbit{
 

@@ -173,13 +173,12 @@ void TextUi::Run(Game& my_game){
 	//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
 
 	int time_keeper = 0;
+	Draw(my_game);
 
 	while(!is_done){
 
 		while(is_paused)
 			GetEvent();
-
-		Draw(my_game);
 
 		struct pollfd poll_struct[1] = {};
 		poll_struct[0].fd = STDIN_FILENO; //std input
@@ -213,6 +212,9 @@ void TextUi::Run(Game& my_game){
 				is_done = true;
 			}
 		}
+
+		PainterScore(my_game);
+		fflush(stdin);
 	}
 
 	Finish();
@@ -239,6 +241,7 @@ void TextUi::ShowResults(const Game& game){
 
 //ok
 void TextUi::Draw(Game& my_game){
+
 	ClearScreen();
 	DrawBoarder();
 
@@ -253,19 +256,36 @@ void TextUi::Draw(Game& my_game){
 	}
 
 	int snake_n = 0;
-
+	//FIXME PainterScore
 	for(auto& item: my_game.GetSnakes()){
+
 		fprintf(Game::file, "drawing snake[%p]\n", item);
 		fflush(Game::file);
 
-		GoToxy({win_sz.ws_row, 4 + 4 * snake_n});
+		GoToxy({win_sz.ws_row, 4 + 4 * (snake_n++)});
 		Painter(*item);
-		snake_n++;
 	}
 
 	fflush(stdout);
 	GoToxy({win_sz.ws_row + 1, 1});
 }
+
+
+void TextUi::PainterScore(const Game& my_game){
+	
+	int snake_n = 1;
+
+	for(const auto& s: my_game.GetSnakes()){
+
+		GoToxy({win_sz.ws_row, 4 * (snake_n++)});
+
+		printf("\e[1;%dm", s->color);
+		printf("%3u", s->score);
+		printf("\e[1;%dm", WHITE);
+	}
+	
+}
+
 
 //ok
 void TextUi::GoToxy(const Vecti& v){
@@ -292,6 +312,20 @@ void TextUi::Painter(const Snake& s){
 	}
 	
 	printf("\e[1;%dm", WHITE);
+	fflush(stdout);
+}
+
+void TextUi::PainterChange(const Snake& s){
+	
+	printf("\e[1;%dm", s.color);
+	char head = "A>V<"[s.dir];
+
+
+	PutC(s.segments.front(), head);
+	PutC(*(++s.segments.begin()), '#'); 
+
+	printf("\e[1;%dm", WHITE);
+	fflush(stdout);
 }
 
 //ok
@@ -299,6 +333,7 @@ void TextUi::Painter(const Rabbit& r){
 	printf("\e[1;%dm", PURPLE);
 	PutC({r.cs.x, r.cs.y}, '@');
 	printf("\e[0;%dm", WHITE);
+	fflush(stdout);
 }
 
 //ok
@@ -307,10 +342,9 @@ void TextUi::OnTimer(std::function<void(void)> func, int n_tick){
 	
 	TimeFunc time_func(func, n_tick, n_tick);
 	time_funcs.push_back(std::move(time_func));
-
-//	std::sort(time_funcs.begin(), time_funcs.end(), [](TimeFunc tf1, TimeFunc tf2) ->bool{return tf1.n_tick < tf2.n_tick});
 }
-//ok
+
+
 void TextUi::OnKey(EventFunc func){
 	event_funcs.push_back(func);
 }

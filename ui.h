@@ -57,6 +57,12 @@ public:
 	virtual void Painter(const Snake& s) = 0;
 
 	virtual void Painter(const Rabbit& r) = 0;
+
+	virtual void PainterChange(const Snake& s) = 0;
+
+	virtual void PainterErase(const Vecti& v) = 0;
+
+	virtual void PainterScore(const Game& my_game) = 0;
 	
 	//subscriber pattern
 	virtual void OnTimer(std::function<void(void)> func, int n_tick) = 0;

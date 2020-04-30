@@ -56,6 +56,9 @@ public:
 	//painters
 	void Painter(const Snake& s);
 	void Painter(const Rabbit& r);
+	void PainterChange(const Snake& s);
+	void PainterErase(const Vecti& v){ PutC(v, ' ');}
+	void PainterScore(const Game& my_game);
 	//resets made settings
 	void Finish();
 	//finishes game

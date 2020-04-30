@@ -61,9 +61,12 @@ void Game::MoveSnake(Snake& sk){
 	bool moved = true;
 
 	if(!IsBusy(new_head)){
+
+		ui::get()->PainterErase(sk.segments.back());
 		fprintf(file, "- empty\n");
 	}
 	else if(IsRabbit(new_head)){
+
 		fprintf(file, "- has rabbit\n");
 
 		RemoveRabbit(new_head);
@@ -71,7 +74,8 @@ void Game::MoveSnake(Snake& sk){
 		GrowSnake(sk);
 		fprintf(file, "snake[%p] +1 point, total = %d!\n", &sk, sk.score);		
 	}
-	else{	
+	else{
+
 		sk.is_dead = true;
 		moved = false;
 
@@ -79,11 +83,16 @@ void Game::MoveSnake(Snake& sk){
 	}
 
 	if(moved){
+
 		busy_cells.erase(sk.segments.back());
 		sk.segments.pop_back();
 
 		sk.segments.push_front(new_head);
 		busy_cells.insert(new_head);
+		fprintf(file, "cell(%d, %d) is busy(MoveSnake)\n", new_head.x, new_head.y);
+		fflush(file);
+
+		ui::get()->PainterChange(sk);
 	}
 
 	fflush(file);
@@ -121,8 +130,9 @@ void Game::GrowSnake(Snake& sk){
 
 	Vecti new_seg(end.x + d.x, end.y + d.y);
 	sk.segments.push_back(new_seg);
-	busy_cells.insert(new_seg);	
+	busy_cells.insert(new_seg);
 
+	fprintf(file, "cell(%d, %d) is busy(GrowSnake)\n", new_seg.x, new_seg.y);
 	fprintf(file, "snake[%p] has grown up\n", &sk);
 	fflush(file);	
 }
@@ -160,18 +170,25 @@ Vecti Game::RandPos(){
 	while(busy_cells.count(pos) == 1);
 
 	busy_cells.insert(pos);
-	
+//	fprintf(file, "cell(%d, %d) is busy(RandPos)\n", pos.x, pos.y);
+//	fflush(file);
+
 	return Vecti(pos);
 }
 
 
 void Game::AddRabbit(){
 
-	if(n_rabbits > MAX_N_RABBIT)
+	if(n_rabbits >= MAX_N_RABBIT)
 		return;
 	
 	rabbits[n_rabbits].is_dead = false;
 	rabbits[n_rabbits].cs = RandPos();
+	fprintf(file, "cell(%d, %d) is busy(AddRabbit[%d])\n", 
+			rabbits[n_rabbits].cs.x, rabbits[n_rabbits].cs.y, n_rabbits);
+	fflush(file);
+
+	ui::get()->Painter(rabbits[n_rabbits]);
 	n_rabbits++;
 }
 
