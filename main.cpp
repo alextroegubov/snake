@@ -9,7 +9,7 @@
 
 int main(){
 
-	std::unique_ptr<ui> my_ui(ui::get("text_ui"));
+	std::unique_ptr<Ui> my_ui(Ui::get("text_ui"));
 	//calls delete automatically
 
 	Game my_game;

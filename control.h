@@ -12,7 +12,7 @@ public:
 	Player(const Player&) = delete;
 	Player& operator=(const Player&) = delete;
 	
-	void KeyPressed(ui::Key key);
+	void KeyPressed(Ui::Key key);
 
 private:
 	Snake snake_;

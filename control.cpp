@@ -7,7 +7,7 @@
 Player::Player(Game& game, TextUi::Color color = TextUi::RED):
 		snake_(Snake(game.RandPos(), Snake::UP)){
 
-	ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
+	Ui::get()->OnKey(std::bind(&Player::KeyPressed, this, std::placeholders::_1));
 	
 	snake_.color = color;
 
@@ -18,20 +18,20 @@ Player::Player(Game& game, TextUi::Color color = TextUi::RED):
 	fflush(Game::file);
 }
 
-void Player::KeyPressed(ui::Key key){
+void Player::KeyPressed(Ui::Key key){
 	
 	if(!this->snake_.is_dead){
 
 		Snake::Dir dir = this->snake_.dir;
 
 		switch(key){
-			case ui::UP:
+			case Ui::UP:
 				this->snake_.dir = (dir == Snake::DOWN)? dir : Snake::UP; 	 break;
-			case ui::DOWN: 	
+			case Ui::DOWN: 	
 				this->snake_.dir = (dir == Snake::UP)? dir : Snake::DOWN;    break;
-			case ui::LEFT: 	
+			case Ui::LEFT: 	
 				this->snake_.dir = (dir == Snake::RIGHT)? dir : Snake::LEFT; break;
-			case ui::RIGHT: 
+			case Ui::RIGHT: 
 				this->snake_.dir = (dir == Snake::LEFT)? dir : Snake::RIGHT; break;
 		}
 		fprintf(Game::file, "snake[%p], key pressed, changed dir to %d\n", &(this->snake_), this->snake_.dir);
@@ -46,13 +46,13 @@ Computer::Computer(Game& game,  int alg, TextUi::Color color /*= TextUi::BLUE*/)
 	
 	switch(alg){
 		case 1:
-			ui::get()->OnTimer(std::bind(&Computer::Move, this), 1);
+			Ui::get()->OnTimer(std::bind(&Computer::Move, this), 1);
 			break;
 		case 2:
-			ui::get()->OnTimer(std::bind(&Computer::Move2, this), 1);
+			Ui::get()->OnTimer(std::bind(&Computer::Move2, this), 1);
 			break;
 		case 3:
-			ui::get()->OnTimer(std::bind(&Computer::Move3, this), 1);
+			Ui::get()->OnTimer(std::bind(&Computer::Move3, this), 1);
 			break;			
 	}
 	

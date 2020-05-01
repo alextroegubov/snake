@@ -3,7 +3,7 @@
 #include <sys/ioctl.h>
 #include "game.h"
 
-class ui{
+class Ui{
 
 public:
 	enum Key{
@@ -35,15 +35,15 @@ public:
 	using EventFunc = std::function<void(Key)>;
 	//using TimeFunc = std::function<void(void)>;
 
-	static ui* get(std::string type = "");
-	static ui* sample;
+	static Ui* get(std::string type = "");
+	static Ui* sample;
 	
-	ui() = default;
-	~ui(){sample = nullptr;}
+	Ui() = default;
+	~Ui(){sample = nullptr;}
 
 	virtual void Run(Game&) = 0;
 
-	virtual void Draw(Game&) = 0;
+	virtual void Draw(const Game&) = 0;
 
     virtual void ClearScreen() = 0;
 

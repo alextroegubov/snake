@@ -21,7 +21,7 @@
 				V DOWN
 */
 
-class TextUi : public ui{
+class TextUi : public Ui{
 public:
 	//colors
 	enum Color{
@@ -52,7 +52,7 @@ public:
 	void OnTimer(std::function<void(void)> func, int n_tick);
 	void OnKey(EventFunc func);
 	//draws game
-	void Draw(Game& my_game);
+	void Draw(const Game& my_game);
 	//painters
 	void Painter(const Snake& s);
 	void Painter(const Rabbit& r);

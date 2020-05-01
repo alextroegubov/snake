@@ -16,9 +16,9 @@ Game::Game():
 		n_rabbits(0),
 		rabbits({}){
 
-	if(ui::get() != nullptr){
-		ui::get()->OnTimer(std::bind(&Game::Move, this), 1);
-		SetSize({ui::get()->GetWinX(), ui::get()->GetWinY()});
+	if(Ui::get() != nullptr){
+		Ui::get()->OnTimer(std::bind(&Game::Move, this), 1);
+		SetSize({Ui::get()->GetWinX(), Ui::get()->GetWinY()});
 	}
 	else{
 		printf("Can't subscribe OnTimer \n");
@@ -62,7 +62,7 @@ void Game::MoveSnake(Snake& sk){
 
 	if(!IsBusy(new_head)){
 
-		ui::get()->PainterErase(sk.segments.back());
+		Ui::get()->PainterErase(sk.segments.back());
 		fprintf(file, "- empty\n");
 	}
 	else if(IsRabbit(new_head)){
@@ -92,7 +92,7 @@ void Game::MoveSnake(Snake& sk){
 		fprintf(file, "cell(%d, %d) is busy(MoveSnake)\n", new_head.x, new_head.y);
 		fflush(file);
 
-		ui::get()->PainterChange(sk);
+		Ui::get()->PainterChange(sk);
 	}
 
 	fflush(file);
@@ -188,7 +188,7 @@ void Game::AddRabbit(){
 			rabbits[n_rabbits].cs.x, rabbits[n_rabbits].cs.y, n_rabbits);
 	fflush(file);
 
-	ui::get()->Painter(rabbits[n_rabbits]);
+	Ui::get()->Painter(rabbits[n_rabbits]);
 	n_rabbits++;
 }
 

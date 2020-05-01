@@ -36,24 +36,24 @@ void TextUi::InitTextUi(){
 	//TCSANOW - changes are applied immediately.
 
 	//signals:
-	signal(SIGWINCH, WinchHandler);
+//	signal(SIGWINCH, WinchHandler);
 	signal(SIGTERM, TermHandler);
 	signal(SIGINT, TermHandler);
 	signal(SIGTSTP, TermHandler);
 }
 
-
+/*
 void TextUi::WinchHandler(int sign){
-	ui::get()->Pause();
-	ui::get()->DrawBoarder();
+	Ui::get()->Pause();
+	Ui::get()->DrawBoarder();
 }
-
+*/
 
 void TextUi::TermHandler(int sign){
 	if(sign == SIGTSTP)
-		ui::get()->Pause();
+		Ui::get()->Pause();
 	else
-		ui::get()->Exit();
+		Ui::get()->Exit();
 }
 
 
@@ -84,22 +84,22 @@ void TextUi::ClearScreen(){
 
 //ok
 void TextUi::PutC(const Vecti& v, const char c){
-/*	assert(v.x > 0);
+	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
-*/
+
 	std::printf("\e[%d;%dH%c", v.x, v.y, c);
 }
 
 //ok
 void TextUi::DrawVLine(const Vecti& v, const int len) const{
-/*	assert(v.x > 0);
+	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
-*/
+
 	std::printf("\e[%d;%dH", v.x, v.y);
 
 	std::string str = (v.y == win_sz.ws_col)? "" : "\e[1D";
@@ -112,12 +112,12 @@ void TextUi::DrawVLine(const Vecti& v, const int len) const{
 
 //ok
 void TextUi::DrawHLine(const Vecti& v, const int len) const{
-/*	assert(v.x > 0);
+	assert(v.x > 0);
 	assert(v.y > 0);
 	assert(v.x <= win_sz.ws_row);
 	assert(v.y <= win_sz.ws_col);
 	assert(len > 0);
-*/
+
 	std::printf("\e[%d;%dH", v.x, v.y);
 
 	for(auto i = v.x; i < v.x + len; i++){
@@ -146,13 +146,13 @@ void TextUi::DrawBoarder(){
 bool TextUi::GetEvent(){
 	char entered_symb = getchar();
 	
-	ui::Key key;
+	Ui::Key key;
 
 	switch(entered_symb){
-		case 'w': key = ui::Key::UP; 	break;
-		case 'd': key = ui::Key::RIGHT; break;
-		case 'a': key = ui::Key::LEFT;	break;
-		case 's': key = ui::Key::DOWN;	break;
+		case 'w': key = Ui::Key::UP; 	break;
+		case 'd': key = Ui::Key::RIGHT; break;
+		case 'a': key = Ui::Key::LEFT;	break;
+		case 's': key = Ui::Key::DOWN;	break;
 
 		case 'p': is_paused = !is_paused; 	return true;
 		case 27 : is_done = true; 			return true;
@@ -240,12 +240,12 @@ void TextUi::ShowResults(const Game& game){
 }
 
 //ok
-void TextUi::Draw(Game& my_game){
+void TextUi::Draw(const Game& my_game){
 
 	ClearScreen();
 	DrawBoarder();
 
-	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
+//	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
 
 	for(const auto& item: my_game.GetRabbit()){
 		//all active rabbits are in the beginning of the array
