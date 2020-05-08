@@ -351,11 +351,12 @@ void Computer::Move4(){
 
 	std::function<bool(const Vecti& a, const Vecti& b)> compare = std::bind(Compare, h, std::placeholders::_1, std::placeholders::_2);	
 
-	if(my_rabbits.size() > 3)
-		my_rabbits.resize(3);
+	if(my_rabbits.size() > 10)
+		my_rabbits.resize(10);
 
 	std::sort(my_rabbits.begin(), my_rabbits.end(), compare);
 
+	my_rabbits.resize(3);
 
 	for(auto& item: my_rabbits){
 
@@ -368,7 +369,7 @@ void Computer::Move4(){
 				good_route = false;
 			}
 		}
-/*
+
 		if(!good_route){
 
 			FillRouteYX(h, target, my_route);
@@ -380,7 +381,7 @@ void Computer::Move4(){
 				}
 			}
 		}
-*/
+
 		if(!good_route)
 			continue;
 		else{
