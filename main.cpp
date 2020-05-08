@@ -18,7 +18,7 @@ int main(){
 
 	Computer comp1(my_game, 1, TextUi::GREEN);
 	Computer comp2(my_game, 2, TextUi::YELLOW);
-	Computer comp3(my_game, 3, TextUi::BLUE);
+	Computer comp3(my_game, 4, TextUi::BLUE);
 
 	
 	my_ui->Run(my_game);

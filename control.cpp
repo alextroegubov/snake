@@ -1,6 +1,7 @@
 #include "control.h"
 #include "game.h"
 #include "text_ui.h"
+#include <list>
 
 #include <utility>
 
@@ -53,7 +54,10 @@ Computer::Computer(Game& game,  int alg, TextUi::Color color /*= TextUi::BLUE*/)
 			break;
 		case 3:
 			Ui::get()->OnTimer(std::bind(&Computer::Move3, this), 1);
-			break;			
+			break;
+		case 4:
+			Ui::get()->OnTimer(std::bind(&Computer::Move4, this), 1);
+			break;		
 	}
 	
 	game.AddSnake(&snake_);
@@ -241,4 +245,148 @@ void Computer::Move3(){
 	
 	else
 		snake_.dir = Snake::LEFT;
+}
+
+void Computer::FillRouteXY(Vecti begin, Vecti end, std::list<Vecti>& route){
+	
+	int x_step = (begin.x > end.x)? -1 : 1;
+
+	if(begin.x == end.x)
+		x_step = 0;
+
+	for(int i = begin.x + x_step; i != end.x; i += x_step){
+		route.push_back({i, begin.y});
+	}
+
+	int y_step = (begin.y > end.y)? -1 : 1;
+	
+	if(begin.y == end.y)
+		y_step = 0;
+
+	for(int i = begin.y + y_step; i != end.y; i += y_step){
+		route.push_back({end.x, i});
+	}
+}
+
+void Computer::FillRouteYX(Vecti begin, Vecti end, std::list<Vecti>& route){
+	int y_step = (begin.y > end.y)? -1 : 1;
+	
+	if(begin.y == end.y)
+		y_step = 0;
+
+	for(int i = begin.y + y_step; i != end.y; i += y_step){
+		route.push_back({begin.x, i});
+	}
+
+	int x_step = (begin.x > end.x)? -1 : 1;
+
+	if(begin.x == end.x)
+		x_step = 0;
+
+	for(int i = begin.x + x_step; i != end.x; i += x_step){
+		route.push_back({i, end.y});
+	}
+}
+
+void Computer::SetDir(std::list<Vecti>& my_route){
+
+		Vecti dest = my_route.front();
+
+		Vecti h(snake_.segments.front());
+
+		Vecti delta(dest.x - h.x, dest.y - h.y);
+
+		my_route.pop_front();
+
+		if(delta == Vecti(1, 0))
+			snake_.dir = Snake::DOWN;
+		else if(delta == Vecti(-1,0))
+			snake_.dir = Snake::UP;
+		else if(delta == Vecti(0,1))
+			snake_.dir = Snake::RIGHT;
+		else 
+			snake_.dir = Snake::LEFT;
+}
+
+bool Compare(const Vecti& h, const Vecti& a, const Vecti& b){
+	return (h.ComputeDistance(a) < h.ComputeDistance(b));
+}
+
+void Computer::Move4(){
+	
+	if(snake_.is_dead)
+		return;
+
+	const std::function<bool(Vecti)> Ib = std::bind(&Game::IsBusy, &game_, std::placeholders::_1);
+	const std::function<bool(Vecti)> Ir = std::bind(&Game::IsRabbit, &game_, std::placeholders::_1);	
+
+	Vecti h(snake_.segments.front());
+
+	std::vector<Vecti> my_rabbits;
+
+	static std::list<Vecti> my_route;
+	static Vecti target(500, 500);	
+
+	bool good_route = true;
+
+	for(auto& cell: my_route){
+		if(!Ib(cell) || Ir(cell)){
+			good_route = false;
+		}
+	}
+
+	if(Ir(target) && good_route && !my_route.empty()){	
+		SetDir(my_route);
+		return;
+	}
+
+	for(const auto& r: game_.GetRabbit()){
+		my_rabbits.push_back(r.cs);
+	}
+
+	if(my_rabbits.empty()){
+		Move();
+		return;
+	}
+
+	std::function<bool(const Vecti& a, const Vecti& b)> compare = std::bind(Compare, h, std::placeholders::_1, std::placeholders::_2);	
+
+	if(my_rabbits.size() > 3)
+		my_rabbits.resize(3);
+
+	std::sort(my_rabbits.begin(), my_rabbits.end(), compare);
+
+
+	for(auto& item: my_rabbits){
+
+		target = item;
+		FillRouteXY(h, target, my_route);
+		good_route = true;
+
+		for(auto& cell: my_route){
+			if(!Ib(cell) || Ir(cell)){
+				good_route = false;
+			}
+		}
+/*
+		if(!good_route){
+
+			FillRouteYX(h, target, my_route);
+			good_route = true;
+
+			for(auto& cell: my_route){
+				if(!Ib(cell) || Ir(cell)){
+					good_route = false;
+				}
+			}
+		}
+*/
+		if(!good_route)
+			continue;
+		else{
+			SetDir(my_route);
+			return;
+		}
+	}
+	Move();
 }

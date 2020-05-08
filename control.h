@@ -31,6 +31,9 @@ public:
 	void Move2();
 	void Move3();
 	void Move4();
+	void FillRouteXY(Vecti begin, Vecti end, std::list<Vecti>& route);
+	void FillRouteYX(Vecti begin, Vecti end, std::list<Vecti>& route);
+	void SetDir(std::list<Vecti>& my_route);
 
 protected:
 	Snake snake_;
