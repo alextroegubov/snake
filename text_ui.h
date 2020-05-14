@@ -32,6 +32,25 @@ public:
 		PURPLE = 35,
 		WHITE = 37
 	};
+
+	struct TimeFunc{
+
+		explicit TimeFunc(std::function<void(void)> f, int nt, int ntl):
+				func(f),
+				n_tick(nt),
+				n_tick_left(ntl){
+		}
+
+		TimeFunc(TimeFunc&& tf):
+				func(tf.func),
+				n_tick(tf.n_tick),
+				n_tick_left(tf.n_tick_left){
+		}
+		
+		const std::function<void(void)> func;
+		int n_tick;
+		int n_tick_left;
+	};
 	//constructor
 	TextUi();
 	//destructor
@@ -45,7 +64,7 @@ public:
 	//returns x size of the window
     int GetWinX() const{ return win_sz.ws_row; }
 	//draws boarder according to the window size
-	void DrawBoarder();
+	void DrawBorder();
 	//run game
 	void Run(Game& my_game);
 	//subscriber pattern
@@ -87,7 +106,7 @@ private:
 	//some signal handlers
 	static void WinchHandler(int sign);
 	static void TermHandler(int sign);
-/*
+
 private:
 	//current terminal size
 	struct winsize win_sz;
@@ -99,7 +118,7 @@ private:
 	bool is_done;
 	//== true - game has been paused
 	bool is_paused;
-*/
+
 };
 
 

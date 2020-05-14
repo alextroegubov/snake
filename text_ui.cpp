@@ -15,7 +15,7 @@
 //ok
 TextUi::TextUi(){
 	ClearScreen();
-	DrawBoarder();
+	DrawBorder();
 	fflush(stdout);
 	is_done = false;
 	is_paused = false;
@@ -53,7 +53,7 @@ void TextUi::TermHandler(int sign){
 	if(sign == SIGTSTP)
 		Ui::get()->Pause();
 	else
-		Ui::get()->Exit();
+		Ui::get()->Finish();
 }
 
 
@@ -69,7 +69,7 @@ void TextUi::Finish(){
 
 	tcsetattr(STDIN_FILENO, TCSANOW, &sets);
 
-	signal(SIGWINCH, SIG_DFL);
+//	signal(SIGWINCH, SIG_DFL);
 	signal(SIGTERM, SIG_DFL);
 	signal(SIGINT, SIG_DFL);
 	signal(SIGTSTP, SIG_DFL);
@@ -126,7 +126,7 @@ void TextUi::DrawHLine(const Vecti& v, const int len) const{
 }
 
 //ok
-void TextUi::DrawBoarder(){
+void TextUi::DrawBorder(){
 	ioctl(0, TIOCGWINSZ, &win_sz);
 
 	//putting corners
@@ -243,7 +243,7 @@ void TextUi::ShowResults(const Game& game){
 void TextUi::Draw(const Game& my_game){
 
 	ClearScreen();
-	DrawBoarder();
+	DrawBorder();
 
 //	my_game.SetSize({win_sz.ws_row, win_sz.ws_col});
 
@@ -319,7 +319,6 @@ void TextUi::PainterChange(const Snake& s){
 	
 	printf("\e[1;%dm", s.color);
 	char head = "A>V<"[s.dir];
-
 
 	PutC(s.segments.front(), head);
 	PutC(*(++s.segments.begin()), '#'); 

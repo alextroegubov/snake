@@ -50,10 +50,10 @@ void Game::MoveSnake(Snake& sk){
 	Vecti new_head(sk.segments.front());
 		
 	switch(sk.dir){
-		case sk.UP: 	new_head.x -= 1; break;
-		case sk.RIGHT: 	new_head.y += 1; break;
-		case sk.DOWN: 	new_head.x += 1; break;	
-		case sk.LEFT: 	new_head.y -= 1; break;
+		case Snake::UP: 	new_head.x -= 1; break;
+		case Snake::RIGHT: 	new_head.y += 1; break;
+		case Snake::DOWN: 	new_head.x += 1; break;	
+		case Snake::LEFT: 	new_head.y -= 1; break;
 	}
 
 	fprintf(file, "snake[%p] is moving to (x,y) = (%d, %d) ", &sk, new_head.x, new_head.y);
