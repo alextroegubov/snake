@@ -1,1605 +1,2535 @@
-added snake[0x7ffd486f81f0]
-cell(41, 50) is busy(GrowSnake)
-snake[0x7ffd486f81f0] has grown up
-Created Player, connected with snake[0x7ffd486f81f0]
-added snake[0x7ffd486f8220]
-cell(13, 16) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-Created Computer, connected with snake[0x7ffd486f8220]
-drawing snake[0x7ffd486f81f0]
-drawing snake[0x7ffd486f8220]
-snake[0x7ffd486f81f0] is moving to (x,y) = (39, 50) - empty
-cell(39, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 16) - empty
-cell(11, 16) is busy(MoveSnake)
-cell(33, 11) is busy(AddRabbit[0])
-snake[0x7ffd486f81f0] is moving to (x,y) = (38, 50) - empty
-cell(38, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 15) - empty
-cell(11, 15) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (37, 50) - empty
-cell(37, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 14) - empty
-cell(11, 14) is busy(MoveSnake)
-cell(33, 24) is busy(AddRabbit[1])
-snake[0x7ffd486f81f0] is moving to (x,y) = (36, 50) - empty
-cell(36, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 13) - empty
-cell(11, 13) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (35, 50) - empty
-cell(35, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 12) - empty
-cell(11, 12) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (34, 50) - empty
-cell(34, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 11) - empty
-cell(11, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (33, 50) - empty
-cell(33, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 11) - empty
-cell(12, 11) is busy(MoveSnake)
-cell(28, 33) is busy(AddRabbit[2])
-snake[0x7ffd486f81f0] is moving to (x,y) = (32, 50) - empty
-cell(32, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 11) - empty
-cell(13, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (31, 50) - empty
-cell(31, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 11) - empty
-cell(14, 11) is busy(MoveSnake)
-cell(27, 64) is busy(AddRabbit[3])
-snake[0x7ffd486f81f0] is moving to (x,y) = (30, 50) - empty
-cell(30, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 11) - empty
-cell(15, 11) is busy(MoveSnake)
-cell(24, 34) is busy(AddRabbit[4])
-snake[0x7ffd486f81f0] is moving to (x,y) = (29, 50) - empty
-cell(29, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 11) - empty
-cell(16, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (28, 50) - empty
-cell(28, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 11) - empty
-cell(17, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (27, 50) - empty
-cell(27, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 11) - empty
-cell(18, 11) is busy(MoveSnake)
-cell(20, 7) is busy(AddRabbit[5])
-snake[0x7ffd486f81f0] is moving to (x,y) = (26, 50) - empty
-cell(26, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 11) - empty
-cell(19, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (25, 50) - empty
-cell(25, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 11) - empty
-cell(20, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (24, 50) - empty
-cell(24, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 11) - empty
-cell(21, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (23, 50) - empty
-cell(23, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 11) - empty
-cell(22, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (22, 50) - empty
-cell(22, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 11) - empty
-cell(23, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (21, 50) - empty
-cell(21, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 11) - empty
-cell(24, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (20, 50) - empty
-cell(20, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 11) - empty
-cell(25, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (19, 50) - empty
-cell(19, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 11) - empty
-cell(26, 11) is busy(MoveSnake)
-cell(37, 12) is busy(AddRabbit[6])
-snake[0x7ffd486f81f0] is moving to (x,y) = (18, 50) - empty
-cell(18, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 11) - empty
-cell(27, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (17, 50) - empty
-cell(17, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 11) - empty
-cell(28, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (16, 50) - empty
-cell(16, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 11) - empty
-cell(29, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (15, 50) - empty
-cell(15, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 11) - empty
-cell(30, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (14, 50) - empty
-cell(14, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 11) - empty
-cell(31, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (13, 50) - empty
-cell(13, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 11) - empty
-cell(32, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (12, 50) - empty
-cell(12, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 11) - has rabbit
-cell(30, 11) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 1!
-cell(33, 11) is busy(MoveSnake)
-cell(33, 53) is busy(AddRabbit[6])
-snake[0x7ffd486f81f0] is moving to (x,y) = (11, 50) - empty
-cell(11, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 11) - empty
-cell(34, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (10, 50) - empty
-cell(10, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (35, 11) - empty
-cell(35, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (9, 50) - empty
-cell(9, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (36, 11) - empty
-cell(36, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (8, 50) - empty
-cell(8, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 11) - empty
-cell(37, 11) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (7, 50) - empty
-cell(7, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 12) - has rabbit
-cell(34, 11) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 2!
-cell(37, 12) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (6, 50) - empty
-cell(6, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 13) - empty
-cell(37, 13) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (5, 50) - empty
-cell(5, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 14) - empty
-cell(37, 14) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (4, 50) - empty
-cell(4, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 15) - empty
-cell(37, 15) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (3, 50) - empty
-cell(3, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 16) - empty
-cell(37, 16) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (2, 50) - empty
-cell(2, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 17) - empty
-cell(37, 17) is busy(MoveSnake)
-snake[0x7ffd486f81f0] is moving to (x,y) = (1, 50) - busy, snake is dead
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 18) - empty
-cell(37, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 19) - empty
-cell(37, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 20) - empty
-cell(37, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 21) - empty
-cell(37, 21) is busy(MoveSnake)
-cell(11, 11) is busy(AddRabbit[6])
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 22) - empty
-cell(37, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 23) - empty
-cell(37, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 24) - empty
-cell(37, 24) is busy(MoveSnake)
-cell(10, 65) is busy(AddRabbit[7])
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 25) - empty
-cell(37, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 26) - empty
-cell(37, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 27) - empty
-cell(37, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 28) - empty
-cell(37, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 29) - empty
-cell(37, 29) is busy(MoveSnake)
-cell(7, 22) is busy(AddRabbit[8])
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 30) - empty
-cell(37, 30) is busy(MoveSnake)
-cell(38, 36) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 31) - empty
-cell(37, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 32) - empty
-cell(37, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 33) - empty
-cell(37, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 34) - empty
-cell(37, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 35) - empty
-cell(37, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 36) - empty
-cell(37, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 37) - empty
-cell(37, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 38) - empty
-cell(37, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 39) - empty
-cell(37, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 40) - empty
-cell(37, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 41) - empty
-cell(37, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 42) - empty
-cell(37, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 43) - empty
-cell(37, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 44) - empty
-cell(37, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 45) - empty
-cell(37, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 46) - empty
-cell(37, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 47) - empty
-cell(37, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 48) - empty
-cell(37, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 49) - empty
-cell(37, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 50) - empty
-cell(37, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 51) - empty
-cell(37, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 52) - empty
-cell(37, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 53) - empty
-cell(37, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (36, 53) - empty
-cell(36, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (35, 53) - empty
-cell(35, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 53) - empty
-cell(34, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 53) - has rabbit
-cell(38, 53) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 3!
-cell(33, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 52) - empty
-cell(33, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 51) - empty
-cell(33, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 50) - empty
-cell(33, 50) is busy(MoveSnake)
-cell(25, 14) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 49) - empty
-cell(33, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 48) - empty
-cell(33, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 47) - empty
-cell(33, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 46) - empty
-cell(33, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 45) - empty
-cell(33, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 44) - empty
-cell(33, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 43) - empty
-cell(33, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 42) - empty
-cell(33, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 41) - empty
-cell(33, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 40) - empty
-cell(33, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 39) - empty
-cell(33, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 38) - empty
-cell(33, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 37) - empty
-cell(33, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 36) - empty
-cell(33, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 36) - empty
-cell(34, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (35, 36) - empty
-cell(35, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (36, 36) - empty
-cell(36, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 36) - empty
-cell(37, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 36) - has rabbit
-cell(32, 36) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 4!
-cell(38, 36) is busy(MoveSnake)
-cell(29, 10) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 35) - empty
-cell(38, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 34) - empty
-cell(38, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 33) - empty
-cell(38, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 32) - empty
-cell(38, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 31) - empty
-cell(38, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 30) - empty
-cell(38, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 29) - empty
-cell(38, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 28) - empty
-cell(38, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 27) - empty
-cell(38, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 26) - empty
-cell(38, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 25) - empty
-cell(38, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 24) - empty
-cell(38, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 23) - empty
-cell(38, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 22) - empty
-cell(38, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 21) - empty
-cell(38, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 20) - empty
-cell(38, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 19) - empty
-cell(38, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 18) - empty
-cell(38, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 17) - empty
-cell(38, 17) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 16) - empty
-cell(38, 16) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 15) - empty
-cell(38, 15) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (38, 14) - empty
-cell(38, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (37, 14) - empty
-cell(37, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (36, 14) - empty
-cell(36, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (35, 14) - empty
-cell(35, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 14) - empty
-cell(34, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 14) - empty
-cell(33, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 14) - empty
-cell(32, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 14) - empty
-cell(31, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 14) - empty
-cell(30, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 14) - empty
-cell(29, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 14) - empty
-cell(28, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 14) - empty
-cell(27, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 14) - empty
-cell(26, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 14) - has rabbit
-cell(32, 14) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 5!
-cell(25, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 13) - empty
-cell(25, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 12) - empty
-cell(25, 12) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 11) - empty
-cell(25, 11) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 10) - empty
-cell(25, 10) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 10) - empty
-cell(26, 10) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 10) - empty
-cell(27, 10) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 10) - empty
-cell(28, 10) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 10) - has rabbit
-cell(25, 14) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 6!
-cell(29, 10) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 11) - empty
-cell(29, 11) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 12) - empty
-cell(29, 12) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 13) - empty
-cell(29, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 14) - empty
-cell(29, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 15) - empty
-cell(29, 15) is busy(MoveSnake)
-cell(25, 17) is busy(AddRabbit[8])
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 16) - empty
-cell(29, 16) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 17) - empty
-cell(29, 17) is busy(MoveSnake)
-cell(23, 52) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 18) - empty
-cell(29, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 19) - empty
-cell(29, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 20) - empty
-cell(29, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 21) - empty
-cell(29, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 22) - empty
-cell(29, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 22) - empty
-cell(28, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 22) - empty
-cell(27, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 22) - empty
-cell(26, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 22) - empty
+added snake[0x7ffcd9a3b0c0]
+cell(40, 56) is busy(GrowSnake)
+snake[0x7ffcd9a3b0c0] has grown up
+Created Player, connected with snake[0x7ffcd9a3b0c0]
+added snake[0x7ffcd9a3b0f8]
+cell(5, 7) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+Created Computer1, connected with snake[0x7ffcd9a3b0f8]
+added snake[0x7ffcd9a3b138]
+cell(25, 35) is busy(GrowSnake)
+snake[0x7ffcd9a3b138] has grown up
+Created Computer2, connected with snake[0x7ffcd9a3b138]
+added snake[0x7ffcd9a3b178]
+cell(29, 26) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+Created Computer3, connected with snake[0x7ffcd9a3b178]
+drawing snake[0x7ffcd9a3b0c0]
+drawing snake[0x7ffcd9a3b0f8]
+drawing snake[0x7ffcd9a3b138]
+drawing snake[0x7ffcd9a3b178]
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (38, 56) - empty
+cell(38, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 8) - empty
+cell(4, 8) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 36) - empty
+cell(24, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 26) - empty
+cell(27, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (37, 56) - empty
+cell(37, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 9) - empty
+cell(4, 9) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 37) - empty
+cell(24, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 26) - empty
+cell(26, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (36, 56) - empty
+cell(36, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 10) - empty
+cell(4, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 38) - empty
+cell(24, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 26) - empty
+cell(25, 26) is busy(MoveSnake)
+cell(39, 21) is busy(AddRabbit[0])
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (35, 56) - empty
+cell(35, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 11) - empty
+cell(4, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (25, 38) - empty
+cell(25, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 25) - empty
+cell(25, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (34, 56) - empty
+cell(34, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 12) - empty
+cell(4, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 38) - empty
+cell(26, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 24) - empty
+cell(25, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (33, 56) - empty
+cell(33, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 13) - empty
+cell(4, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (27, 38) - empty
+cell(27, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 23) - empty
+cell(25, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (32, 56) - empty
+cell(32, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 14) - empty
+cell(4, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (28, 38) - empty
+cell(28, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 22) - empty
 cell(25, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 22) - empty
-cell(24, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 22) - empty
-cell(23, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 22) - empty
-cell(22, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 22) - empty
-cell(21, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 22) - empty
-cell(20, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 22) - empty
-cell(19, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 22) - empty
-cell(18, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 22) - empty
-cell(17, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 22) - empty
-cell(16, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 22) - empty
-cell(15, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 22) - empty
-cell(14, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 22) - empty
-cell(13, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 22) - empty
-cell(12, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 22) - empty
-cell(11, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 22) - empty
-cell(10, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 22) - empty
-cell(9, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 22) - empty
-cell(8, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 22) - has rabbit
-cell(16, 22) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 7!
-cell(7, 22) is busy(MoveSnake)
-cell(23, 29) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 23) - empty
-cell(7, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 24) - empty
-cell(7, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 25) - empty
-cell(7, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 26) - empty
-cell(7, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 27) - empty
-cell(7, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 28) - empty
-cell(7, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 29) - empty
-cell(7, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 30) - empty
-cell(7, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 31) - empty
-cell(7, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 32) - empty
-cell(7, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 33) - empty
-cell(7, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 34) - empty
-cell(7, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 35) - empty
-cell(7, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 36) - empty
-cell(7, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 37) - empty
-cell(7, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 38) - empty
-cell(7, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 39) - empty
-cell(7, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 40) - empty
-cell(7, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 41) - empty
-cell(7, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 42) - empty
-cell(7, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 43) - empty
-cell(7, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 44) - empty
-cell(7, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 45) - empty
-cell(7, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 46) - empty
-cell(7, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 47) - empty
-cell(7, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 48) - empty
-cell(7, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 49) - empty
-cell(7, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 50) - empty
-cell(7, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 51) - empty
-cell(7, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 52) - empty
-cell(7, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 52) - empty
-cell(8, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 52) - empty
-cell(9, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 52) - empty
-cell(10, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 52) - empty
-cell(11, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 52) - empty
-cell(12, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 52) - empty
-cell(13, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 52) - empty
-cell(14, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 52) - empty
-cell(15, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 52) - empty
-cell(16, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 52) - empty
-cell(17, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 52) - empty
-cell(18, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 52) - empty
-cell(19, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 52) - empty
-cell(20, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 52) - empty
-cell(21, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 52) - empty
-cell(22, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 52) - has rabbit
-cell(13, 52) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 8!
-cell(23, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 51) - empty
-cell(23, 51) is busy(MoveSnake)
-cell(5, 18) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 50) - empty
-cell(23, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 49) - empty
-cell(23, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 48) - empty
-cell(23, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 47) - empty
-cell(23, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 46) - empty
-cell(23, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 45) - empty
-cell(23, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 44) - empty
-cell(23, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 43) - empty
-cell(23, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 42) - empty
-cell(23, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 41) - empty
-cell(23, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 40) - empty
-cell(23, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 39) - empty
-cell(23, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 38) - empty
-cell(23, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 37) - empty
-cell(23, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 36) - empty
-cell(23, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 35) - empty
-cell(23, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 34) - empty
-cell(23, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 33) - empty
-cell(23, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 32) - empty
-cell(23, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 31) - empty
-cell(23, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 30) - empty
-cell(23, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 29) - has rabbit
-cell(23, 40) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 9!
-cell(23, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 28) - empty
-cell(23, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 27) - empty
-cell(23, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 26) - empty
-cell(23, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 25) - empty
-cell(23, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 24) - empty
-cell(23, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 23) - empty
-cell(23, 23) is busy(MoveSnake)
-cell(33, 31) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 22) - empty
-cell(23, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 21) - empty
-cell(23, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 20) - empty
-cell(23, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 19) - empty
-cell(23, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 18) - empty
-cell(23, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 18) - empty
-cell(22, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 18) - empty
-cell(21, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 18) - empty
-cell(20, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 18) - empty
-cell(19, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 18) - empty
-cell(18, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 18) - empty
-cell(17, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 18) - empty
-cell(16, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 18) - empty
-cell(15, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 18) - empty
-cell(14, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 18) - empty
-cell(13, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 18) - empty
-cell(12, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 18) - empty
-cell(11, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 18) - empty
-cell(10, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 18) - empty
-cell(9, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 18) - empty
-cell(8, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 18) - empty
-cell(7, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 18) - empty
-cell(6, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 18) - has rabbit
-cell(17, 18) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 10!
-cell(5, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 19) - empty
-cell(5, 19) is busy(MoveSnake)
-cell(28, 53) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 20) - empty
-cell(5, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 21) - empty
-cell(5, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 22) - empty
-cell(5, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 23) - empty
-cell(5, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 24) - empty
-cell(5, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 25) - empty
-cell(5, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 26) - empty
-cell(5, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 27) - empty
-cell(5, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 28) - empty
-cell(5, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 29) - empty
-cell(5, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 30) - empty
-cell(5, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 31) - empty
-cell(5, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 31) - empty
-cell(6, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 31) - empty
-cell(7, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 31) - empty
-cell(8, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 31) - empty
-cell(9, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 31) - empty
-cell(10, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 31) - empty
-cell(11, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 31) - empty
-cell(12, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 31) - empty
-cell(13, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 31) - empty
-cell(14, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 31) - empty
-cell(15, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 31) - empty
-cell(16, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 31) - empty
-cell(17, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 31) - empty
-cell(18, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 31) - empty
-cell(19, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 31) - empty
-cell(20, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 31) - empty
-cell(21, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 31) - empty
-cell(22, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 31) - empty
-cell(23, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 31) - empty
-cell(24, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 31) - empty
-cell(25, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 31) - empty
-cell(26, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 31) - empty
-cell(27, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 31) - empty
-cell(28, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 31) - empty
-cell(29, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 31) - empty
-cell(30, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 31) - empty
-cell(31, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 31) - empty
-cell(32, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 31) - has rabbit
-cell(20, 31) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 11!
-cell(33, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 32) - empty
-cell(33, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 33) - empty
-cell(33, 33) is busy(MoveSnake)
-cell(23, 59) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 34) - empty
-cell(33, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 35) - empty
-cell(33, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 36) - empty
-cell(33, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 37) - empty
-cell(33, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 38) - empty
-cell(33, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 39) - empty
-cell(33, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 40) - empty
-cell(33, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 41) - empty
-cell(33, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 42) - empty
-cell(33, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 43) - empty
-cell(33, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 44) - empty
-cell(33, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 45) - empty
-cell(33, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 46) - empty
-cell(33, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 47) - empty
-cell(33, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 48) - empty
-cell(33, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 49) - empty
-cell(33, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 50) - empty
-cell(33, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 51) - empty
-cell(33, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 52) - empty
-cell(33, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 53) - empty
-cell(33, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 53) - empty
-cell(32, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 53) - empty
-cell(31, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 53) - empty
-cell(30, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 53) - empty
-cell(29, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 53) - has rabbit
-cell(33, 44) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 12!
-cell(28, 53) is busy(MoveSnake)
-cell(6, 13) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 53) - empty
-cell(27, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 53) - empty
-cell(26, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 53) - empty
-cell(25, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 53) - empty
-cell(24, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 53) - empty
-cell(23, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 54) - empty
-cell(23, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 55) - empty
-cell(23, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 56) - empty
-cell(23, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 57) - empty
-cell(23, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 58) - empty
-cell(23, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 59) - has rabbit
-cell(32, 53) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 13!
-cell(23, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 59) - empty
-cell(22, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 59) - empty
-cell(21, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 59) - empty
-cell(20, 59) is busy(MoveSnake)
-cell(13, 62) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 59) - empty
-cell(19, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 59) - empty
-cell(18, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 59) - empty
-cell(17, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 59) - empty
-cell(16, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 59) - empty
-cell(15, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 59) - empty
-cell(14, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 59) - empty
-cell(13, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 59) - empty
-cell(12, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 59) - empty
-cell(11, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 59) - empty
-cell(10, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 59) - empty
-cell(9, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 59) - empty
-cell(8, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 59) - empty
-cell(7, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 59) - empty
-cell(6, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 58) - empty
-cell(6, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 57) - empty
-cell(6, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 56) - empty
-cell(6, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 55) - empty
-cell(6, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 54) - empty
-cell(6, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 53) - empty
-cell(6, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 52) - empty
-cell(6, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 51) - empty
-cell(6, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 50) - empty
-cell(6, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 49) - empty
-cell(6, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 48) - empty
-cell(6, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 47) - empty
-cell(6, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 46) - empty
-cell(6, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 45) - empty
-cell(6, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 44) - empty
-cell(6, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 43) - empty
-cell(6, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 42) - empty
-cell(6, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 41) - empty
-cell(6, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 40) - empty
-cell(6, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 39) - empty
-cell(6, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 38) - empty
-cell(6, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 37) - empty
-cell(6, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 36) - empty
-cell(6, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 35) - empty
-cell(6, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 34) - empty
-cell(6, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 33) - empty
-cell(6, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 32) - empty
-cell(6, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 31) - empty
-cell(6, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 30) - empty
-cell(6, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 29) - empty
-cell(6, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 28) - empty
-cell(6, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 27) - empty
-cell(6, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 26) - empty
-cell(6, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 25) - empty
-cell(6, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 24) - empty
-cell(6, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 23) - empty
-cell(6, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 22) - empty
-cell(6, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 21) - empty
-cell(6, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 20) - empty
-cell(6, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 19) - empty
-cell(6, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 18) - empty
-cell(6, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 17) - empty
-cell(6, 17) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 16) - empty
-cell(6, 16) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 15) - empty
-cell(6, 15) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 14) - empty
-cell(6, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 13) - has rabbit
-cell(6, 29) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 14!
-cell(6, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 13) - empty
-cell(7, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 13) - empty
-cell(8, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 13) - empty
-cell(9, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 13) - empty
-cell(10, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 13) - empty
-cell(11, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 13) - empty
-cell(12, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 13) - empty
-cell(13, 13) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 14) - empty
-cell(13, 14) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 15) - empty
-cell(13, 15) is busy(MoveSnake)
-cell(5, 49) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 16) - empty
-cell(13, 16) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 17) - empty
-cell(13, 17) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 18) - empty
-cell(13, 18) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 19) - empty
-cell(13, 19) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 20) - empty
-cell(13, 20) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 21) - empty
-cell(13, 21) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 22) - empty
-cell(13, 22) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 23) - empty
-cell(13, 23) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 24) - empty
-cell(13, 24) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 25) - empty
-cell(13, 25) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 26) - empty
-cell(13, 26) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 27) - empty
-cell(13, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 28) - empty
-cell(13, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 29) - empty
-cell(13, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 30) - empty
-cell(13, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 31) - empty
-cell(13, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 32) - empty
-cell(13, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 33) - empty
-cell(13, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 34) - empty
-cell(13, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 35) - empty
-cell(13, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 36) - empty
-cell(13, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 37) - empty
-cell(13, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 38) - empty
-cell(13, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 39) - empty
-cell(13, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 40) - empty
-cell(13, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 41) - empty
-cell(13, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 42) - empty
-cell(13, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 43) - empty
-cell(13, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 44) - empty
-cell(13, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 45) - empty
-cell(13, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 46) - empty
-cell(13, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 47) - empty
-cell(13, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 48) - empty
-cell(13, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 49) - empty
-cell(13, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 50) - empty
-cell(13, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 51) - empty
-cell(13, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 52) - empty
-cell(13, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 53) - empty
-cell(13, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 54) - empty
-cell(13, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 55) - empty
-cell(13, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 56) - empty
-cell(13, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 57) - empty
-cell(13, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 58) - empty
-cell(13, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 59) - empty
-cell(13, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 60) - empty
-cell(13, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 61) - empty
-cell(13, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 62) - has rabbit
-cell(13, 45) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 15!
-cell(13, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 62) - empty
-cell(12, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 62) - empty
-cell(11, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 62) - empty
-cell(10, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 62) - empty
-cell(9, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 62) - empty
-cell(8, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 62) - empty
-cell(7, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 62) - empty
-cell(6, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 62) - empty
-cell(5, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 61) - empty
-cell(5, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 60) - empty
-cell(5, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 59) - empty
-cell(5, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 58) - empty
-cell(5, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 57) - empty
-cell(5, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 56) - empty
-cell(5, 56) is busy(MoveSnake)
-cell(23, 64) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 55) - empty
-cell(5, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 54) - empty
-cell(5, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 53) - empty
-cell(5, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 52) - empty
-cell(5, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 51) - empty
-cell(5, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 50) - empty
-cell(5, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (5, 49) - has rabbit
-cell(10, 62) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 16!
-cell(5, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 49) - empty
-cell(6, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 49) - empty
-cell(7, 49) is busy(MoveSnake)
-cell(29, 44) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 49) - empty
-cell(8, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 49) - empty
-cell(9, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 49) - empty
-cell(10, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 49) - empty
-cell(11, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 49) - empty
-cell(12, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 49) - empty
-cell(13, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 49) - empty
-cell(14, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 49) - empty
-cell(15, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 49) - empty
-cell(16, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 49) - empty
-cell(17, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 49) - empty
-cell(18, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 49) - empty
-cell(19, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 49) - empty
-cell(20, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 49) - empty
-cell(21, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 49) - empty
-cell(22, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 49) - empty
-cell(23, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 50) - empty
-cell(23, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 51) - empty
-cell(23, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 52) - empty
-cell(23, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 53) - empty
-cell(23, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 54) - empty
-cell(23, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 55) - empty
-cell(23, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 56) - empty
-cell(23, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 57) - empty
-cell(23, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 58) - empty
-cell(23, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 59) - empty
-cell(23, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 60) - empty
-cell(23, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 61) - empty
-cell(23, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 62) - empty
-cell(23, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 63) - empty
-cell(23, 63) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 64) - has rabbit
-cell(19, 49) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 17!
-cell(23, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 64) - empty
-cell(24, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 64) - empty
-cell(25, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 64) - empty
-cell(26, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 64) - has rabbit
-cell(23, 48) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 18!
-cell(27, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 64) - empty
-cell(28, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 64) - empty
-cell(29, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 63) - empty
-cell(29, 63) is busy(MoveSnake)
-cell(33, 37) is busy(AddRabbit[8])
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 62) - empty
-cell(29, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 61) - empty
-cell(29, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 60) - empty
-cell(29, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 59) - empty
-cell(29, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 58) - empty
-cell(29, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 57) - empty
-cell(29, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 56) - empty
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (31, 56) - empty
+cell(31, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 15) - empty
+cell(4, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (29, 38) - empty
+cell(29, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 21) - empty
+cell(25, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (30, 56) - empty
+cell(30, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 16) - empty
+cell(4, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 38) - empty
+cell(30, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 21) - empty
+cell(26, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (29, 56) - empty
 cell(29, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 55) - empty
-cell(29, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 54) - empty
-cell(29, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 53) - empty
-cell(29, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 52) - empty
-cell(29, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 51) - empty
-cell(29, 51) is busy(MoveSnake)
-cell(6, 45) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 50) - empty
-cell(29, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 49) - empty
-cell(29, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 48) - empty
-cell(29, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 47) - empty
-cell(29, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 46) - empty
-cell(29, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 45) - empty
-cell(29, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 44) - has rabbit
-cell(29, 65) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 19!
-cell(29, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 44) - empty
-cell(28, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 44) - empty
-cell(27, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 44) - empty
-cell(26, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 44) - empty
-cell(25, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 44) - empty
-cell(24, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 44) - empty
-cell(23, 44) is busy(MoveSnake)
-cell(34, 27) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 44) - empty
-cell(22, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 44) - empty
-cell(21, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 44) - empty
-cell(20, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 44) - empty
-cell(19, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 44) - empty
-cell(18, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 44) - empty
-cell(17, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 44) - empty
-cell(16, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 44) - empty
-cell(15, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 44) - empty
-cell(14, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 44) - empty
-cell(13, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 44) - empty
-cell(12, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 44) - empty
-cell(11, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 44) - empty
-cell(10, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 44) - empty
-cell(9, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 44) - empty
-cell(8, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 44) - empty
-cell(7, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 44) - empty
-cell(6, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (6, 45) - has rabbit
-cell(27, 44) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 20!
-cell(6, 45) is busy(MoveSnake)
-cell(11, 67) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (7, 45) - empty
-cell(7, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (8, 45) - empty
-cell(8, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (9, 45) - empty
-cell(9, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (10, 45) - empty
-cell(10, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 45) - empty
-cell(11, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 45) - empty
-cell(12, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 45) - empty
-cell(13, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 45) - empty
-cell(14, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 45) - empty
-cell(15, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 45) - empty
-cell(16, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 45) - empty
-cell(17, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 45) - empty
-cell(18, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 45) - empty
-cell(19, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 45) - empty
-cell(20, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 45) - empty
-cell(21, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 45) - empty
-cell(22, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 45) - empty
-cell(23, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 45) - empty
-cell(24, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 45) - empty
-cell(25, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 45) - empty
-cell(26, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 45) - empty
-cell(27, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 45) - empty
-cell(28, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 45) - empty
-cell(29, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 45) - empty
-cell(30, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 45) - empty
-cell(31, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 45) - empty
-cell(32, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 45) - empty
-cell(33, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 45) - empty
-cell(34, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 44) - empty
-cell(34, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 43) - empty
-cell(34, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 42) - empty
-cell(34, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 41) - empty
-cell(34, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 40) - empty
-cell(34, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 39) - empty
-cell(34, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 38) - empty
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 17) - empty
+cell(4, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 38) - empty
+cell(31, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 21) - empty
+cell(27, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (28, 56) - empty
+cell(28, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 18) - empty
+cell(4, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (32, 38) - empty
+cell(32, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 21) - empty
+cell(28, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (27, 56) - empty
+cell(27, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 19) - empty
+cell(4, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (33, 38) - empty
+cell(33, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 21) - empty
+cell(29, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (26, 56) - empty
+cell(26, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 20) - empty
+cell(4, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (34, 38) - empty
 cell(34, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 37) - empty
-cell(34, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 36) - empty
-cell(34, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 35) - empty
-cell(34, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 34) - empty
-cell(34, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 33) - empty
-cell(34, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 32) - empty
-cell(34, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 31) - empty
-cell(34, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 30) - empty
-cell(34, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 29) - empty
-cell(34, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 28) - empty
-cell(34, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (34, 27) - has rabbit
-cell(29, 45) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 21!
-cell(34, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (33, 27) - empty
-cell(33, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (32, 27) - empty
-cell(32, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (31, 27) - empty
-cell(31, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (30, 27) - empty
-cell(30, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (29, 27) - empty
-cell(29, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (28, 27) - empty
-cell(28, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (27, 27) - empty
-cell(27, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (26, 27) - empty
-cell(26, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (25, 27) - empty
-cell(25, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (24, 27) - empty
-cell(24, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (23, 27) - empty
-cell(23, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (22, 27) - empty
-cell(22, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (21, 27) - empty
-cell(21, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 27) - empty
-cell(20, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 27) - empty
-cell(19, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 27) - empty
-cell(18, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 27) - empty
-cell(17, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 27) - empty
-cell(16, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 27) - empty
-cell(15, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 27) - empty
-cell(14, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 27) - empty
-cell(13, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 27) - empty
-cell(12, 27) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 27) - empty
-cell(11, 27) is busy(MoveSnake)
-cell(20, 48) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 28) - empty
-cell(11, 28) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 29) - empty
-cell(11, 29) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 30) - empty
-cell(11, 30) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 31) - empty
-cell(11, 31) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 32) - empty
-cell(11, 32) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 33) - empty
-cell(11, 33) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 34) - empty
-cell(11, 34) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 35) - empty
-cell(11, 35) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 36) - empty
-cell(11, 36) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 37) - empty
-cell(11, 37) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 38) - empty
-cell(11, 38) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 39) - empty
-cell(11, 39) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 40) - empty
-cell(11, 40) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 41) - empty
-cell(11, 41) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 42) - empty
-cell(11, 42) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 43) - empty
-cell(11, 43) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 44) - empty
-cell(11, 44) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 45) - empty
-cell(11, 45) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 46) - empty
-cell(11, 46) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 47) - empty
-cell(11, 47) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 48) - empty
-cell(11, 48) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 49) - empty
-cell(11, 49) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 50) - empty
-cell(11, 50) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 51) - empty
-cell(11, 51) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 52) - empty
-cell(11, 52) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 53) - empty
-cell(11, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 54) - empty
-cell(11, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 55) - empty
-cell(11, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 56) - empty
-cell(11, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 57) - empty
-cell(11, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 58) - empty
-cell(11, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 59) - empty
-cell(11, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 60) - empty
-cell(11, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 61) - empty
-cell(11, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 62) - empty
-cell(11, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 63) - empty
-cell(11, 63) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 64) - empty
-cell(11, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 65) - empty
-cell(11, 65) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 66) - empty
-cell(11, 66) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (11, 67) - has rabbit
-cell(11, 43) is busy(GrowSnake)
-snake[0x7ffd486f8220] has grown up
-snake[0x7ffd486f8220] +1 point, total = 22!
-cell(11, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (12, 67) - empty
-cell(12, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (13, 67) - empty
-cell(13, 67) is busy(MoveSnake)
-cell(7, 60) is busy(AddRabbit[9])
-snake[0x7ffd486f8220] is moving to (x,y) = (14, 67) - empty
-cell(14, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (15, 67) - empty
-cell(15, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (16, 67) - empty
-cell(16, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (17, 67) - empty
-cell(17, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (18, 67) - empty
-cell(18, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (19, 67) - empty
-cell(19, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 67) - empty
-cell(20, 67) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 66) - empty
-cell(20, 66) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 65) - empty
-cell(20, 65) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 64) - empty
-cell(20, 64) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 63) - empty
-cell(20, 63) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 62) - empty
-cell(20, 62) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 61) - empty
-cell(20, 61) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 60) - empty
-cell(20, 60) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 59) - empty
-cell(20, 59) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 58) - empty
-cell(20, 58) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 57) - empty
-cell(20, 57) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 56) - empty
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 21) - empty
+cell(30, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (25, 56) - empty
+cell(25, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 21) - empty
+cell(4, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 38) - empty
+cell(35, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 21) - empty
+cell(31, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (24, 56) - empty
+cell(24, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (5, 21) - empty
+cell(5, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (36, 38) - empty
+cell(36, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 21) - empty
+cell(32, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (23, 56) - empty
+cell(23, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 21) - empty
+cell(6, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (37, 38) - empty
+cell(37, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 21) - empty
+cell(33, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (22, 56) - empty
+cell(22, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (7, 21) - empty
+cell(7, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (38, 38) - empty
+cell(38, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 21) - empty
+cell(34, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (21, 56) - empty
+cell(21, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 21) - empty
+cell(8, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 38) - empty
+cell(39, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 21) - empty
+cell(35, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (20, 56) - empty
 cell(20, 56) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 55) - empty
-cell(20, 55) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 54) - empty
-cell(20, 54) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 53) - empty
-cell(20, 53) is busy(MoveSnake)
-snake[0x7ffd486f8220] is moving to (x,y) = (20, 52) - empty
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 21) - empty
+cell(9, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 37) - empty
+cell(39, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 21) - empty
+cell(36, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (19, 56) - empty
+cell(19, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 21) - empty
+cell(10, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 36) - empty
+cell(39, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 21) - empty
+cell(37, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (18, 56) - empty
+cell(18, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 21) - empty
+cell(11, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 35) - empty
+cell(39, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (38, 21) - empty
+cell(38, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (17, 56) - empty
+cell(17, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 21) - empty
+cell(12, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 34) - empty
+cell(39, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (39, 21) - has rabbit
+cell(36, 21) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 1!
+cell(39, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (16, 56) - empty
+cell(16, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 21) - empty
+cell(13, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 34) - empty
+cell(40, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (40, 21) - empty
+cell(40, 21) is busy(MoveSnake)
+cell(36, 19) is busy(AddRabbit[0])
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (15, 56) - empty
+cell(15, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 21) - empty
+cell(14, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 33) - empty
+cell(40, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (40, 20) - empty
+cell(40, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (14, 56) - empty
+cell(14, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 21) - empty
+cell(15, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 32) - empty
+cell(40, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (40, 19) - empty
+cell(40, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (13, 56) - empty
+cell(13, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 21) - empty
+cell(16, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 31) - empty
+cell(40, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (39, 19) - empty
+cell(39, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (12, 56) - empty
+cell(12, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 21) - empty
+cell(17, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 30) - empty
+cell(40, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (38, 19) - empty
+cell(38, 19) is busy(MoveSnake)
+cell(16, 13) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (11, 56) - empty
+cell(11, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 20) - empty
+cell(17, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 29) - empty
+cell(40, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 19) - empty
+cell(37, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (10, 56) - empty
+cell(10, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 19) - empty
+cell(17, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 28) - empty
+cell(40, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 19) - has rabbit
+cell(40, 19) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 2!
+cell(36, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (9, 56) - empty
+cell(9, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 18) - empty
+cell(17, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 27) - empty
+cell(40, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 19) - empty
+cell(35, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (8, 56) - empty
+cell(8, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 17) - empty
+cell(17, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 26) - empty
+cell(40, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 19) - empty
+cell(34, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (7, 56) - empty
+cell(7, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 16) - empty
+cell(17, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 25) - empty
+cell(40, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 19) - empty
+cell(33, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (6, 56) - empty
+cell(6, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 15) - empty
+cell(17, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 24) - empty
+cell(40, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 19) - empty
+cell(32, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (5, 56) - empty
+cell(5, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 14) - empty
+cell(17, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 23) - empty
+cell(40, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 19) - empty
+cell(31, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (4, 56) - empty
+cell(4, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 13) - empty
+cell(17, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (40, 22) - empty
+cell(40, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 19) - empty
+cell(30, 19) is busy(MoveSnake)
+cell(30, 44) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (3, 56) - empty
+cell(3, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 13) - has rabbit
+cell(17, 15) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 1!
+cell(16, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (39, 22) - empty
+cell(39, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 19) - empty
+cell(29, 19) is busy(MoveSnake)
+cell(34, 49) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (2, 56) - empty
+cell(2, 56) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 14) - empty
+cell(16, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (38, 22) - empty
+cell(38, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 20) - empty
+cell(29, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b0c0] is moving to (x,y) = (1, 56) - busy, snake is dead
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 15) - empty
+cell(16, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (37, 22) - empty
+cell(37, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 21) - empty
+cell(29, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 16) - empty
+cell(16, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (36, 22) - empty
+cell(36, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 22) - empty
+cell(29, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 17) - empty
+cell(16, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 22) - empty
+cell(35, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 23) - empty
+cell(29, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 18) - empty
+cell(16, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (34, 22) - empty
+cell(34, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 24) - empty
+cell(29, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 19) - empty
+cell(16, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (33, 22) - empty
+cell(33, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 25) - empty
+cell(29, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 20) - empty
+cell(16, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (32, 22) - empty
+cell(32, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 26) - empty
+cell(29, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 21) - empty
+cell(16, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 22) - empty
+cell(31, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 27) - empty
+cell(29, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 22) - empty
+cell(16, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 22) - empty
+cell(30, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 28) - empty
+cell(29, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 23) - empty
+cell(16, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 23) - empty
+cell(30, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 29) - empty
+cell(29, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 24) - empty
+cell(16, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 24) - empty
+cell(30, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 30) - empty
+cell(29, 30) is busy(MoveSnake)
+cell(8, 19) is busy(AddRabbit[2])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 24) - empty
+cell(15, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 25) - empty
+cell(30, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 31) - empty
+cell(29, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 24) - empty
+cell(14, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 26) - empty
+cell(30, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 32) - empty
+cell(29, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 24) - empty
+cell(13, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 27) - empty
+cell(30, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 33) - empty
+cell(29, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 24) - empty
+cell(12, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 28) - empty
+cell(30, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 34) - empty
+cell(29, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 24) - empty
+cell(11, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 29) - empty
+cell(30, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 35) - empty
+cell(29, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 24) - empty
+cell(10, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 30) - empty
+cell(30, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 36) - empty
+cell(29, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 24) - empty
+cell(9, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 31) - empty
+cell(30, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 37) - empty
+cell(29, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 24) - empty
+cell(8, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 32) - empty
+cell(30, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 38) - empty
+cell(29, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 23) - empty
+cell(8, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 33) - empty
+cell(30, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 39) - empty
+cell(29, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 22) - empty
+cell(8, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 34) - empty
+cell(30, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 40) - empty
+cell(29, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 21) - empty
+cell(8, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 35) - empty
+cell(30, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 41) - empty
+cell(29, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 20) - empty
+cell(8, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 36) - empty
+cell(30, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 42) - empty
+cell(29, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 19) - has rabbit
+cell(8, 23) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 2!
+cell(8, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 37) - empty
+cell(30, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 43) - empty
+cell(29, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 19) - empty
+cell(9, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 38) - empty
+cell(30, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 44) - empty
+cell(29, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 19) - empty
+cell(10, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 39) - empty
+cell(30, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 44) - has rabbit
+cell(29, 40) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 3!
+cell(30, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 19) - empty
+cell(11, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 40) - empty
+cell(30, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 44) - empty
+cell(31, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 19) - empty
+cell(12, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 41) - empty
+cell(30, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 44) - empty
+cell(32, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 19) - empty
+cell(13, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 42) - empty
+cell(30, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 44) - empty
+cell(33, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 19) - empty
+cell(14, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 42) - empty
+cell(31, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 44) - empty
+cell(34, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 19) - empty
+cell(15, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (32, 42) - empty
+cell(32, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 45) - empty
+cell(34, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 19) - empty
+cell(16, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (33, 42) - empty
+cell(33, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 46) - empty
+cell(34, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 19) - empty
+cell(17, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (34, 42) - empty
+cell(34, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 47) - empty
+cell(34, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 19) - empty
+cell(18, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 42) - empty
+cell(35, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 48) - empty
+cell(34, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 19) - empty
+cell(19, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 43) - empty
+cell(35, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 49) - has rabbit
+cell(34, 43) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 4!
+cell(34, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 19) - empty
+cell(20, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 44) - empty
+cell(35, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 49) - empty
+cell(35, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 19) - empty
+cell(21, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 45) - empty
+cell(35, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 50) - empty
+cell(35, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 19) - empty
+cell(22, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 46) - empty
+cell(35, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 50) - empty
+cell(34, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 19) - empty
+cell(23, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (35, 47) - empty
+cell(35, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 50) - empty
+cell(33, 50) is busy(MoveSnake)
+cell(3, 49) is busy(AddRabbit[0])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 20) - empty
+cell(23, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (34, 47) - empty
+cell(34, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 50) - empty
+cell(32, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 21) - empty
+cell(23, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (33, 47) - empty
+cell(33, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 50) - empty
+cell(31, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 22) - empty
+cell(23, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (32, 47) - empty
+cell(32, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 50) - empty
+cell(30, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 23) - empty
+cell(23, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 47) - empty
+cell(31, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 50) - empty
+cell(29, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 24) - empty
+cell(23, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 47) - empty
+cell(30, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 50) - empty
+cell(28, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 25) - empty
+cell(23, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (29, 47) - empty
+cell(29, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 50) - empty
+cell(27, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 26) - empty
+cell(23, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (28, 47) - empty
+cell(28, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 50) - empty
+cell(26, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 27) - empty
+cell(23, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (27, 47) - empty
+cell(27, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 50) - empty
+cell(25, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 28) - empty
+cell(23, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 47) - empty
+cell(26, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 50) - empty
+cell(24, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 29) - empty
+cell(23, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (25, 47) - empty
+cell(25, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 50) - empty
+cell(23, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 30) - empty
+cell(23, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 47) - empty
+cell(24, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 50) - empty
+cell(22, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 31) - empty
+cell(23, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (23, 47) - empty
+cell(23, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 50) - empty
+cell(21, 50) is busy(MoveSnake)
+cell(31, 53) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 32) - empty
+cell(23, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (23, 48) - empty
+cell(23, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 50) - empty
+cell(20, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 33) - empty
+cell(23, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 48) - empty
+cell(24, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 50) - empty
+cell(19, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 34) - empty
+cell(23, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (25, 48) - empty
+cell(25, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 50) - empty
+cell(18, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 35) - empty
+cell(23, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 48) - empty
+cell(26, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 50) - empty
+cell(17, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 36) - empty
+cell(23, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (27, 48) - empty
+cell(27, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 50) - empty
+cell(16, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 37) - empty
+cell(23, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (28, 48) - empty
+cell(28, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 50) - empty
+cell(15, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 38) - empty
+cell(23, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (29, 48) - empty
+cell(29, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 50) - empty
+cell(14, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 39) - empty
+cell(23, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 48) - empty
+cell(30, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 50) - empty
+cell(13, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 40) - empty
+cell(23, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 48) - empty
+cell(31, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 50) - empty
+cell(12, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 41) - empty
+cell(23, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 49) - empty
+cell(31, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (11, 50) - empty
+cell(11, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 42) - empty
+cell(23, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 50) - empty
+cell(31, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 50) - empty
+cell(10, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 43) - empty
+cell(23, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 51) - empty
+cell(31, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 50) - empty
+cell(9, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 44) - empty
+cell(23, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 52) - empty
+cell(31, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (8, 50) - empty
+cell(8, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 45) - empty
+cell(23, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (31, 53) - has rabbit
+cell(31, 50) is busy(GrowSnake)
+snake[0x7ffcd9a3b138] has grown up
+snake[0x7ffcd9a3b138] +1 point, total = 1!
+cell(31, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (7, 50) - empty
+cell(7, 50) is busy(MoveSnake)
+cell(10, 52) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 46) - empty
+cell(23, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (30, 53) - empty
+cell(30, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (6, 50) - empty
+cell(6, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 47) - empty
+cell(23, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (29, 53) - empty
+cell(29, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (5, 50) - empty
+cell(5, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 48) - empty
+cell(23, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (28, 53) - empty
+cell(28, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (4, 50) - empty
+cell(4, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 49) - empty
+cell(23, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (27, 53) - empty
+cell(27, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (3, 50) - empty
+cell(3, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 50) - empty
+cell(23, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 53) - empty
+cell(26, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (3, 49) - has rabbit
+cell(9, 50) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 5!
+cell(3, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 51) - empty
+cell(23, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (25, 53) - empty
+cell(25, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (4, 49) - empty
+cell(4, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 52) - empty
+cell(23, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 53) - empty
+cell(24, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (5, 49) - empty
+cell(5, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 52) - empty
+cell(22, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (23, 53) - empty
+cell(23, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (6, 49) - empty
+cell(6, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 52) - empty
+cell(21, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (22, 53) - empty
+cell(22, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (7, 49) - empty
+cell(7, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 52) - empty
 cell(20, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (21, 53) - empty
+cell(21, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (8, 49) - empty
+cell(8, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 52) - empty
+cell(19, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (20, 53) - empty
+cell(20, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 49) - empty
+cell(9, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 52) - empty
+cell(18, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (19, 53) - empty
+cell(19, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 49) - empty
+cell(10, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 52) - empty
+cell(17, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (18, 53) - empty
+cell(18, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 50) - empty
+cell(10, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 52) - empty
+cell(16, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (17, 53) - empty
+cell(17, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 51) - empty
+cell(10, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 52) - empty
+cell(15, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (16, 53) - empty
+cell(16, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 52) - has rabbit
+cell(5, 49) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 6!
+cell(10, 52) is busy(MoveSnake)
+cell(35, 10) is busy(AddRabbit[0])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 51) - empty
+cell(15, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (15, 53) - empty
+cell(15, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (11, 52) - empty
+cell(11, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 50) - empty
+cell(15, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 53) - empty
+cell(14, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 52) - empty
+cell(12, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 49) - empty
+cell(15, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 52) - empty
+cell(14, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 52) - empty
+cell(13, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 48) - empty
+cell(15, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 51) - empty
+cell(14, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 51) - empty
+cell(13, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 47) - empty
+cell(15, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 50) - empty
+cell(14, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 50) - empty
+cell(13, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 46) - empty
+cell(15, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 49) - empty
+cell(14, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 49) - empty
+cell(13, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 45) - empty
+cell(15, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 48) - empty
+cell(14, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 48) - empty
+cell(13, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 44) - empty
+cell(15, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 47) - empty
+cell(14, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 47) - empty
+cell(13, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 43) - empty
+cell(15, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 46) - empty
+cell(14, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 46) - empty
+cell(13, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 42) - empty
+cell(15, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 45) - empty
+cell(14, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 45) - empty
+cell(13, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 41) - empty
+cell(15, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 44) - empty
+cell(14, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 44) - empty
+cell(13, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 40) - empty
+cell(15, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 43) - empty
+cell(14, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 43) - empty
+cell(13, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 39) - empty
+cell(15, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 42) - empty
+cell(14, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 42) - empty
+cell(13, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 38) - empty
+cell(15, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 41) - empty
+cell(14, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 41) - empty
+cell(13, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 37) - empty
+cell(15, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 40) - empty
+cell(14, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 40) - empty
+cell(13, 40) is busy(MoveSnake)
+cell(39, 44) is busy(AddRabbit[1])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 37) - empty
+cell(16, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 39) - empty
+cell(14, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 39) - empty
+cell(13, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 37) - empty
+cell(17, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 38) - empty
+cell(14, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 38) - empty
+cell(13, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 37) - empty
+cell(18, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 37) - empty
+cell(14, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 37) - empty
+cell(13, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 37) - empty
+cell(19, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (14, 36) - empty
+cell(14, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 36) - empty
+cell(13, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 37) - empty
+cell(20, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (15, 36) - empty
+cell(15, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 35) - empty
+cell(13, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 37) - empty
+cell(21, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (16, 36) - empty
+cell(16, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 34) - empty
+cell(13, 34) is busy(MoveSnake)
+cell(40, 19) is busy(AddRabbit[2])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 37) - empty
+cell(22, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (17, 36) - empty
+cell(17, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 33) - empty
+cell(13, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 37) - empty
+cell(23, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (18, 36) - empty
+cell(18, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 32) - empty
+cell(13, 32) is busy(MoveSnake)
+cell(28, 29) is busy(AddRabbit[3])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (24, 37) - empty
+cell(24, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (19, 36) - empty
+cell(19, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 31) - empty
+cell(13, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 37) - empty
+cell(25, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (20, 36) - empty
+cell(20, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 30) - empty
+cell(13, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 37) - empty
+cell(26, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (21, 36) - empty
+cell(21, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 29) - empty
+cell(13, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 37) - empty
+cell(27, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (22, 36) - empty
+cell(22, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 28) - empty
+cell(13, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 37) - empty
+cell(28, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (23, 36) - empty
+cell(23, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 27) - empty
+cell(13, 27) is busy(MoveSnake)
+cell(14, 27) is busy(AddRabbit[4])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 36) - empty
+cell(28, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (24, 36) - empty
+cell(24, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 26) - empty
+cell(13, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 35) - empty
+cell(28, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (25, 36) - empty
+cell(25, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 25) - empty
+cell(13, 25) is busy(MoveSnake)
+cell(10, 26) is busy(AddRabbit[5])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 34) - empty
+cell(28, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 36) - empty
+cell(26, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 24) - empty
+cell(13, 24) is busy(MoveSnake)
+cell(17, 47) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 33) - empty
+cell(28, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 35) - empty
+cell(26, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 23) - empty
+cell(13, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 32) - empty
+cell(28, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 34) - empty
+cell(26, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 22) - empty
+cell(13, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 31) - empty
+cell(28, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 33) - empty
+cell(26, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 21) - empty
+cell(13, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 30) - empty
+cell(28, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 32) - empty
+cell(26, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 20) - empty
+cell(13, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 29) - has rabbit
+cell(28, 34) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 3!
+cell(28, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 31) - empty
+cell(26, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 19) - empty
+cell(13, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 28) - empty
+cell(28, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 30) - empty
+cell(26, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 18) - empty
+cell(13, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 27) - empty
+cell(28, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 29) - empty
+cell(26, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 17) - empty
+cell(13, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 27) - empty
+cell(27, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 28) - empty
+cell(26, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 16) - empty
+cell(13, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 27) - empty
+cell(26, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b138] is moving to (x,y) = (26, 27) - busy, snake is dead
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 15) - empty
+cell(13, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 27) - empty
+cell(25, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 14) - empty
+cell(13, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (24, 27) - empty
+cell(24, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 13) - empty
+cell(13, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 27) - empty
+cell(23, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 12) - empty
+cell(13, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 27) - empty
+cell(22, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 11) - empty
+cell(13, 11) is busy(MoveSnake)
+cell(13, 25) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 27) - empty
+cell(21, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 10) - empty
+cell(13, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 27) - empty
+cell(20, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 10) - empty
+cell(14, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 27) - empty
+cell(19, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 10) - empty
+cell(15, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 27) - empty
+cell(18, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 10) - empty
+cell(16, 10) is busy(MoveSnake)
+cell(3, 10) is busy(AddRabbit[7])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 27) - empty
+cell(17, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 10) - empty
+cell(17, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 27) - empty
+cell(16, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 10) - empty
+cell(18, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 27) - empty
+cell(15, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 10) - empty
+cell(19, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 27) - has rabbit
+cell(20, 27) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 4!
+cell(14, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 10) - empty
+cell(20, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 27) - empty
+cell(13, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 10) - empty
+cell(21, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 26) - empty
+cell(13, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 10) - empty
+cell(22, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 25) - has rabbit
+cell(18, 27) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 5!
+cell(13, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 10) - empty
+cell(23, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 25) - empty
+cell(12, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 10) - empty
+cell(24, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 25) - empty
+cell(11, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 10) - empty
+cell(25, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 25) - empty
+cell(10, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 10) - empty
+cell(26, 10) is busy(MoveSnake)
+cell(35, 19) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 26) - has rabbit
+cell(15, 27) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 6!
+cell(10, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 10) - empty
+cell(27, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 26) - empty
+cell(9, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 10) - empty
+cell(28, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 26) - empty
+cell(8, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 10) - empty
+cell(29, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (7, 26) - empty
+cell(7, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 10) - empty
+cell(30, 10) is busy(MoveSnake)
+cell(34, 45) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 26) - empty
+cell(6, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 10) - empty
+cell(31, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (5, 26) - empty
+cell(5, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 10) - empty
+cell(32, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 26) - empty
+cell(4, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 10) - empty
+cell(33, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 26) - empty
+cell(3, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 10) - empty
+cell(34, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 25) - empty
+cell(3, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 10) - has rabbit
+cell(26, 10) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 7!
+cell(35, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 24) - empty
+cell(3, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 11) - empty
+cell(35, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 23) - empty
+cell(3, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 12) - empty
+cell(35, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 22) - empty
+cell(3, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 13) - empty
+cell(35, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 21) - empty
+cell(3, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 14) - empty
+cell(35, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 20) - empty
+cell(3, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 15) - empty
+cell(35, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 19) - empty
+cell(3, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 16) - empty
+cell(35, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 18) - empty
+cell(3, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 17) - empty
+cell(35, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 17) - empty
+cell(3, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 18) - empty
+cell(35, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 16) - empty
+cell(3, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 19) - has rabbit
+cell(35, 9) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 8!
+cell(35, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 15) - empty
+cell(3, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 20) - empty
+cell(35, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 14) - empty
+cell(3, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 21) - empty
+cell(35, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 13) - empty
+cell(3, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 22) - empty
+cell(35, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 12) - empty
+cell(3, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 23) - empty
+cell(35, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 11) - empty
+cell(3, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 24) - empty
+cell(35, 24) is busy(MoveSnake)
+cell(37, 12) is busy(AddRabbit[5])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (3, 10) - has rabbit
+cell(3, 19) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 7!
+cell(3, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 25) - empty
+cell(35, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (4, 10) - empty
+cell(4, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 26) - empty
+cell(35, 26) is busy(MoveSnake)
+cell(40, 36) is busy(AddRabbit[5])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (5, 10) - empty
+cell(5, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 27) - empty
+cell(35, 27) is busy(MoveSnake)
+cell(8, 25) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 10) - empty
+cell(6, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 28) - empty
+cell(35, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (7, 10) - empty
+cell(7, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 29) - empty
+cell(35, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 10) - empty
+cell(8, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 30) - empty
+cell(35, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 11) - empty
+cell(8, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 31) - empty
+cell(35, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 12) - empty
+cell(8, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 32) - empty
+cell(35, 32) is busy(MoveSnake)
+cell(37, 36) is busy(AddRabbit[7])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 13) - empty
+cell(8, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 33) - empty
+cell(35, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 14) - empty
+cell(8, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 34) - empty
+cell(35, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 15) - empty
+cell(8, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 35) - empty
+cell(35, 35) is busy(MoveSnake)
+cell(12, 50) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 16) - empty
+cell(8, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 36) - empty
+cell(35, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 17) - empty
+cell(8, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 37) - empty
+cell(35, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 18) - empty
+cell(8, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 38) - empty
+cell(35, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 19) - empty
+cell(8, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 39) - empty
+cell(35, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 20) - empty
+cell(8, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 40) - empty
+cell(35, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 21) - empty
+cell(8, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 41) - empty
+cell(35, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 22) - empty
+cell(8, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 42) - empty
+cell(35, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 23) - empty
+cell(8, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 43) - empty
+cell(35, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 24) - empty
+cell(8, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 44) - empty
+cell(35, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 25) - has rabbit
+cell(8, 15) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 8!
+cell(8, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 45) - empty
+cell(35, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 26) - empty
+cell(8, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 45) - has rabbit
+cell(35, 35) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 9!
+cell(34, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 27) - empty
+cell(8, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 44) - empty
+cell(34, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 28) - empty
+cell(8, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 43) - empty
+cell(34, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 29) - empty
+cell(8, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 42) - empty
+cell(34, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 30) - empty
+cell(8, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 41) - empty
+cell(34, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 31) - empty
+cell(8, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 40) - empty
+cell(34, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 32) - empty
+cell(8, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 39) - empty
+cell(34, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 33) - empty
+cell(8, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 38) - empty
+cell(34, 38) is busy(MoveSnake)
+cell(6, 20) is busy(AddRabbit[7])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (7, 33) - empty
+cell(7, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 37) - empty
+cell(34, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 33) - empty
+cell(6, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 36) - empty
+cell(34, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 32) - empty
+cell(6, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 36) - empty
+cell(35, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 31) - empty
+cell(6, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 36) - empty
+cell(36, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 30) - empty
+cell(6, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 36) - has rabbit
+cell(34, 45) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 10!
+cell(37, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 29) - empty
+cell(6, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 35) - empty
+cell(37, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 28) - empty
+cell(6, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 34) - empty
+cell(37, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 27) - empty
+cell(6, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 33) - empty
+cell(37, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 26) - empty
+cell(6, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 32) - empty
+cell(37, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 25) - empty
+cell(6, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 31) - empty
+cell(37, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 24) - empty
+cell(6, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 30) - empty
+cell(37, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 23) - empty
+cell(6, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 29) - empty
+cell(37, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 22) - empty
+cell(6, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 28) - empty
+cell(37, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 21) - empty
+cell(6, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 27) - empty
+cell(37, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 20) - has rabbit
+cell(6, 31) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 9!
+cell(6, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 26) - empty
+cell(37, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (6, 19) - empty
+cell(6, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 26) - empty
+cell(36, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (7, 19) - empty
+cell(7, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 26) - empty
+cell(35, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (8, 19) - empty
+cell(8, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 26) - empty
+cell(34, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 19) - empty
+cell(9, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 26) - empty
+cell(33, 26) is busy(MoveSnake)
+cell(34, 23) is busy(AddRabbit[6])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 19) - empty
+cell(10, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 26) - empty
+cell(32, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 19) - empty
+cell(11, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 26) - empty
+cell(31, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 19) - empty
+cell(12, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 26) - empty
+cell(30, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 19) - empty
+cell(13, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 26) - empty
+cell(29, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 19) - empty
+cell(14, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 26) - empty
+cell(28, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 19) - empty
+cell(15, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 26) - empty
+cell(27, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 19) - empty
+cell(16, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 26) - empty
+cell(26, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 19) - empty
+cell(17, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 26) - empty
+cell(25, 26) is busy(MoveSnake)
+cell(23, 28) is busy(AddRabbit[7])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 19) - empty
+cell(18, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 26) - empty
+cell(24, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 19) - empty
+cell(19, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 26) - empty
+cell(23, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 19) - empty
+cell(20, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 26) - empty
+cell(22, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 19) - empty
+cell(21, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 26) - empty
+cell(21, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 19) - empty
+cell(22, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 26) - empty
+cell(20, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 19) - empty
+cell(23, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 26) - empty
+cell(19, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 20) - empty
+cell(23, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 26) - empty
+cell(18, 26) is busy(MoveSnake)
+cell(39, 11) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 21) - empty
+cell(23, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 26) - empty
+cell(17, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 22) - empty
+cell(23, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 26) - empty
+cell(16, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 23) - empty
+cell(23, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 26) - empty
+cell(15, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 24) - empty
+cell(23, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 26) - empty
+cell(14, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 25) - empty
+cell(23, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 26) - empty
+cell(13, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 25) - empty
+cell(22, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 26) - empty
+cell(12, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 25) - empty
+cell(21, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 27) - empty
+cell(12, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 25) - empty
+cell(20, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 28) - empty
+cell(12, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 25) - empty
+cell(19, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 29) - empty
+cell(12, 29) is busy(MoveSnake)
+cell(16, 37) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 25) - empty
+cell(18, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 30) - empty
+cell(12, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 25) - empty
+cell(17, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 31) - empty
+cell(12, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 25) - empty
+cell(16, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 32) - empty
+cell(12, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 25) - empty
+cell(15, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 33) - empty
+cell(12, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 25) - empty
+cell(14, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 34) - empty
+cell(12, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 25) - empty
+cell(13, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 35) - empty
+cell(12, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 25) - empty
+cell(12, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 36) - empty
+cell(12, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 25) - empty
+cell(11, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 37) - empty
+cell(12, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 26) - empty
+cell(11, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 38) - empty
+cell(12, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 27) - empty
+cell(11, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 39) - empty
+cell(12, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 28) - empty
+cell(11, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 40) - empty
+cell(12, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 28) - empty
+cell(12, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 41) - empty
+cell(12, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 28) - empty
+cell(13, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 42) - empty
+cell(12, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 28) - empty
+cell(14, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 43) - empty
+cell(12, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 28) - empty
+cell(15, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 44) - empty
+cell(12, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 28) - empty
+cell(16, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 45) - empty
+cell(12, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 28) - empty
+cell(17, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 46) - empty
+cell(12, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 28) - empty
+cell(18, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 47) - empty
+cell(12, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 28) - empty
+cell(19, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 48) - empty
+cell(12, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 28) - empty
+cell(20, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 49) - empty
+cell(12, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 28) - empty
+cell(21, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 50) - has rabbit
+cell(12, 37) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 11!
+cell(12, 50) is busy(MoveSnake)
+cell(30, 22) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 28) - empty
+cell(22, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 50) - empty
+cell(13, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 28) - has rabbit
+cell(11, 28) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 10!
+cell(23, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 50) - empty
+cell(14, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (24, 28) - empty
+cell(24, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 50) - empty
+cell(15, 50) is busy(MoveSnake)
+cell(31, 25) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 28) - empty
+cell(25, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 50) - empty
+cell(16, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 27) - empty
+cell(25, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 49) - empty
+cell(16, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 26) - empty
+cell(25, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 48) - empty
+cell(16, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 25) - empty
+cell(25, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 47) - empty
+cell(16, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 25) - empty
+cell(26, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 46) - empty
+cell(16, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 25) - empty
+cell(27, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 45) - empty
+cell(16, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 25) - empty
+cell(28, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 44) - empty
+cell(16, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (29, 25) - empty
+cell(29, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 43) - empty
+cell(16, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (30, 25) - empty
+cell(30, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 42) - empty
+cell(16, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 25) - has rabbit
+cell(21, 28) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 11!
+cell(31, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 41) - empty
+cell(16, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 24) - empty
+cell(31, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 40) - empty
+cell(16, 40) is busy(MoveSnake)
+cell(39, 26) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 23) - empty
+cell(31, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 39) - empty
+cell(16, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 22) - empty
+cell(31, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 38) - empty
+cell(16, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (30, 22) - has rabbit
+cell(25, 29) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 12!
+cell(30, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 37) - has rabbit
+cell(16, 51) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 12!
+cell(16, 37) is busy(MoveSnake)
+cell(12, 43) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (30, 23) - empty
+cell(30, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 36) - empty
+cell(16, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (29, 23) - empty
+cell(29, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 35) - empty
+cell(16, 35) is busy(MoveSnake)
+cell(25, 20) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 23) - empty
+cell(28, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 34) - empty
+cell(16, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 23) - empty
+cell(27, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 33) - empty
+cell(16, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 23) - empty
+cell(26, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 32) - empty
+cell(16, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 23) - empty
+cell(25, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 31) - empty
+cell(16, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 22) - empty
+cell(25, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 30) - empty
+cell(16, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 21) - empty
+cell(25, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 29) - empty
+cell(16, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 20) - has rabbit
+cell(29, 25) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 13!
+cell(25, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 28) - empty
+cell(16, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 20) - empty
+cell(26, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 27) - empty
+cell(16, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 20) - empty
+cell(27, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 26) - empty
+cell(16, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 20) - empty
+cell(28, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 25) - empty
+cell(16, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (29, 20) - empty
+cell(29, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 24) - empty
+cell(16, 24) is busy(MoveSnake)
+cell(35, 44) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (30, 20) - empty
+cell(30, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 23) - empty
+cell(16, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 20) - empty
+cell(31, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 22) - empty
+cell(16, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (32, 20) - empty
+cell(32, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 21) - empty
+cell(16, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (33, 20) - empty
+cell(33, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 20) - empty
+cell(16, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 20) - empty
+cell(34, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 19) - empty
+cell(16, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 21) - empty
+cell(34, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 18) - empty
+cell(16, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 22) - empty
+cell(34, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 17) - empty
+cell(16, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 23) - has rabbit
+cell(25, 24) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 14!
+cell(34, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 16) - empty
+cell(16, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 24) - empty
+cell(34, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 15) - empty
+cell(16, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 25) - empty
+cell(34, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 14) - empty
+cell(16, 14) is busy(MoveSnake)
+cell(33, 3) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 26) - empty
+cell(34, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 13) - empty
+cell(16, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (35, 26) - empty
+cell(35, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 12) - empty
+cell(16, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (36, 26) - empty
+cell(36, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 11) - empty
+cell(16, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 26) - empty
+cell(37, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 11) - empty
+cell(17, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (38, 26) - empty
+cell(38, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 11) - empty
+cell(18, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (39, 26) - has rabbit
+cell(28, 20) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 15!
+cell(39, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 11) - empty
+cell(19, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 26) - empty
+cell(40, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 11) - empty
+cell(20, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 25) - empty
+cell(40, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 11) - empty
+cell(21, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 24) - empty
+cell(40, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 11) - empty
+cell(22, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 23) - empty
+cell(40, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 11) - empty
+cell(23, 11) is busy(MoveSnake)
+cell(15, 24) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 22) - empty
+cell(40, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 11) - empty
+cell(24, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 21) - empty
+cell(40, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 11) - empty
+cell(25, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 20) - empty
+cell(40, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 11) - empty
+cell(26, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 19) - has rabbit
+cell(34, 21) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 16!
+cell(40, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 11) - empty
+cell(27, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 18) - empty
+cell(40, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 11) - empty
+cell(28, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 17) - empty
+cell(40, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 11) - empty
+cell(29, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 16) - empty
+cell(40, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 11) - empty
+cell(30, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 15) - empty
+cell(40, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 11) - empty
+cell(31, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 14) - empty
+cell(40, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 11) - empty
+cell(32, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 13) - empty
+cell(40, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 11) - empty
+cell(33, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 12) - empty
+cell(40, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 11) - empty
+cell(34, 11) is busy(MoveSnake)
+cell(9, 42) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 11) - empty
+cell(40, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 11) - empty
+cell(35, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (39, 11) - has rabbit
+cell(37, 26) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 17!
+cell(39, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 11) - empty
+cell(36, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (38, 11) - empty
+cell(38, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 12) - empty
+cell(36, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 11) - empty
+cell(37, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 13) - empty
+cell(36, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 12) - has rabbit
+cell(40, 27) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 18!
+cell(37, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 14) - empty
+cell(36, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 13) - empty
+cell(37, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 15) - empty
+cell(36, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 14) - empty
+cell(37, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 16) - empty
+cell(36, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 15) - empty
+cell(37, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 17) - empty
+cell(36, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 16) - empty
+cell(37, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 18) - empty
+cell(36, 18) is busy(MoveSnake)
+cell(14, 27) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 17) - empty
+cell(37, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 19) - empty
+cell(36, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 18) - empty
+cell(37, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 20) - empty
+cell(36, 20) is busy(MoveSnake)
+cell(16, 6) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 19) - empty
+cell(37, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 21) - empty
+cell(36, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 20) - empty
+cell(37, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 22) - empty
+cell(36, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 21) - empty
+cell(37, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 23) - empty
+cell(36, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 22) - empty
+cell(37, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 24) - empty
+cell(36, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 23) - empty
+cell(37, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 25) - empty
+cell(36, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 24) - empty
+cell(37, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 26) - empty
+cell(36, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 25) - empty
+cell(37, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 27) - empty
+cell(36, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 26) - empty
+cell(37, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 28) - empty
+cell(36, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 27) - empty
+cell(37, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 29) - empty
+cell(36, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 28) - empty
+cell(37, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 30) - empty
+cell(36, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 29) - empty
+cell(37, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 31) - empty
+cell(36, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 30) - empty
+cell(37, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 32) - empty
+cell(36, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 31) - empty
+cell(37, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 33) - empty
+cell(36, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 32) - empty
+cell(37, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 34) - empty
+cell(36, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 33) - empty
+cell(37, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 35) - empty
+cell(36, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 34) - empty
+cell(37, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 36) - empty
+cell(36, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 35) - empty
+cell(37, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 37) - empty
+cell(36, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 36) - empty
+cell(37, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 38) - empty
+cell(36, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (38, 36) - empty
+cell(38, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 39) - empty
+cell(36, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (39, 36) - empty
+cell(39, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 40) - empty
+cell(36, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 36) - has rabbit
+cell(37, 18) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 19!
+cell(40, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 41) - empty
+cell(36, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 37) - empty
+cell(40, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 42) - empty
+cell(36, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 38) - empty
+cell(40, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 42) - empty
+cell(35, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 39) - empty
+cell(40, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 42) - empty
+cell(34, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 40) - empty
+cell(40, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 42) - empty
+cell(33, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 41) - empty
+cell(40, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 42) - empty
+cell(32, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 42) - empty
+cell(40, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 42) - empty
+cell(31, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 43) - empty
+cell(40, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 42) - empty
+cell(30, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (40, 44) - empty
+cell(40, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 42) - empty
+cell(29, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (39, 44) - has rabbit
+cell(37, 26) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 20!
+cell(39, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 42) - empty
+cell(28, 42) is busy(MoveSnake)
+cell(8, 11) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (38, 44) - empty
+cell(38, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 42) - empty
+cell(27, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (37, 44) - empty
+cell(37, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 42) - empty
+cell(26, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (36, 44) - empty
+cell(36, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 42) - empty
+cell(25, 42) is busy(MoveSnake)
+cell(9, 29) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (35, 44) - has rabbit
+cell(37, 29) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 21!
+cell(35, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 42) - empty
+cell(24, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (34, 44) - empty
+cell(34, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 42) - empty
+cell(23, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (33, 44) - empty
+cell(33, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 42) - empty
+cell(22, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (32, 44) - empty
+cell(32, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 42) - empty
+cell(21, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (31, 44) - empty
+cell(31, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 42) - empty
+cell(20, 42) is busy(MoveSnake)
+cell(10, 54) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (30, 44) - empty
+cell(30, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 42) - empty
+cell(19, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (29, 44) - empty
+cell(29, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 42) - empty
+cell(18, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (28, 44) - empty
+cell(28, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 42) - empty
+cell(17, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (27, 44) - empty
+cell(27, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 42) - empty
+cell(16, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 44) - empty
+cell(26, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 42) - empty
+cell(15, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 44) - empty
+cell(25, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 42) - empty
+cell(14, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (24, 44) - empty
+cell(24, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 42) - empty
+cell(13, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 44) - empty
+cell(23, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 42) - empty
+cell(12, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 44) - empty
+cell(22, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (11, 42) - empty
+cell(11, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 44) - empty
+cell(21, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 42) - empty
+cell(10, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 44) - empty
+cell(20, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 42) - has rabbit
+cell(24, 42) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 13!
+cell(9, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 44) - empty
+cell(19, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 43) - empty
+cell(9, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 44) - empty
+cell(18, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 44) - empty
+cell(9, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 44) - empty
+cell(17, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 45) - empty
+cell(9, 45) is busy(MoveSnake)
+cell(6, 4) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 45) - empty
+cell(17, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 46) - empty
+cell(9, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 46) - empty
+cell(17, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 47) - empty
+cell(9, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 47) - has rabbit
+cell(38, 44) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 22!
+cell(17, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 48) - empty
+cell(9, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 47) - empty
+cell(16, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 49) - empty
+cell(9, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 47) - empty
+cell(15, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 50) - empty
+cell(9, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 47) - empty
+cell(14, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 51) - empty
+cell(9, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 47) - empty
+cell(13, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 52) - empty
+cell(9, 52) is busy(MoveSnake)
+cell(34, 41) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 47) - empty
+cell(12, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 53) - empty
+cell(9, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 46) - empty
+cell(12, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (9, 54) - empty
+cell(9, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 45) - empty
+cell(12, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (10, 54) - has rabbit
+cell(12, 42) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 14!
+cell(10, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 44) - empty
+cell(12, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (11, 54) - empty
+cell(11, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 43) - has rabbit
+cell(30, 44) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 23!
+cell(12, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (12, 54) - empty
+cell(12, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 42) - empty
+cell(12, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (13, 54) - empty
+cell(13, 54) is busy(MoveSnake)
+cell(4, 4) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 41) - empty
+cell(12, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (14, 54) - empty
+cell(14, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 40) - empty
+cell(12, 40) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (15, 54) - empty
+cell(15, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 39) - empty
+cell(12, 39) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (16, 54) - empty
+cell(16, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 38) - empty
+cell(12, 38) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (17, 54) - empty
+cell(17, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 37) - empty
+cell(12, 37) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (18, 54) - empty
+cell(18, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 36) - empty
+cell(12, 36) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (19, 54) - empty
+cell(19, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 35) - empty
+cell(12, 35) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (20, 54) - empty
+cell(20, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 34) - empty
+cell(12, 34) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (21, 54) - empty
+cell(21, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 33) - empty
+cell(12, 33) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (22, 54) - empty
+cell(22, 54) is busy(MoveSnake)
+cell(11, 32) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 32) - empty
+cell(12, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (23, 54) - empty
+cell(23, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 32) - has rabbit
+cell(19, 44) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 24!
+cell(11, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (24, 54) - empty
+cell(24, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 32) - empty
+cell(10, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (25, 54) - empty
+cell(25, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 32) - empty
+cell(9, 32) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (26, 54) - empty
+cell(26, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 31) - empty
+cell(9, 31) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (27, 54) - empty
+cell(27, 54) is busy(MoveSnake)
+cell(25, 44) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 30) - empty
+cell(9, 30) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (28, 54) - empty
+cell(28, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 29) - has rabbit
+cell(18, 47) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 25!
+cell(9, 29) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (29, 54) - empty
+cell(29, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 28) - empty
+cell(9, 28) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (30, 54) - empty
+cell(30, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (9, 27) - empty
+cell(9, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (31, 54) - empty
+cell(31, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (10, 27) - empty
+cell(10, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (32, 54) - empty
+cell(32, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (11, 27) - empty
+cell(11, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 54) - empty
+cell(33, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (12, 27) - empty
+cell(12, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 54) - empty
+cell(34, 54) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (13, 27) - empty
+cell(13, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 53) - empty
+cell(34, 53) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (14, 27) - has rabbit
+cell(12, 47) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 26!
+cell(14, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 52) - empty
+cell(34, 52) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 27) - empty
+cell(15, 27) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 51) - empty
+cell(34, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 26) - empty
+cell(15, 26) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 50) - empty
+cell(34, 50) is busy(MoveSnake)
+cell(12, 4) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 25) - empty
+cell(15, 25) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 49) - empty
+cell(34, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 24) - has rabbit
+cell(12, 44) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 27!
+cell(15, 24) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 48) - empty
+cell(34, 48) is busy(MoveSnake)
+cell(26, 18) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 23) - empty
+cell(15, 23) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 47) - empty
+cell(34, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 22) - empty
+cell(15, 22) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 46) - empty
+cell(34, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 21) - empty
+cell(15, 21) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 45) - empty
+cell(34, 45) is busy(MoveSnake)
+cell(37, 51) is busy(AddRabbit[9])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 20) - empty
+cell(15, 20) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 44) - empty
+cell(34, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 19) - empty
+cell(15, 19) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 43) - empty
+cell(34, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (15, 18) - empty
+cell(15, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 42) - empty
+cell(34, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (16, 18) - empty
+cell(16, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 41) - has rabbit
+cell(30, 54) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 15!
+cell(34, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (17, 18) - empty
+cell(17, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 41) - empty
+cell(35, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (18, 18) - empty
+cell(18, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 41) - empty
+cell(36, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (19, 18) - empty
+cell(19, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 41) - empty
+cell(37, 41) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (20, 18) - empty
+cell(20, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 42) - empty
+cell(37, 42) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (21, 18) - empty
+cell(21, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 43) - empty
+cell(37, 43) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (22, 18) - empty
+cell(22, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 44) - empty
+cell(37, 44) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (23, 18) - empty
+cell(23, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 45) - empty
+cell(37, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (24, 18) - empty
+cell(24, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 46) - empty
+cell(37, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (25, 18) - empty
+cell(25, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 47) - empty
+cell(37, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 18) - has rabbit
+cell(9, 31) is busy(GrowSnake)
+snake[0x7ffcd9a3b0f8] has grown up
+snake[0x7ffcd9a3b0f8] +1 point, total = 28!
+cell(26, 18) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 48) - empty
+cell(37, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 17) - empty
+cell(26, 17) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 49) - empty
+cell(37, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 16) - empty
+cell(26, 16) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 50) - empty
+cell(37, 50) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 15) - empty
+cell(26, 15) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (37, 51) - has rabbit
+cell(34, 46) is busy(GrowSnake)
+snake[0x7ffcd9a3b178] has grown up
+snake[0x7ffcd9a3b178] +1 point, total = 16!
+cell(37, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 14) - empty
+cell(26, 14) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (36, 51) - empty
+cell(36, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 13) - empty
+cell(26, 13) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (35, 51) - empty
+cell(35, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 12) - empty
+cell(26, 12) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (34, 51) - empty
+cell(34, 51) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 11) - empty
+cell(26, 11) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 51) - empty
+cell(33, 51) is busy(MoveSnake)
+cell(39, 44) is busy(AddRabbit[7])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 10) - empty
+cell(26, 10) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 50) - empty
+cell(33, 50) is busy(MoveSnake)
+cell(11, 10) is busy(AddRabbit[8])
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 9) - empty
+cell(26, 9) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 49) - empty
+cell(33, 49) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 8) - empty
+cell(26, 8) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 48) - empty
+cell(33, 48) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 7) - empty
+cell(26, 7) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 47) - empty
+cell(33, 47) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 6) - empty
+cell(26, 6) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 46) - empty
+cell(33, 46) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 5) - empty
+cell(26, 5) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 45) - empty
+cell(33, 45) is busy(MoveSnake)
+snake[0x7ffcd9a3b0f8] is moving to (x,y) = (26, 4) - empty
+cell(26, 4) is busy(MoveSnake)
+snake[0x7ffcd9a3b178] is moving to (x,y) = (33, 44) - empty
+cell(33, 44) is busy(MoveSnake)

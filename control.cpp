@@ -41,36 +41,69 @@ void Player::KeyPressed(Ui::Key key){
 	fflush(Game::file);
 }
 
-Computer::Computer(Game& game,  int alg, TextUi::Color color /*= TextUi::BLUE*/):
+
+Computer1::Computer1(Game& game, TextUi::Color color /*= TextUi::BLUE*/):
 		snake_(Snake(game.RandPos(), Snake::UP)),
 		game_(game){
-	
-	switch(alg){
-		case 1:
-			Ui::get()->OnTimer(std::bind(&Computer::Move, this), 1);
-			break;
-		case 2:
-			Ui::get()->OnTimer(std::bind(&Computer::Move2, this), 1);
-			break;
-		case 3:
-			Ui::get()->OnTimer(std::bind(&Computer::Move3, this), 1);
-			break;
-		case 4:
-			Ui::get()->OnTimer(std::bind(&Computer::Move4, this), 1);
-			break;		
-	}
-	
+
 	game.AddSnake(&snake_);
 	game.GrowSnake(snake_);
+	Ui::get()->OnTimer(std::bind(&Computer1::Move, this), 1);
 
 	snake_.color = color;
 	snake_.is_dead = false;
 
-	fprintf(Game::file, "Created Computer, connected with snake[%p]\n", &snake_);
+	fprintf(Game::file, "Created Computer1, connected with snake[%p]\n", &snake_);
 	fflush(Game::file);
 }
 
-void Computer::Move(){
+
+Computer2::Computer2(Game& game, TextUi::Color color /*= TextUi::BLUE*/):
+		snake_(Snake(game.RandPos(), Snake::UP)),
+		game_(game){
+
+	game.AddSnake(&snake_);
+	game.GrowSnake(snake_);
+	Ui::get()->OnTimer(std::bind(&Computer2::Move, this), 1);
+
+	snake_.color = color;
+	snake_.is_dead = false;
+
+	fprintf(Game::file, "Created Computer2, connected with snake[%p]\n", &snake_);
+	fflush(Game::file);
+}
+
+Computer3::Computer3(Game& game, TextUi::Color color /*= TextUi::BLUE*/):
+		snake_(Snake(game.RandPos(), Snake::UP)),
+		game_(game){
+
+	game.AddSnake(&snake_);
+	game.GrowSnake(snake_);
+	Ui::get()->OnTimer(std::bind(&Computer3::Move, this), 1);
+
+	snake_.color = color;
+	snake_.is_dead = false;
+
+	fprintf(Game::file, "Created Computer3, connected with snake[%p]\n", &snake_);
+	fflush(Game::file);
+}
+
+Computer4::Computer4(Game& game, TextUi::Color color /*= TextUi::BLUE*/):
+		snake_(Snake(game.RandPos(), Snake::UP)),
+		game_(game){
+
+	game.AddSnake(&snake_);
+	game.GrowSnake(snake_);
+	Ui::get()->OnTimer(std::bind(&Computer4::Move, this), 1);
+
+	snake_.color = color;
+	snake_.is_dead = false;
+
+	fprintf(Game::file, "Created Computer3, connected with snake[%p]\n", &snake_);
+	fflush(Game::file);
+}
+
+void Computer1::Move(){
 
 	if(snake_.is_dead){
 		return;
@@ -98,8 +131,17 @@ void Computer::Move(){
 						 (!game_.IsBusy({head.x, head.y - 1}) || game_.IsRabbit({head.x, head.y - 1}))
 					   };
 
-	Snake::Dir good_dir1 = (nr.x <= head.x)? Snake::UP   : Snake::DOWN;
-	Snake::Dir good_dir2 = (nr.y <= head.y)? Snake::LEFT : Snake::RIGHT;
+	Snake::Dir good_dir1 = (nr.x < head.x)? Snake::UP   : Snake::DOWN;
+	Snake::Dir good_dir2 = (nr.y < head.y)? Snake::LEFT : Snake::RIGHT;
+
+	if(head.y == nr.y){
+		good_dir1 = (nr.x < head.x)? Snake::UP : Snake::DOWN;
+		good_dir2 = good_dir1;
+	}
+	else if(head.x == nr.x){
+		good_dir1 = (nr.y < head.y)? Snake::LEFT : Snake::RIGHT;
+		good_dir2 = good_dir1;
+	}
 
 	if(can_move[snake_.dir] && (snake_.dir == good_dir1 || snake_.dir == good_dir2)){
 		return;
@@ -124,7 +166,7 @@ void Computer::Move(){
 		snake_.dir = Snake::LEFT;
 }
 
-void Computer::Move2(){
+void Computer2::Move(){
 
 	if(snake_.is_dead){
 		return;
@@ -160,8 +202,17 @@ void Computer::Move2(){
 						 (!Ib({head.x, head.y - 2}) || Ir({head.x, head.y - 2}))
 					   };
 
-	Snake::Dir good_dir1 = (nr.x <= head.x)? Snake::UP   : Snake::DOWN;
-	Snake::Dir good_dir2 = (nr.y <= head.y)? Snake::LEFT : Snake::RIGHT;
+	Snake::Dir good_dir1 = (nr.x < head.x)? Snake::UP   : Snake::DOWN;
+	Snake::Dir good_dir2 = (nr.y < head.y)? Snake::LEFT : Snake::RIGHT;
+
+	if(head.y == nr.y){
+		good_dir1 = (nr.x < head.x)? Snake::UP : Snake::DOWN;
+		good_dir2 = good_dir1;
+	}
+	else if(head.x == nr.x){
+		good_dir1 = (nr.y < head.y)? Snake::LEFT : Snake::RIGHT;
+		good_dir2 = good_dir1;
+	}
 
 	if(can_move[snake_.dir] && (snake_.dir == good_dir1 || snake_.dir == good_dir2)){
 		return;
@@ -186,7 +237,7 @@ void Computer::Move2(){
 		snake_.dir = Snake::LEFT;	
 }
 
-void Computer::Move3(){
+void Computer3::Move(){
 
 	static Vecti target(1000, 1000);
 
@@ -255,7 +306,7 @@ void Computer::Move3(){
 		snake_.dir = Snake::LEFT;
 }
 
-void Computer::FillRouteXY(Vecti begin, Vecti end, std::list<Vecti>& route){
+void Computer4::FillRouteXY(Vecti begin, Vecti end, std::list<Vecti>& route){
 	
 	int x_step = (begin.x > end.x)? -1 : 1;
 
@@ -276,7 +327,7 @@ void Computer::FillRouteXY(Vecti begin, Vecti end, std::list<Vecti>& route){
 	}
 }
 
-void Computer::FillRouteYX(Vecti begin, Vecti end, std::list<Vecti>& route){
+void Computer4::FillRouteYX(Vecti begin, Vecti end, std::list<Vecti>& route){
 	int y_step = (begin.y > end.y)? -1 : 1;
 	
 	if(begin.y == end.y)
@@ -296,7 +347,7 @@ void Computer::FillRouteYX(Vecti begin, Vecti end, std::list<Vecti>& route){
 	}
 }
 
-void Computer::SetDir(std::list<Vecti>& my_route){
+void Computer4::SetDir(std::list<Vecti>& my_route){
 
 		Vecti dest = my_route.front();
 
@@ -320,7 +371,7 @@ bool Compare(const Vecti& h, const Vecti& a, const Vecti& b){
 	return (h.ComputeDistance(a) < h.ComputeDistance(b));
 }
 
-void Computer::Move4(){
+void Computer4::Move(){
 	
 	if(snake_.is_dead)
 		return;
