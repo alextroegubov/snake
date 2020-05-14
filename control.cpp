@@ -220,9 +220,17 @@ void Computer::Move3(){
 						 (!Ib({head.x, head.y - 2}) || Ir({head.x, head.y - 2}))
 					   };
 
+	Snake::Dir good_dir1 = (target.x < head.x)? Snake::UP   : Snake::DOWN;
+	Snake::Dir good_dir2 = (target.y < head.y)? Snake::LEFT : Snake::RIGHT;
 
-	Snake::Dir good_dir1 = (target.x <= head.x)? Snake::UP   : Snake::DOWN;
-	Snake::Dir good_dir2 = (target.y <= head.y)? Snake::LEFT : Snake::RIGHT;
+	if(head.y == target.y){
+		good_dir1 = (target.x < head.x)? Snake::UP : Snake::DOWN;
+		good_dir2 = good_dir1;
+	}
+	else if(head.x == target.x){
+		good_dir1 = (target.y < head.y)? Snake::LEFT : Snake::RIGHT;
+		good_dir2 = good_dir1;
+	}
 
 	if(can_move[snake_.dir] && (snake_.dir == good_dir1 || snake_.dir == good_dir2)){
 		return;

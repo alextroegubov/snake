@@ -113,7 +113,7 @@ private:
 	//Event subscribers
 	std::vector<EventFunc> event_funcs;
 	//timer subscribers
-	std::vector<TimeFunc> time_funcs;
+	std::list<TimeFunc> time_funcs;
 	//== true - game has been finished
 	bool is_done;
 	//== true - game has been paused

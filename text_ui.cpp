@@ -340,7 +340,7 @@ void TextUi::OnTimer(std::function<void(void)> func, int n_tick){
 	assert(n_tick > 0);
 	
 	TimeFunc time_func(func, n_tick, n_tick);
-	time_funcs.push_back(std::move(time_func));
+	time_funcs.push_front(std::move(time_func));
 }
 
 
